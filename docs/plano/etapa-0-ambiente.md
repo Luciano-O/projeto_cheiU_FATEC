@@ -18,15 +18,15 @@ Deixa o ambiente pronto para que qualquer agente ou integrante execute as etapas
 - **Saídas**:
   - `https://github.com/Luciano-O/projeto_cheiU_FATEC`;
   - projeto "cheiU — Mobilidade Urbana (ILP590)" no time TRA, com marcos por etapa, labels e uma issue por passo.
-- **Aceite**: todo passo de `docs/plano/` tem uma issue `[ID] …` no marco correto.
-- **Status**: concluído na sessão de 2026-10-16.
+- **Aceite**: todo passo de `docs/plano/` tem uma issue `[ID] …` no marco correto, e `origin/main` contém o commit inicial.
+- **Status (2026-10-16)**: Linear concluído (issues TRA-5 a TRA-69). A publicação do repositório depende da liberação do Luciano.
 
 ### E0.3 — Integração GitHub ↔ Linear
 - **Resp.** Luciano · Setup, Humano · **Depende de** E0.2
 - **Objetivo**: PRs e branches movem as issues sozinhos.
 - **Passos**:
   1. No Linear: Settings → Integrations → GitHub → Connect, autorizando o repositório `Luciano-O/projeto_cheiU_FATEC`.
-  2. Conferir a automação de status do time TRA: PR aberto → *In Review*; PR com merge → *Done*.
+  2. Conferir a automação de status do time TRA: PR aberto → *In Progress*; PR com merge → *Done*. O time não tem status de revisão.
 - **Aceite**: um PR de teste cuja branch contém `tra-<n>` aparece anexado à issue e muda o status dela.
 
 ### E0.4 — Repositório do grupo como remote `grupo`

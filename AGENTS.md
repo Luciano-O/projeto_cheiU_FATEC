@@ -22,7 +22,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
 ## Fluxo de uma sessão
 
 1. **Situar**: leia as últimas entradas de `memories/progresso.md`. Abra a issue no Linear (o título começa com o ID do passo, ex. `[E1.6]`) e a seção do passo em `docs/plano/`.
-2. **Ramificar**: a partir da `main` atualizada, `git switch -c luciano/tra-<n>-<slug>`. Mova a issue para *In Progress*.
+2. **Ramificar**: a partir da `main` atualizada, crie a branch com o nome que a issue sugere no Linear (campo *git branch name*, formato `oliveiraluck78/tra-<n>-<slug>`). Mova a issue para *In Progress*.
 3. **Executar** até o **Aceite** do passo estar verificado: rode o que a linha **Validar** descreve e guarde a evidência (números, prints, saída de comando).
 4. **Registrar** antes de commitar:
    - escolha com trade-off real e difícil de reverter → nova decisão em `memories/decisoes/`;
@@ -30,7 +30,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
    - descoberta sobre fonte ou API → `memories/fontes-de-dados.md`;
    - plano que mudou → edite o arquivo da etapa em `docs/plano/` e espelhe na issue;
    - sempre: entrada datada no fim de `memories/progresso.md` (feito, pendente, próximo passo).
-5. **Entregar**: commits `TRA-<n>: <resumo>`, push, PR para `main` com `Closes TRA-<n>` na descrição e a evidência do Aceite. Comente o link do PR na issue e mova-a para *In Review*. O merge é do Luciano: termine a sessão com o PR aberto e o pedido de revisão.
+5. **Entregar**: commits `TRA-<n>: <resumo>`, push, PR para `main` com `Closes TRA-<n>` na descrição e a evidência do Aceite. Comente o link do PR na issue, que continua em *In Progress* (o time não tem status de revisão). O merge é do Luciano e leva a issue a *Done*: termine a sessão com o PR aberto e o pedido de revisão.
 
 ## Regras
 
@@ -47,7 +47,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
 
 - Tabelas `Fato_*`, `Dim_*`, `Param_*`, `Cad_*` (cadastros manuais), `stg_*` (staging); colunas `snake_case`; medidas DAX em português legível ("Total de Passageiros").
 - Arquivos de trabalho com prefixo `cheiU_` (ex. `cheiU_modelo.xlsx`); um `.pq` por consulta com o nome da consulta.
-- Branch `luciano/tra-<n>-<slug>`; commit `TRA-<n>: <resumo>`; tags `parcial-1` e `final`.
+- Branch com o nome sugerido pelo Linear (`oliveiraluck78/tra-<n>-<slug>`); commit `TRA-<n>: <resumo>`; tags `parcial-1` e `final`.
 - `.bas` sai com CRLF (exigência do importador do VBE); o `.gitattributes` cuida disso.
 
 ## Ambiente
