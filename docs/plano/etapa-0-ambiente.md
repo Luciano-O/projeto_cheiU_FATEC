@@ -19,7 +19,7 @@ Deixa o ambiente pronto para que qualquer agente ou integrante execute as etapas
   - `https://github.com/Luciano-O/projeto_cheiU_FATEC`;
   - projeto "cheiU — Mobilidade Urbana (ILP590)" no time TRA, com marcos por etapa, labels e uma issue por passo.
 - **Aceite**: todo passo de `docs/plano/` tem uma issue `[ID] …` no marco correto, e `origin/main` contém o commit inicial.
-- **Status (2026-10-16)**: Linear concluído (issues TRA-5 a TRA-69). A publicação do repositório depende da liberação do Luciano.
+- **Status**: concluído em 2026-10-16 (repositório público publicado; issues TRA-5 a TRA-69 no Linear).
 
 ### E0.3 — Integração GitHub ↔ Linear
 - **Resp.** Luciano · Setup, Humano · **Depende de** E0.2
