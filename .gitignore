@@ -1,0 +1,28 @@
+# Segredos
+.env
+
+# Temporários do Office e do Windows
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dados brutos grandes (>25 MB): versionar só script de download + manifesto.csv
+**/dados-brutos/**/_zip/
+**/dados-brutos/**/*.zip
+**/dados-brutos/od2023/originais/
+
+# Arquivos de carga gerados pela macro de exportação (regeneráveis)
+MA2026-entrega-final/02-bancodedados-sql/carga/*.csv
+
+# Power BI Project: caches locais
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Proposta do grupo em PDF contém RAs: fica só local (resumo em docs/proposta/README.md)
+docs/proposta/proposta-grupo10.pdf
