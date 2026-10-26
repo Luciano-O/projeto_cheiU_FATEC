@@ -14,7 +14,7 @@ Resumo: **nenhuma fonte pública traz demanda por hora** de ônibus, Metrô ou C
   - colunas Data, Grupo (Estrutural / Local Articulação / Distribuição), Lote, Empresa, Linha (ex. `917M10 - MORRO GRANDE/METRO ANA ROSA`);
   - passageiros por tipo de pagamento (dinheiro, BU Comum/VT, Estudante, mensais, Pagantes, integração ônibus→ônibus, gratuidades) e `Tot Passageiros Transportados`.
 - Granularidade: **dia × linha × empresa/lote**. Não há dado por hora.
-- Ainda não verificado: se o consolidado mensal traz dia × linha (o que permitiria baixar só 12 arquivos por ano) — passo E1.1.
+- Ainda não verificado: se o consolidado mensal traz dia × linha (o que permitiria baixar só 12 arquivos por ano) — passo E1.1. Se trouxer, o consolidado de jan/2024 é a amostra da Etapa 1 (E1.6).
 - Totais mensais do sistema por grupo, 2013 a set/2026, em tabela HTML: https://prefeitura.sp.gov.br/web/mobilidade/w/institucional/sptrans/acesso_a_informacao/245234. Servem para reconciliar.
 
 ## API Olho Vivo (SPTrans)

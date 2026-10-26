@@ -73,3 +73,22 @@ Deixa o ambiente pronto para que qualquer agente ou integrante execute as etapas
   7. Testar importar e exportar `.bas` (`VBProject.VBComponents`). Isso exige a opção "Confiar no acesso ao modelo de objeto do projeto do VBA", que só o Luciano pode ligar na Central de Confiabilidade; registre o resultado.
 - **Aceite**: o script cria a pasta de trabalho do zero, atualiza e lê a medida sem intervenção manual. Cada operação está marcada em `memories/automacao-excel.md` como "funciona via COM" ou "exige GUI".
 - **Validar**: rodar o script duas vezes seguidas (idempotência) e anexar a saída na issue.
+
+### E0.8 — Alinhar o plano aos guias do professor
+- **Resp.** Luciano · Docs · **Depende de** —
+- **Objetivo**: adaptar o plano e o Linear ao Projeto Modelo CaféData v2.0 e aos Guias Práticos das Etapas 1–3 (`memories/decisoes/0008`).
+- **Saídas**:
+  - `docs/professor/` com os PDFs e `docs/plano/referencia-professor.md`;
+  - plano renumerado para as 7 etapas do curso;
+  - marcos e issues do Linear renomeados.
+- **Aceite**: todo passo de `docs/plano/` tem uma issue com o mesmo `[ID]` no marco correto, e não sobra ID antigo nos documentos.
+- **Status**: feito na sessão de 2026-10-26.
+
+### E0.9 — Commits próprios de cada integrante
+- **Resp.** Victor · Setup, Humano · **Depende de** E0.2
+- **Objetivo**: o histórico de commits é avaliado pelo professor, e cada integrante precisa ter commits próprios (`memories/decisoes/0008`).
+- **Passos**:
+  1. Luciano adiciona Victor, Nicolly e Maryele como colaboradores com permissão *Write* em `Luciano-O/projeto_cheiU_FATEC`.
+  2. Cada integrante instala o Git (ou usa o GitHub Desktop), clona o repositório e configura `user.name` e `user.email` com o e-mail da própria conta do GitHub. Sem isso, os commits não contam no perfil.
+  3. Cada integrante faz um commit de teste numa branch: uma linha com seu nome em `MA2026-entrega-parcial/04-documentacao/README.md`. Depois abre um PR.
+- **Aceite**: `gh api repos/Luciano-O/projeto_cheiU_FATEC/contributors` lista os quatro integrantes.

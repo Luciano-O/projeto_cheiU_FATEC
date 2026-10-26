@@ -105,3 +105,29 @@ Linha de trilhos principal de uma alternativa de percurso.
 
 **Peso de expansão**:
 Fator da Pesquisa OD que converte uma viagem da amostra no total de viagens que ela representa na população.
+
+## Qualidade e rastreabilidade
+
+**Catálogo de defeitos**:
+Lista numerada (D1..Dn) dos problemas encontrados nos dados brutos, com exemplo real e a etapa que trata cada um.
+
+**Amostra**:
+Arquivo bruto real de um mês em que a Etapa 1 é feita com fórmulas, antes de o Power Query tratar o ano inteiro.
+_Evite_: base de teste, dados simulados (simulado é outra coisa: ver Origem do dado)
+
+**Regra de ouro**:
+Garantia que cada etapa precisa provar: na Etapa 1, nenhum valor original é sobrescrito; na Etapa 2, nenhuma linha some sem explicação; na Etapa 3, o modelo não cria nem perde valor.
+
+**Rejeitados**:
+Linhas lidas dos brutos que não entram nas tabelas tratadas, cada uma com fonte, linha de origem e motivo.
+_Evite_: linhas descartadas, lixo
+
+**Reconciliação**:
+Conferência de que linhas lidas − aceitas − rejeitadas = 0, ou de que um total calculado é igual ao publicado pela fonte ou pela etapa anterior.
+_Evite_: validação (quando se trata de bater números)
+
+**Tabela de conferência**:
+Lista de itens com resultado esperado, como verificar e status (Não iniciado, Em andamento, Concluído, Pendente de esclarecimento) que fecha cada etapa.
+
+**Ficha do projeto**:
+Resumo do projeto nos 9 campos definidos pelo professor (contexto, pergunta central, fontes, dados, KPIs, API, VBA, SQL, Power BI).

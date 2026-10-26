@@ -17,41 +17,46 @@ O projeto analisa a demanda de ônibus (SPTrans), Metrô e CPTM em São Paulo em
 
 ## Pipeline
 
-Dados brutos → Excel → Power Query → Power Pivot/DAX → VBA → SQL Server → API/Web → Power BI
+Sete etapas, numeradas como as do professor. Cada uma lê a saída da anterior:
+
+Dados brutos → 1 Excel → 2 Power Query → 3 Power Pivot/DAX → 4 VBA → 5 SQL Server → 6 API/Web → 7 Power BI
 
 ## Estrutura
 
 ```text
 MA2026-entrega-parcial/
-├── 01-excel/            cadastros, parâmetros e dados brutos (Etapa 1)
-├── 02-powerquery/       tratamento em Power Query (Etapa 1)
-├── 03-powerpivot/       modelo dimensional e DAX (Etapa 2)
-└── 04-documentacao/     dicionário de dados, QA, relatório e apresentação da Parcial 1
+├── 01-excel/            amostra auditável, cadastros, parâmetros e dados brutos (Etapa 1)
+├── 02-powerquery/       tratamento em Power Query, dados limpos e conferência (Etapa 2)
+├── 03-powerpivot/       modelo dimensional e DAX (Etapa 3)
+└── 04-documentacao/     ficha do projeto, dicionário, catálogo de defeitos, QA, relatório e apresentação da Parcial 1
 MA2026-entrega-final/
-├── 01-vba/              automação VBA (Etapa 3)
-├── 02-bancodedados-sql/ SQL Server em Docker, DDL, carga e consultas (Etapa 4)
-├── 03-api-web/          Open-Meteo, BrasilAPI e Olho Vivo (Etapa 5)
-└── 04-powerbi-dashboard/ dashboard e relatório final (Etapa 6)
-docs/plano/              plano de implementação passo a passo
+├── 01-vba/              automação VBA (Etapa 4)
+├── 02-bancodedados-sql/ SQL Server em Docker, DDL, carga e consultas (Etapa 5)
+├── 03-api-web/          Open-Meteo, BrasilAPI e Olho Vivo (Etapa 6)
+└── 04-powerbi-dashboard/ dashboard e relatório final (Etapa 7)
+docs/plano/              plano de implementação passo a passo e o que o professor exige
+docs/professor/          projeto modelo e guias práticos do professor (PDF)
 memories/                decisões, glossário, fontes de dados e diário do projeto
 ```
 
 ## Status
 
-| Etapa | Situação |
-|---|---|
-| 0 — Ambiente | em andamento |
-| 1 — Excel e Power Query | a fazer |
-| 2 — Power Pivot e DAX | a fazer |
-| Parcial 1 | a fazer |
-| 3 — VBA | a fazer |
-| 4 — SQL | a fazer |
-| 5 — API/Web | a fazer |
-| 6 — Power BI | a fazer |
-| Entrega final | a fazer |
+| Etapa | Aulas | Situação |
+|---|---|---|
+| 0 — Ambiente | — | em andamento |
+| 1 — Excel avançado | 2–3 | a fazer |
+| 2 — Power Query | 4–5 | a fazer |
+| 3 — Power Pivot e DAX | 6–7 | a fazer |
+| Parcial 1 | 8 | a fazer |
+| 4 — VBA | 10–11 | a fazer |
+| 5 — SQL | 12–13 | a fazer |
+| 6 — API/Web | 14–15 | a fazer |
+| Parcial 2 | 16 | a fazer |
+| 7 — Power BI | 18 | a fazer |
+| Entrega final | 20 | a fazer |
 
 O acompanhamento detalhado é feito no Linear (time TRA).
 
 ## Como contribuir
 
-Leia o [AGENTS.md](AGENTS.md): ele vale para pessoas e agentes de IA. O passo a passo de cada etapa está em [docs/plano/](docs/plano/README.md).
+Leia o [AGENTS.md](AGENTS.md): ele vale para pessoas e agentes de IA. O passo a passo de cada etapa está em [docs/plano/](docs/plano/README.md). Cada integrante faz os commits do próprio trabalho: o histórico é avaliado.

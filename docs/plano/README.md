@@ -1,13 +1,15 @@
 # Plano de implementação — cheiU
 
-Aqui está o **como** de cada passo. O status fica no Linear; o porquê das escolhas, em `memories/decisoes/`.
+Aqui está o **como** de cada passo. O status fica no Linear; o porquê das escolhas, em `memories/decisoes/`. O que o professor exige em cada etapa (escopo, artefatos, conferências, checkpoints) está resumido em `referencia-professor.md`, com os PDFs originais em `docs/professor/`.
 
 ## Como usar
 
-- Cada passo tem um ID (`E1.6`) e vira uma issue no Linear com título `[E1.6] …`. Para achar a issue, busque o ID no Linear.
-- Cada etapa começa pelo passo `Ex.0 — Refinar o plano da etapa`: releia o arquivo da etapa à luz do que as etapas anteriores produziram e ajuste passos, saídas e aceites aqui e nas issues antes de executar.
+- Cada passo tem um ID (`E2.2`) e vira uma issue no Linear com título `[E2.2] …`. Para achar a issue, busque o ID no Linear.
+- A numeração das etapas segue a do professor (Etapa 1 Excel … Etapa 7 Power BI). A correspondência com os IDs antigos está em `memories/decisoes/0008`.
+- Cada etapa começa pelo passo `Ex.0 — Refinar o plano da etapa`: releia o arquivo da etapa à luz do que as etapas anteriores produziram e do guia do professor, e ajuste passos, saídas e aceites aqui e nas issues antes de executar.
+- Cada etapa termina com a tabela de conferência do guia do professor (`04-documentacao/qa/etapa-N.md`).
 - Formato de cada passo:
-  - **Resp.** — integrante responsável (label `Resp: …`) e labels de ferramenta;
+  - **Resp.** — integrante responsável (label `Resp: …`) e labels de ferramenta. O responsável faz os commits do passo (E0.9);
   - **Depende de** — passos que precisam estar prontos antes;
   - **Objetivo**;
   - **Saídas** — arquivos e tabelas produzidos;
@@ -17,31 +19,35 @@ Aqui está o **como** de cada passo. O status fica no Linear; o porquê das esco
 
 ## Arquivos do plano
 
-| Etapa | Arquivo | Pasta de entrega | Aula no modelo do professor |
+| Etapa | Arquivo | Pasta de entrega | Aulas |
 |---|---|---|---|
 | 0 Ambiente | `etapa-0-ambiente.md` | — | — |
-| 1 Excel e Power Query | `etapa-1-excel-powerquery.md` | `MA2026-entrega-parcial/01-excel`, `02-powerquery` | 5 |
-| 2 Power Pivot e DAX | `etapa-2-powerpivot-dax.md` | `MA2026-entrega-parcial/03-powerpivot` | 7 |
+| 1 Excel avançado | `etapa-1-excel.md` | `MA2026-entrega-parcial/01-excel` | 2–3 |
+| 2 Power Query | `etapa-2-powerquery.md` | `MA2026-entrega-parcial/02-powerquery` | 4–5 |
+| 3 Power Pivot e DAX | `etapa-3-powerpivot-dax.md` | `MA2026-entrega-parcial/03-powerpivot` | 6–7 |
 | Parcial 1 | `entregas-academicas.md` | `MA2026-entrega-parcial/04-documentacao` | 8 |
-| 3 VBA | `etapa-3-vba.md` | `MA2026-entrega-final/01-vba` | 11 |
-| 4 SQL | `etapa-4-sql.md` | `MA2026-entrega-final/02-bancodedados-sql` | 13 |
-| 5 API/Web | `etapa-5-api-web.md` | `MA2026-entrega-final/03-api-web` | 15 |
-| Checkpoint | `entregas-academicas.md` | — | 16 |
-| 6 Power BI | `etapa-6-powerbi.md` | `MA2026-entrega-final/04-powerbi-dashboard` | 18 |
+| 4 VBA | `etapa-4-vba.md` | `MA2026-entrega-final/01-vba` | 10–11 |
+| 5 SQL | `etapa-5-sql.md` | `MA2026-entrega-final/02-bancodedados-sql` | 12–13 |
+| 6 API/Web | `etapa-6-api-web.md` | `MA2026-entrega-final/03-api-web` | 14–15 |
+| Parcial 2 | `entregas-academicas.md` | — | 16 |
+| 7 Power BI | `etapa-7-powerbi.md` | `MA2026-entrega-final/04-powerbi-dashboard` | 18 |
 | Entrega final | `entregas-academicas.md` | — | 20 |
 
 As datas das aulas ainda não foram definidas. Quando forem, entram como data-alvo dos marcos no Linear.
 
 ## Arquitetura
 
+Um arquivo por etapa, e cada um lê o anterior por parâmetro do Power Query. Uma correção feita na origem chega às etapas seguintes com "Atualizar Tudo".
+
 ```text
-FONTES                     ETAPAS 1–2 (Excel)                         ETAPA 3        ETAPA 4+                      ETAPA 6
-SPTrans diário  ─┐
-Metrô diário     ├─ scripts Python ─► dados-brutos/ ─► Power Query ─► Power Pivot ─► VBA ──► CSV ─► SQL Server ─► views ─► Power BI
-CPTM mensal      │  (só aquisição)                   stg_* → Fato_/   + DAX        atualiza,       (Docker)
-OD 2023          │                                   Dim_/Param_                   valida,         stg → dw
-GTFS SPTrans    ─┘                                                                 exporta           ▲
-Open-Meteo, BrasilAPI (Power Query) · Olho Vivo (VBA) ─────────── ETAPA 5 ──────────────────────────┘
+FONTES             ETAPA 1                 ETAPA 2                     ETAPA 3                 ETAPA 4         ETAPA 5               ETAPA 7
+SPTrans diário ─┐
+Metrô diário    ├─ Python ─► dados-brutos/ ─► cheiU_02_PowerQuery ─► cheiU_03_PowerPivot ─► VBA ──► CSV ─► SQL Server ─► views ─► Power BI
+CPTM mensal     │  (só aquisição)  │          stg_* → Fato_/Dim_       modelo + DAX            .xlsm           (Docker)
+OD 2023         │                  │          Rejeitados, Conf_*       Validacao, Conferencia               stg → dw
+GTFS SPTrans   ─┘                  ▼               ▲                                                           ▲
+                    cheiU_01_Excel (amostra auditável + Cadastros/Param_*) ── cad_Etapa1
+Open-Meteo, BrasilAPI (Power Query) · Olho Vivo (VBA) ─────────── ETAPA 6 ───────────────────────────────────┘
 ```
 
 ## Modelo de dados alvo
@@ -56,7 +62,7 @@ Detalhes em `memories/decisoes/0005-constelacao-de-fatos-e-demanda-horaria-calcu
 | `Fato_Oferta` | hora × linha × tipo de dia | GTFS `frequencies`; headways oficiais dos trilhos | real; simulado |
 | `Fato_Clima_Horario` | data × hora | Open-Meteo | real |
 | `Fato_Operacao_Onibus` (extra) | coleta × veículo | Olho Vivo | real |
-| `Dim_Calendario` | data | gerada + feriados | — |
+| `Dim_Calendario` | data | gerada no arquivo da Etapa 3 + feriados | — |
 | `Dim_Horario` | hora 0–23 | gerada + `Param_Faixas_Horarias` | — |
 | `Dim_Transporte` | linha | fontes + Olho Vivo | — |
 | `Dim_Localizacao` | estação ou parada | `Cad_Estacao` + shapefile OD + Olho Vivo | — |
@@ -74,12 +80,15 @@ Corredores de análise: Leste → Centro (L3 × L11/L12) e Norte → Centro (L1 
 
 | Etapa | Responsável principal | Apoio |
 |---|---|---|
-| 0 Ambiente | Luciano | Victor (repositório do grupo, DevPlace) |
-| 1 Excel e Power Query | Luciano (Power Query, aquisição) | Nicolly (Excel avançado) |
-| 2 Power Pivot e DAX | Luciano | Nicolly |
-| 3 VBA | Maryele | Luciano |
-| 4 SQL | Nicolly | Luciano |
-| 5 API/Web | Victor | Luciano |
-| 6 Power BI | Grupo | — |
+| 0 Ambiente | Luciano | Victor (repositório do grupo, DevPlace, acesso dos integrantes) |
+| 1 Excel avançado | Nicolly (cadastros, amostra auditável) | Luciano (aquisição, dicionário, catálogo de defeitos) |
+| 2 Power Query | Luciano | Maryele (QA) |
+| 3 Power Pivot e DAX | Luciano | Nicolly (validação e conferência) |
+| 4 VBA | Maryele | Luciano |
+| 5 SQL | Nicolly | Luciano |
+| 6 API/Web | Victor | Luciano |
+| 7 Power BI | Grupo | — |
 | QA de todas as etapas | Maryele | — |
 | Entregas acadêmicas | Victor (coordena) | Grupo |
+
+Cada responsável faz os commits do próprio passo: o histórico de commits é avaliado pelo professor (E0.9).

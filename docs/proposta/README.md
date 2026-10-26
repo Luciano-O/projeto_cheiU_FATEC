@@ -1,6 +1,6 @@
 # Proposta técnica
 
-- `modelo-proposta-professor.pdf`: modelo do Prof. Veríssimo, baseado no projeto-exemplo "CaféData Brasil". Define a estrutura de pastas, o pipeline e o cronograma por aula.
+- `modelo-proposta-professor.pdf`: modelo de proposta do Prof. Veríssimo, baseado no projeto-exemplo "CaféData Brasil". A especificação completa do projeto modelo e os guias de cada etapa estão em `docs/professor/`.
 - `proposta-grupo10.pdf`: proposta entregue pelo grupo em setembro de 2026. **Fica só na máquina local**, porque contém RAs; o resumo abaixo substitui o arquivo para quem clona o repositório.
 
 ## Resumo da proposta do Grupo 10
