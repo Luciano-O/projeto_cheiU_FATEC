@@ -1,10 +1,10 @@
 # Binários no Git com "gêmeos" em texto, sem Git LFS
 
-Pastas de trabalho do Excel e arquivos do Power BI são binários: o Git não mostra o que mudou neles. Eles são versionados normalmente, sem LFS (que não estava instalado e criaria atrito para o grupo). Ao lado de cada binário fica a lógica em texto, que é a fonte da verdade:
+Pastas de trabalho do Excel e arquivos do Power BI são binários: o Git não mostra o que mudou neles. Eles são versionados normalmente, sem LFS (que não estava instalado e criaria atrito para o grupo). Ao lado de cada binário fica a lógica em texto, que é a fonte da verdade, nas subpastas que o guia do professor pede:
 
-- `.pq` — uma consulta Power Query por arquivo;
-- `.dax` — medidas;
-- `.bas` — módulos VBA, em CRLF;
+- `scripts_m/<Consulta>.pq` — uma consulta Power Query por arquivo;
+- `dax/medidas_preliminares.dax` — medidas;
+- `modulos/*.bas` — módulos VBA, em CRLF;
 - `.sql` — scripts do banco.
 
 Dados brutos com mais de 25 MB por arquivo ficam fora do Git: versionamos o script de download e o `manifesto.csv`.
