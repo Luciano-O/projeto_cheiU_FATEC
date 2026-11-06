@@ -101,3 +101,4 @@ Resumo: **nenhuma fonte pública traz demanda por hora** de ônibus, Metrô ou C
 - Identidade confirmada: `Tot Passageiros Transportados` = `Pagantes` + `Int Ônibus->Ônibus` + `Com Gratuidade` + `Com Gratuidade Est`.
 - Totais mensais por grupo (página 245234): 2024 = 2.160.850.434.
 - Em 06/11 o portal do Metrô respondeu 503 "Em manutenção" (inclusive a OD 2023), e a CPTM bloqueia download automático (Incapsula).
+- Seis `.xls` antigos (jan e mai/2024) abrem vazios no `Excel.Workbook` do Power Query; `converter_xls_legado.py` gera cópias `.xlsx` em `diario_convertido/`. A aba de dados do consolidado de jan/2024 vem oculta.
