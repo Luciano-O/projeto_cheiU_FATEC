@@ -23,6 +23,9 @@ Receita verificada em 06/11/2026 (Excel 16, Microsoft 365 pt-BR, Windows PowerSh
 - **`Connections.Add2` com `lCmdtype = 2` e `SELECT * FROM [q]` trava o Excel** sem diálogo nenhum, oculto ou visível. Use `6` e `"q"`.
 - Scripts `.ps1`/`.psm1` com acento precisam de **UTF-8 com BOM**: o Windows PowerShell 5.1 lê arquivo sem BOM como ANSI e quebra o parser.
 - Um Excel travado por COM fica sem janela e não fecha sozinho. Encerre só o processo que o script abriu (anote o pid no início).
+- **`Range.Value2` só para matrizes.** Depois de um `Value2 = 'texto'`, o binder COM do PowerShell guarda o tipo texto, e o próximo `Value2 = object[,]` falha com "Unable to cast Object[,] to String". Escalares vão por `.Formula`. Elementos que passaram por parâmetro de função chegam como `PSObject`: desembrulhe com `.psobject.BaseObject` (`Write-Tabela` e `Set-Valores` já fazem isso).
+- Aba copiada de outra pasta herda a visibilidade: o consolidado SPTrans de jan/2024 tem a aba de dados **oculta**.
+- `Application.Calculation` só pode ser trocado com uma pasta aberta.
 - Localidade da consulta: não há API. Todo `Table.TransformColumnTypes` e conversão de texto leva `"pt-BR"` explícito.
 
 ## O que exige a interface (GUI)

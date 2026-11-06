@@ -58,16 +58,24 @@ function Set-NomeDefinido {
     [void]$Workbook.Names.Add($Nome, $RefersTo)
 }
 
+function Set-Valores {
+    # Range.Value2 = matriz 2D.
+    param($Range, $Matriz)
+    # Matriz e elementos chegam embrulhados em PSObject ao passar por parâmetro; o COM só aceita o objeto base.
+    $m = $Matriz.psobject.BaseObject
+    $Range.Value2 = $m
+}
+
 function Write-Tabela {
     # Escreve um array de linhas (a primeira é o cabeçalho) a partir de $Celula e transforma em ListObject.
     # $Linhas: [object[][]]. Devolve o ListObject.
     param($Worksheet, [string]$Celula, [string]$Nome, [object[]]$Linhas, [string]$Estilo = 'TableStyleLight9')
     $nl = $Linhas.Count; $nc = $Linhas[0].Count
     $arr = New-Object 'object[,]' $nl, $nc
-    for ($i = 0; $i -lt $nl; $i++) { for ($j = 0; $j -lt $nc; $j++) { $arr[$i, $j] = $Linhas[$i][$j] } }
+    for ($i = 0; $i -lt $nl; $i++) { for ($j = 0; $j -lt $nc; $j++) { $v = $Linhas[$i][$j]; if ($null -ne $v -and $v -is [psobject]) { $v = $v.psobject.BaseObject }; $arr[$i, $j] = $v } }
     $ini = $Worksheet.Range($Celula)
     $rng = $ini.Resize($nl, $nc)
-    $rng.Value2 = $arr
+    Set-Valores $rng $arr
     $lo = $Worksheet.ListObjects.Add(1, $rng, $null, 1)   # xlSrcRange, xlYes
     $lo.Name = $Nome
     $lo.TableStyle = $Estilo
