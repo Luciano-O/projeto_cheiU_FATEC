@@ -28,3 +28,7 @@
 *.docx binary
 *.dbf  binary
 *.zip  binary
+*.psm1 text eol=crlf
+
+# Dados brutos ficam byte a byte como a fonte publicou
+**/dados-brutos/** -text
