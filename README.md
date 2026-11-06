@@ -11,7 +11,6 @@ O projeto analisa a demanda de ônibus (SPTrans), Metrô e CPTM em São Paulo em
 | Integrante | Função |
 |---|---|
 | Victor Lima Conceição | Gerente do projeto, programação de API |
-| Nicolly Santos do Nascimento | Banco de dados SQL, Excel |
 | Maryele Naara Freitas Meira | QA, automação VBA |
 | Luciano Oliveira Gomes | Engenharia de dados, modelagem Power Query |
 

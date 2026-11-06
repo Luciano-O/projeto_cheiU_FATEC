@@ -29,6 +29,12 @@ Grupos de consultas no Editor:
 - `05_Saida`: `Fato_*`, `Dim_*`, `Rejeitados`, carregadas em planilha;
 - `06_Conferencia`: `Conf_*`.
 
+## Escopo da N1 (entrega de 07/11/2026)
+
+Decisão `memories/decisoes/0009`. Entram E2.0, E2.1, E2.2, E2.3 e E2.4 (se houver dados), E2.9, E2.10 e E2.11. **E2.5–E2.8 (OD, perfil horário, viagens OD e oferta) ficam para depois da N1.** Acréscimos:
+- `Fato_Referencia_Mensal`: totais mensais publicados pela SPTrans (mês × grupo), despivotados, com `mes_inicio`;
+- `Dim_Grupo` e `Ref_Feriados` em `05_Saida`, para a Etapa 3 só ler a Etapa 2.
+
 ### E2.0 — Refinar o plano da Etapa 2
 - **Resp.** Luciano · Docs · **Depende de** E1.7
 - **Objetivo**: ajustar os passos ao que a Etapa 1 encontrou (catálogo de defeitos, amostra) e conferir de novo contra `docs/professor/guia-etapa-2-powerquery.pdf`.

@@ -88,7 +88,7 @@ Deixa o ambiente pronto para que qualquer agente ou integrante execute as etapas
 - **Resp.** Victor · Setup, Humano · **Depende de** E0.2
 - **Objetivo**: o histórico de commits é avaliado pelo professor, e cada integrante precisa ter commits próprios (`memories/decisoes/0008`).
 - **Passos**:
-  1. Luciano adiciona Victor, Nicolly e Maryele como colaboradores com permissão *Write* em `Luciano-O/projeto_cheiU_FATEC`.
+  1. Luciano adiciona Victor e Maryele como colaboradores com permissão *Write* em `Luciano-O/projeto_cheiU_FATEC`.
   2. Cada integrante instala o Git (ou usa o GitHub Desktop), clona o repositório e configura `user.name` e `user.email` com o e-mail da própria conta do GitHub. Sem isso, os commits não contam no perfil.
   3. Cada integrante faz um commit de teste numa branch: uma linha com seu nome em `MA2026-entrega-parcial/04-documentacao/README.md`. Depois abre um PR.
-- **Aceite**: `gh api repos/Luciano-O/projeto_cheiU_FATEC/contributors` lista os quatro integrantes.
+- **Aceite**: `gh api repos/Luciano-O/projeto_cheiU_FATEC/contributors` lista os três integrantes.

@@ -32,7 +32,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
    - plano que mudou → edite o arquivo da etapa em `docs/plano/` e espelhe na issue;
    - sempre: entrada datada no fim de `memories/progresso.md` (feito, pendente, próximo passo).
 5. **Entregar**: commits `TRA-<n>: <resumo>`, push, PR para `main` com `Closes TRA-<n>` na descrição e a evidência do Aceite. Comente o link do PR na issue, que continua em *In Progress* (o time não tem status de revisão). O merge é do Luciano e leva a issue a *Done*: termine a sessão com o PR aberto e o pedido de revisão.
-   - **Issue de outro integrante** (label `Resp: Nicolly`, `Resp: Maryele` ou `Resp: Victor`): o professor avalia o histórico de commits por pessoa. O agente prepara o trabalho na branch, sem commitar, e deixa na issue o passo a passo para o responsável revisar, fazer o commit com a própria conta e abrir o PR (`memories/decisoes/0008`).
+   - **Issue de outro integrante** (label `Resp: Maryele` ou `Resp: Victor`): o professor avalia o histórico de commits por pessoa. O agente prepara o trabalho na branch, sem commitar, e deixa na issue o passo a passo para o responsável revisar, fazer o commit com a própria conta e abrir o PR (`memories/decisoes/0008`).
 
 ## Regras
 
@@ -73,6 +73,5 @@ Só o Luciano usa o Linear e conduz os agentes; os demais aparecem como label de
 | Integrante | Função | Label |
 |---|---|---|
 | Victor Lima Conceição | Gerente do projeto, API | `Resp: Victor` |
-| Nicolly Santos do Nascimento | Banco de dados SQL, Excel | `Resp: Nicolly` |
 | Maryele Naara Freitas Meira | QA, automação VBA | `Resp: Maryele` |
 | Luciano Oliveira Gomes | Engenharia de dados, Power Query | `Resp: Luciano` |

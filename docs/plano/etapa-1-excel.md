@@ -22,6 +22,13 @@ MA2026-entrega-parcial/04-documentacao/
 └── catalogo-de-defeitos.md
 ```
 
+## Escopo da N1 (entrega de 07/11/2026)
+
+Decisão `memories/decisoes/0009`. Entram E1.0, E1.1, E1.2 (se o Metrô e a CPTM estiverem disponíveis), E1.4, E1.5, E1.6 e E1.7. **E1.3 (OD 2023) fica para depois da N1.** Ajustes:
+- E1.5: só os cadastros que o MVP usa: `Cad_DePara_Grupo`, `Cad_DePara_Coluna`, `Cad_Feriados_2024`, parâmetros, listas e `CaminhoRepo`. `Cad_Linha_Trilho` e `Cad_Estacao` entram só com dados do Metrô ou da CPTM; `Cad_Distrito_Regiao`, `Cad_Area_SPTrans_Regiao`, `Cad_Modo_OD` e os parâmetros de lotação ficam para depois.
+- E1.6: amostra = consolidado SPTrans de jan/2024 (dia × linha). Plano B: um arquivo diário.
+- Responsável dos passos da Nicolly: Luciano. O QA (E1.7) é da Maryele.
+
 ### E1.0 — Refinar o plano da Etapa 1
 - **Resp.** Luciano · Docs · **Depende de** E0.6, E0.7
 - **Objetivo**: ajustar os passos abaixo ao que E0.6/E0.7 revelaram (o que dá para automatizar via COM e o que exige GUI) e conferir de novo contra `docs/professor/guia-etapa-1-excel.pdf`.
@@ -85,7 +92,7 @@ MA2026-entrega-parcial/04-documentacao/
 - **Aceite**: toda fonte de E1.1–E1.3 tem entrada no dicionário; todo defeito do catálogo aponta a etapa e o passo que o trata; a ficha não tem campo vazio.
 
 ### E1.5 — Aba `Cadastros`: cadastros, de-para e parâmetros
-- **Resp.** Nicolly · Excel · **Depende de** E1.4
+- **Resp.** Luciano · Excel · **Depende de** E1.4
 - **Objetivo**: tabelas de apoio feitas à mão, com fórmulas auditadas, na aba `Cadastros` de `cheiU_01_Excel.xlsx`. O Power Query da Etapa 2 vai lê-las por `cad_Etapa1`.
 - **Saídas**: em `01-excel/cheiU_01_Excel.xlsx`, aba `Cadastros`, estas Tabelas do Excel (ListObjects), com uma coluna vazia entre elas:
   - `Cad_Linha_Trilho`: L1, L2, L3, L15, L7, L10, L11, L12, L13 — nome, cor, operador, modalidade;
@@ -105,7 +112,7 @@ MA2026-entrega-parcial/04-documentacao/
 - **Validar**: contagens `LINS()` de cada tabela anotadas no README; uma consulta rápida (Power Query ou script) lista as estações das fontes que faltam no cadastro e o resultado é vazio.
 
 ### E1.6 — Base auditável da amostra (Bruto, Tratado, Auditoria)
-- **Resp.** Nicolly · Excel · **Depende de** E1.4, E1.5
+- **Resp.** Luciano · Excel · **Depende de** E1.4, E1.5
 - **Objetivo**: reproduzir no nosso tema o roteiro do Guia da Etapa 1. Um arquivo bruto real de um mês vira base confiável e auditável só com fórmulas.
 - **Amostra**: o consolidado SPTrans de janeiro/2024, se E1.1 confirmar que ele traz dia × linha. Senão, o CSV de entradas diárias por estação do Metrô de janeiro/2024. A escolha fica registrada no README.
 - **Saídas** em `cheiU_01_Excel.xlsx`:
