@@ -25,7 +25,7 @@ O professor exige no próprio tema:
 
 ### P1.2 — Apresentação da Parcial 1
 - **Resp.** Victor · Docs, Humano · **Depende de** P1.1
-- **Saídas**: `04-documentacao/apresentacao-parcial-1.pptx` e `04-documentacao/roteiro-parcial-1.md`, com a fala e o tempo de cada um dos 4 integrantes.
+- **Saídas**: `04-documentacao/apresentacao-parcial-1.pptx` e `04-documentacao/roteiro-parcial-1.md`, com a fala e o tempo de cada um dos 3 integrantes.
 - **Aceite**: ensaio cronometrado entre 10 e 15 minutos; demonstração de "Atualizar tudo" com as conferências em 0.
 
 ### P1.3 — Congelar o repositório da Parcial 1
@@ -70,7 +70,7 @@ O professor exige no próprio tema:
 ### F.2 — Apresentação final e ensaio
 - **Resp.** Victor · Docs, Humano · **Depende de** F.1
 - **Saídas**: `MA2026-entrega-final/04-powerbi-dashboard/apresentacao-final.pptx`.
-- **Aceite**: ensaio completo cronometrado com os 4 integrantes; a resposta à pergunta central é dita explicitamente.
+- **Aceite**: ensaio completo cronometrado com os 3 integrantes; a resposta à pergunta central é dita explicitamente.
 
 ### F.3 — Congelar a entrega final
 - **Resp.** Luciano · Setup · **Depende de** F.2
