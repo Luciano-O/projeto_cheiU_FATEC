@@ -1,0 +1,1438 @@
+id_linha,codigo_linha,nome_linha,modalidade,operador,grupo,lote,primeiro_dia,ultimo_dia,dias_com_operacao,grupos_no_ano
+ONI-N402-11,N402-11,Metro Itaquera/Term Vl Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-N405-11,N405-11,Term V Carrao/Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-2002-10,2002-10,Term P D Pedro Ii/Term Bandeir,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-2100-10,2100-10,Term V Carrao/Pca Da Se Circ,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-02,2024-12-31,362,1
+ONI-2100-21,2100-21,Term Vl Carrao/Term Pq D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,114,1
+ONI-2101-10,2101-10,Pca Silvio Romero/Pca Da Se,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-02,2024-12-27,249,1
+ONI-2101-41,2101-41,Pca Silvio Romero/Term Vila Pr,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-02,2024-12-27,249,1
+ONI-2290-10,2290-10,Term S Mateus/Term.Pd Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-2290-21,2290-21,T São Mateus/T Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-02,2024-12-23,248,1
+ONI-3032-10,3032-10,Term Vila Carrao/Circular,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-3139-10,3139-10,Jd Vila Formosa/Pca Clovis,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-3160-10,3160-10,Term.V.Prudente/ Term D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-3414-10,3414-10,Vila Dalila/Term P D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-02,2024-12-31,365,1
+ONI-342M-10,342M-10,Term Sao Mateus/Term Penha,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-4037-10,4037-10,Terminal Vila Carrão/Circular,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-408A-10,408A-10,Machado De Assis/Card Almeida,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-4112-10,4112-10,Sta Margarida Maria/Pca Republ,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-02,2024-12-28,308,1
+ONI-4113-10,4113-10,Gentil De Moura/Pca Republica,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-01,2024-12-31,366,1
+ONI-N143-11,N143-11,Metro Barra Funda/Morro Grande,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8545-10,8545-10,Penteado/Metro Barra Funda,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-9014-10,9014-10,Morro Grande/Terminal Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-9014-42,9014-42,Bnh Portuguesa/Terminal Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-27,249,1
+ONI-9162-10,9162-10,Jd.Almanara/Rio Branco,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-N131-11,N131-11,Term Lapa/Vila Piaui,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-N132-11,N132-11,Term Pirituba/Pq Sao Domingos,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-N133-11,N133-11,Term Pirituba/Cid D Abril 3ª G,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-N134-11,N134-11,Term Cachoeirinha/Taipas,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-N135-11,N135-11,Term Pirituba/Jd Donaria,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-N136-11,N136-11,Term Lapa/Morro Doce,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-1019-10,1019-10,Sol Nascente/Terminal Pirituba,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-189L-10,189L-10,Vila Lorio/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8001-10,8001-10,Vila Piaui/Term Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8002-10,8002-10,Domitila/Term Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8003-10,8003-10,V Remedios/Term Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-31,365,1
+ONI-8003-21,8003-21,Term Lapa / V Remedios,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,83,1
+ONI-8004-10,8004-10,Santa Monica/Term Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8006-10,8006-10,Jd Donaria/Term Pirituba,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8007-10,8007-10,Vila Clarice/Term Pirituba,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8008-10,8008-10,Sta Monica/Termpirituba,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8009-10,8009-10,Cid Dabril Iii/Termpirituba,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8009-31,8009-31,Cid Dabril Iii/Termpirituba,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8040-10,8040-10,Sol Nascente/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8043-10,8043-10,Vila Nova Esperança/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-30,324,1
+ONI-8047-10,8047-10,Jaragua/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8047-41,8047-41,Jaragua/Metro Vila Madalena,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-30,327,1
+ONI-8047-51,8047-51,Recanto Dos Humildes/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-27,249,1
+ONI-8060-10,8060-10,Vila Piaui/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8062-10,8062-10,Pq S Domingos/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-8065-10,8065-10,Vila Clarice/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-30,324,1
+ONI-847J-10,847J-10,City Jaragua/Jaguare,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-31,365,1
+ONI-8548-10,8548-10,Jd Dos Cunhas/Pca Do Correio,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-888P-10,888P-10,Perus/Cohab Taipas,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-9012-10,9012-10,Itaberaba/Term Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-02,2024-12-31,365,1
+ONI-948A-10,948A-10,Vl Zatti/Term Pirituba,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-958P-10,958P-10,Jd Nardini/Cohab Taipas,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,366,1
+ONI-N201-11,N201-11,Term Pq D Pedro/Metro Tucuruvi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N203-11,N203-11,Met Tucuruvi/Term Pq D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N204-11,N204-11,Metro Tucuruvi/Term Pq D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N206-11,N206-11,Term Casa Verde/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N207-11,N207-11,Term Casa Verde/Term Pq D Pedr,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N209-11,N209-11,Term Cachoeirinha/Term Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N233-11,N233-11,Metro Santana/Vila Sabrina,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,365,1
+ONI-N235-11,N235-11,Metro Santana/Pedra Branca,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,365,1
+ONI-N236-11,N236-11,Metro Santana/Jardim Antartica,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N237-11,N237-11,Metro Tucuruvi/Edu Chaves,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N238-11,N238-11,Metro Santana/Cem Pq Dos Pinhe,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N239-11,N239-11,Metr Tucuruvi/Vila Nova Galvao,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N240-11,N240-11,Metro Santana/Cachoeira,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N242-11,N242-11,Metro Santana/Jd Campo Limpo,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N243-11,N243-11,Metro Santana/Jardim Brasil,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-N244-11,N244-11,Metro Tucuruvi/Jd Flor De Maio,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,365,1
+ONI-N245-11,N245-11,Metro Santana/Jardim Pery Alto,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-118C-10,118C-10,Jd Pery Alto/Metro St Cecilia,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-148L-10,148L-10,Cachoeirinha/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-148P-10,148P-10,Jd Pery/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1703-10,1703-10,Campo Limpo/Term Parada Ingles,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1721-10,1721-10,Vila Ede/Metro Carandiru,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1726-10,1726-10,Vila Zilda/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-174M-10,174M-10,Jd Brasil/Museu Ipiranga,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1741-10,1741-10,Vila Dionizia/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1742-10,1742-10,Jd Antartica/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1743-10,1743-10,Jd Pery Alto/Metro Tiete,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1744-10,1744-10,Lauzane Paulista/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1745-10,1745-10,Vl Nv Cachoeirinha/Shop C Nort,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1756-10,1756-10,Pedra Branca/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1757-10,1757-10,Conj Bancarios/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-31,365,1
+ONI-1758-10,1758-10,Jd Antartica/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1759-10,1759-10,Jd Pery/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1760-10,1760-10,Cohab Antartica/Shop C Norte,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1764-10,1764-10,Jd Corisco/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1765-10,1765-10,Jd Cabuçu/Metro Tucuruvi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1767-10,1767-10,Edu Chaves/Metro Tucuruvi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1771-10,1771-10,Vila Zilda/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1772-10,1772-10,Jd Filhos Da Terra/Metro Tucur,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1773-10,1773-10,Vila Ayrosa/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1778-10,1778-10,Jacana/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-178L-10,178L-10,Lauzane Paulista/Hosp Clinicas,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1782-10,1782-10,V Nova Galvao/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1783-10,1783-10,Cachoeira/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1783-22,1783-22,Jardim Labitary/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-27,250,1
+ONI-1788-10,1788-10,Jd Fontalis/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-1788-51,1788-51,Jd Campo Limpo/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-26,233,1
+ONI-2010-10,2010-10,Jd Brasil/Metro Tiete,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2011-10,2011-10,Edu Chaves/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2012-10,2012-10,Vila Ede/Metro Tiete,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-31,363,1
+ONI-2020-10,2020-10,Horto Florestal/M Parada Ingle,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2023-10,2023-10,Cachoeira/Metro Tucuruvi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2023-41,2023-41,Jd Labitary/Metro Tucuruvi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-27,251,1
+ONI-2024-10,2024-10,Cachoeira/Dib - Circular,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2025-10,2025-10,Cachoeira/Dib - Circular,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2026-10,2026-10,Jaçana/Parque Novo Mundo,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2028-10,2028-10,Vila Ayrosa/Metro Tucuruvi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2029-10,2029-10,Jd Fontalis/Metro Tucuruvi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2030-10,2030-10,Lauzane Paulista/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-28,296,1
+ONI-2032-10,2032-10,Pq Edu Chaves/Metro Carandiru,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,364,1
+ONI-2033-10,2033-10,Jd Guanca/Term Rod Tiete,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2105-10,2105-10,Jd Filhos Da Terra/Lgo Da Conc,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-211L-10,211L-10,Mandaqui/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-213E-10,213E-10,Pq Edu Chaves/Metro Belem,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-28,302,1
+ONI-2175-10,2175-10,Jd Guanca/Pca Da Se,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-31,365,1
+ONI-271M-10,271M-10,Pq Novo Mundo/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-271P-10,271P-10,Cangaiba/Est Da Luz,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-2740-10,2740-10,Pedra Branca/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-278A-10,278A-10,Penha/Ceasa,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-297A-10,297A-10,Bairro Do Limao/M Barra Funda,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-351F-10,351F-10,Jacana/Term Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-9166-10,9166-10,Jd Santa Cruz/Pça Do Correio,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-28,302,1
+ONI-9701-10,9701-10,Anhembi/Metro Barra Funda,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-02,2024-12-28,307,1
+ONI-971A-10,971A-10,Jd Primavera/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-971D-10,971D-10,Jd Damasceno/Center Norte,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-971M-10,971M-10,Vila Penteado/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-971T-10,971T-10,Vila Santa Maria/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-971V-10,971V-10,Jd Vista Alegre/Center Norte,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-01,2024-12-31,366,1
+ONI-EVENTO,EVENTO,E V E N T O,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-02,2024-12-31,247,3
+ONI-N303-11,N303-11,T A E Carvalho/Term Aricanduva,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N304-11,N304-11,Ter Sao Miguel/Term Aricanduva,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N307-11,N307-11,Termp Q D Pedro Ii/Term Pinhei,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,365,1
+ONI-N334-11,N334-11,T A E Carvalho/Cptm Guaianazes,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N335-11,N335-11,Term Penha/Ermelino Matarazzo,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N336-11,N336-11,T Sao Miguel/Jd Carmargo Velho,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,365,1
+ONI-N337-11,N337-11,T Sao Miguel/Jd Camargo Velho,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N339-11,N339-11,Metro Itaquera/Artur Alvim,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N340-11,N340-11,Metro Itquera/Jd Santo Antonio,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N342-11,N342-11,Term Penha/Jardim Danfer,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N343-11,N343-11,T A E Carvalho/Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2031-10,2031-10,Jd Camargo Novo/Term A E Carva,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2058-10,2058-10,Sao Miguel-Guaianazes,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-31,365,1
+ONI-2060-10,2060-10,T.A.E.Carvalho/Metro A. Alvim,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2076-10,2076-10,Jd Das Oliveiras/Term Penha,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2079-10,2079-10,Jd Nelia/Term Aricanduva,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-28,301,1
+ONI-2080-10,2080-10,Cid Kemel/Term Aricanduva,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2088-10,2088-10,Cj Encost Norte/T A E Carvalho,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-211V-10,211V-10,Vila Paranagua-Estacao Da Luz,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-233C-10,233C-10,Term.A.E.Carvalho-Ceret,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2363-10,2363-10,Jd.Danfer-Pq.D.Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2435-10,2435-10,Jd Coimbra-Pça Da Se,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-30,354,1
+ONI-2451-10,2451-10,Vl S Francisco/Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2522-10,2522-10,Vila Progresso-Shop.Aricanduva,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2583-10,2583-10,Vila Curuca/Term P D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-263C-10,263C-10,Jd Helena/Cohab Ii,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-263J-10,263J-10,Penha/Cj Jose Bonifacio,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2678-10,2678-10,Oliveirinha/Term P D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2678-41,2678-41,J Camargo Novo/Term Aricanduva,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-27,250,1
+ONI-2713-10,2713-10,Metro Penha-Chac Bela Vista,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,365,1
+ONI-273D-10,273D-10,Pq D Joao Nery-Metro A Alvin,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-273F-10,273F-10,Vila Mara-Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-28,280,1
+ONI-273G-10,273G-10,Jd Helena-Metro A Alvin,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-273G-21,273G-21,Jd Sao Martinho/Cptm Vila Mara,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-27,249,1
+ONI-273J-10,273J-10,Jd Romano/Metro Penha,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-273L-10,273L-10,Jd Moreno-Metro A Alvin,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-273N-10,273N-10,Cid Kemel Ii/Mtr V Matilde,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-273N-41,273N-41,Itaim Paulista/Mt Vla Matilde,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-27,249,1
+ONI-273R-10,273R-10,Jd Robru-Metro A Alvin,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-273R-42,273R-42,Jd Robru-Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-27,249,1
+ONI-273V-10,273V-10,Parada Xv Novembro-Metro Penha,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-31,365,1
+ONI-273X-10,273X-10,Jd Oliveiras/Mt Artur Alvin,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2755-10,2755-10,Guaianazes-Metro Penha,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2756-10,2756-10,Guaianazes-Metro Patriarca,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2765-10,2765-10,Vila Cisper-Metro Tatuape,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2766-10,2766-10,J Camargo Velho/Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2766-41,2766-41,Jd Indaia/Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-27,249,1
+ONI-2772-10,2772-10,Jd Nazare/Metro Penha,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-2780-10,2780-10,Jd Camargo Novo/Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3001-10,3001-10,Itaim Pta/Term.Sao Miguel,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3003-10,3003-10,Jd S Martinho/Cptm Vila Mara,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3004-10,3004-10,Jd S Martinho/Cptm V Mara,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3015-10,3015-10,Jd Romano/Jardim Das Oliveiras,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-27,249,1
+ONI-307C-10,307C-10,Conj Encosta Norte/Mt Artur Al,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3206-10,3206-10,Metro Penha/Conj Chaparral,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-31,329,1
+ONI-3462-10,3462-10,Vila Santana/T Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3462-41,3462-41,Cid A E Carvalho-T Pq D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-27,250,1
+ONI-374M-10,374M-10,Cptm Erm Mat/Metro Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3901-10,3901-10,Jd. Danfer/Metro Penha,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3902-10,3902-10,Jd. Das Oliveiras/Guaianazes,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-3903-10,3903-10,C.A.E.Carvalho/Shop.Penha,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-02,2024-12-30,332,1
+ONI-4035-10,4035-10,Guaianazes - Metrô Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-4036-10,4036-10,M. Itaquera - Term. Vl. Carrão,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-508L-10,508L-10,Term.Prin.Isabel/Aclimacao,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-805L-10,805L-10,Term.Princ.Isabel/Aclimacao,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-930P-10,930P-10,Term Pq D Pedro Ii/Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-01-01,2024-12-31,366,1
+ONI-N403-11,N403-11,T Cid Tiradentes/Metro Itaquer,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N406-11,N406-11,Term Cid Tiradentes/T S Mateus,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N407-11,N407-11,Term V Carrao/Metro Belem,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N431-11,N431-11,Ter Sao Mateus/Jd Da Conquista,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N432-11,N432-11,Term Sao Mateus/Jd Sto Andre,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N434-11,N434-11,Term V Carrao/Jd Iv Centenario,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N435-11,N435-11,T Cid Tirandentes/Metalurgicos,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N436-11,N436-11,Te Cid Tiradentes/Barro Branco,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N437-11,N437-11,Est Guaianazes/T Cid Tiradente,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N439-11,N439-11,M Itaquera/Cohab Faz Do Carmo,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-N441-11,N441-11,Term Cid Tirandestes/Vl Yoland,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-312N-10,312N-10,Term Cid Tiradentes/Sao Miguel,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-3539-10,3539-10,Cidade Tiradentes/Term P D Ped,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4003-10,4003-10,Prestes Maia/ E. T. Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-31,365,1
+ONI-4004-10,4004-10,T Cid Tiradentes/Barro Branco,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4005-10,4005-10,T Cid Tiradentes/Barro Branco,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4006-10,4006-10,Jd Nova Vitoria/Circular,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4006-21,4006-21,Jardim Nova Vitoria/Circular,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-27,249,1
+ONI-4007-10,4007-10,Cohab Juscelino/Term V Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4008-10,4008-10,Jd Cibele/Term Vila Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4008-21,4008-21,Cohab Jose Bonifacio C/Circula,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-27,251,1
+ONI-4010-10,4010-10,Jd Nsa Sra Do Carmo/T V Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-30,324,1
+ONI-4011-10,4011-10,Jd Limoeiro/Term Sao Mateus,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4012-10,4012-10,Jd Da Conquista/T Sao Maeteus,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4013-10,4013-10,Jd Santo Andre/Term Sao Mateus,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4014-10,4014-10,Jd Vila Carrao/Ter Vila Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-31,365,1
+ONI-4015-10,4015-10,T Sao Mateus/Jd Rodolfo Pirani,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4016-10,4016-10,T Sao Mateus/Jd Rodolfo Pirani,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4017-10,4017-10,Vila Yolanda/Metalurgicos,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4018-10,4018-10,Metalurgicos/Term Sao Mateus,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-4024-10,4024-10,Cohab Faze Do Car/E.T.Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-403A-10,403A-10,Est Jose Bonifacio/Term Penha,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407A-10,407A-10,Shop C L Aricanduva/Metr Belem,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-31,365,1
+ONI-407A-21,407A-21,Shop Aricanduva/Metro Belem,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,82,1
+ONI-407E-10,407E-10,Jd Santo Andre/Metro Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407G-10,407G-10,Jd Nova Vitoria/Metro Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407H-10,407H-10,Jd Sao Francisco/Metr Itaquera,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407I-10,407I-10,Cohab I/Metro Bresser,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-31,365,1
+ONI-407J-10,407J-10,Jd Soares/Metro Tatuape,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407L-10,407L-10,Barro Branco/M Guilhermina Esp,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407N-10,407N-10,T Cid Tiradentes/Metro Penha,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407P-10,407P-10,Term Cid Tiradentes/M Tatuape,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407R-10,407R-10,Term Vila Carrao/Metro Belem,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-407W-10,407W-10,Jd. Iv Centernario/Metr Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-28,309,1
+ONI-407Y-10,407Y-10,Pq Savoy City/Metro V Prudente,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-02,2024-12-28,308,1
+ONI-507T-10,507T-10,Term Sapopemba/Metro Carrao,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,366,1
+ONI-9931PR,9931PR,Term Cidade Tirad/Express,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-02-19,2024-12-27,216,1
+ONI-N508-11,N508-11,Term Sacoma/Term Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N531-11,N531-11,T Sapopemba/Teotonio T Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N532-11,N532-11,T Sapopemba/Teotonio H S Mateu,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N533-11,N533-11,Term Sacoma/Jardim Planalto,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N535-11,N535-11,Term Sacoma/Jardim Celeste,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N537-11,N537-11,Metro Vl Mariana/Vila Prudente,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N538-11,N538-11,Term Sacoma/Jardim Celeste,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N540-11,N540-11,Term Sapop Teot Vile/Js Sao Ro,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-3021-10,3021-10,Pq Bancario/Term Vila Prudente,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-3024-10,3024-10,Vla Industrial/Ter Vl Prudente,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-02,2024-12-31,365,1
+ONI-373M-10,373M-10,Jd Guairaca/Shop Metr Tatuape,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-3746-10,3746-10,Jd Imperador/Metro Belem,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-3746-31,3746-31,Jd Imperador/Metro Belem,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-02,2024-12-27,250,1
+ONI-407M-10,407M-10,Vila Monumento/Vila Madalena,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,2
+ONI-4111-10,4111-10,Vila Monumento/Pça Republica,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-02,2024-12-31,364,1
+ONI-4114-10,4114-10,Vila Gumercindo/Ter Pq D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4221-10,4221-10,Jd Planalto/Term P D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-425E-10,425E-10,Jd. Ester/Term. Sapopemba,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4284-10,4284-10,V California/T Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4286-10,4286-10,Vila Industrial/Pça Do Correio,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-02,2024-12-31,364,1
+ONI-4288-10,4288-10,Vila Industrial/T P D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4491-10,4491-10,Zoologico/Term P D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4706-10,4706-10,J Maria Estela Ii/Mt V Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4708-10,4708-10,Jd Climax/Metro Vila Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4709-10,4709-10,Pq Bristol/Metro V Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4717-10,4717-10,Jd Maria Estela/Metro Sta Cruz,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4718-10,4718-10,Jd Celeste/Metro Sta Cruz,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4721-10,4721-10,Shop Plaza Sul/Metro Jabaquara,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4725-10,4725-10,Vila Brasilina/Sh C Ibirapuera,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4727-10,4727-10,Jd Climax/Metro Pç Arvore,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4732-10,4732-10,Vila Liviero/Metro Saude,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,2
+ONI-4732-31,4732-31,Vila Liviero/Metro Saude,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-4742-10,4742-10,Jd Climax/Metro Sao Judas,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-477P-10,477P-10,Ipiranga/Rio Pequeno,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-477U-10,477U-10,Heliopolis/Shop Iguatemi Circ,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-02,2024-12-31,364,1
+ONI-5021-10,5021-10,Agua Funda/Term Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5026-10,5026-10,Cj.Teot.Vilela/Jd.Sao Roberto,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5028-10,5028-10,Cj Hab Heliop/Museu Ipiranga,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5029-10,5029-10,Jd Patente/Term Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5030-10,5030-10,Jd Maria Estela/Term Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5033-10,5033-10,Vila Brasilina/Term Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-02,2024-12-30,364,1
+ONI-5034-10,5034-10,Vila Liviero/Term Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5034-31,5034-31,Term Sacoma/Vila Liviero,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5036-10,5036-10,Jd Celeste/Term Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5038-10,5038-10,Pq. Bristol/Term Sacoma,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5108-10,5108-10,Jd Celeste/Term Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-513L-10,513L-10,Term Sacoma/Penha,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-5705-10,5705-10,Term Sacoma/Metro Vergueiro,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-575C-10,575C-10,Vila Matias/Metro Conceicao,Ônibus,SPTrans,Local de Articulação Regional,AR5,2024-01-01,2024-12-31,366,1
+ONI-N633-11,N633-11,Met Jabaquara/Morumbi Shoping,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-N634-11,N634-11,Term Santo Amaro/Jardim Luso,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-476L-10,476L-10,Lar Escola S Francisc/Circular,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-502J-10,502J-10,Vila Pedreira/Pq.Do Ibirapuera,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-02,2024-12-31,365,1
+ONI-502J-21,502J-21,Estacao Autodromo/Vila Joaniza,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-02,2024-12-30,324,1
+ONI-502J-22,502J-22,Estacao Autodromo/Vila Joaniza,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-02,2024-12-27,249,1
+ONI-502J-23,502J-23,Cptm Autodromo/Metro Conceicao,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,83,1
+ONI-5091-10,5091-10,Jd Ubirajara/Moema Circular,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-5164-10,5164-10,V.Sta.Catarina/Lgo.S.Francisco,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-5164-21,5164-21,Cidade Leonor/Hosp Sao Paulo,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-5164-41,5164-41,Vila Guarani - Circular,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-574A-10,574A-10,Americanopolis/Lgo Cambuci,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-02,2024-12-30,309,1
+ONI-576C-10,576C-10,Metro Jabaquara/Term.Sto Amaro,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-5791-10,5791-10,Eldorado/Metro Paraiso,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-02,2024-12-28,310,1
+ONI-6002-10,6002-10,Cidade Dutra/Ame,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-02,2024-12-27,252,2
+ONI-605A-10,605A-10,M Jabaquara/Centro Paralimpico,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-609J-10,609J-10,Aeroporto/Metro São Judas,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-6110-10,6110-10,Conj Hab Palmares/Chac Monte A,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,3
+ONI-637J-10,637J-10,Vila São José - Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-02,2024-12-28,309,1
+ONI-675M-10,675M-10,Centro Sesc - M Jabaquara,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-675P-10,675P-10,Shop Sp Market/Metro Conceiçao,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-677V-10,677V-10,Jd Nv Horizonte - M Jabaquara,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,3
+ONI-695D-10,695D-10,Jd Sta Bárbara - M Jabaquara,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,2
+ONI-875A-10,875A-10,Aeroporto/Perdizes,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,366,1
+ONI-N742-11,N742-11,Term Joao Dias/Term Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-N745-11,N745-11,Ter Capelinha/Term Campo Limpo,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-5185-10,5185-10,Term Guarapiranga/Pq D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-6049-10,6049-10,Valo Velho/Sto Amaro,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-647A-10,647A-10,Valo Velho/Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-647P-10,647P-10,Cohab Adventista/Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-6475-10,6475-10,Jd.Vaz De Lima/Pca Da Se,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-02,2024-12-31,364,1
+ONI-669A-10,669A-10,Term Sto Amaro-Term Pri Isabel,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-675A-10,675A-10,Pq.Sto Amaro/Metro Sao Judas,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-02,2024-12-31,365,1
+ONI-695T-10,695T-10,Term.Capelinha/Metro V.Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-02,2024-12-28,359,1
+ONI-695T-51,695T-51,Term Capelinha/Metro V Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,83,1
+ONI-695V-10,695V-10,Term Capelinha-Metro Ana Rosa,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-02,2024-12-27,358,1
+ONI-7050-10,7050-10,Jd Das Rosas/Term Campo Limpo,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-707K-10,707K-10,Guarapiranga/Metro Jabaquara,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-857A-10,857A-10,T Campo Limpo/Metro Santa Cruz,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-857C-10,857C-10,T Campo Limpo/Metro Conceiçao,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-8605-10,8605-10,Term Campo Limpo/Term Bandeira,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-01,2024-12-31,366,1
+ONI-N802-11,N802-11,Term Pinheiros/T Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-N831-11,N831-11,Term Lapa/Parque Da Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,362,1
+ONI-N833-11,N833-11,Term Pinheiros/Ceasa,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,365,1
+ONI-N834-11,N834-11,Term Lapa/Terminal Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,365,1
+ONI-N838-11,N838-11,M Vila Madalena/Cptm Leop0Ldin,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,362,1
+ONI-N839-11,N839-11,Metro Butanta/Metro V Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,364,1
+ONI-5100-10,5100-10,Est.Fep.Pinheiros/Pca Da Se,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-28,308,1
+ONI-702U-10,702U-10,Butanta Usp/Parque D. Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-28,309,1
+ONI-702U-22,702U-22,Metro Butanta/T Parque D P Ii,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,164,1
+ONI-7181-10,7181-10,Cid.Universitaria/T.Pr.Isabel,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-28,309,1
+ONI-719P-10,719P-10,Pinheiros/Metro Armenia,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-7267-10,7267-10,Apiacas/Pça Ramos Azevedo,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-7272-10,7272-10,Vila Pompeia/P.Ramos Azev.Circ,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-31,363,1
+ONI-7281-10,7281-10,Lapa/P.Ramos Azevedo Circular,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-7282-10,7282-10,Pq Continental/M Vila Madalena,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-31,365,1
+ONI-7411-10,7411-10,Usp/Pca Da Se,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-28,302,1
+ONI-8012-10,8012-10,Cidade Universit/Metro Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-8022-10,8022-10,Cid Univ/Metro Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,355,1
+ONI-8032-10,8032-10,Metro Butanta/Cid Universitari,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-08-31,204,1
+ONI-809U-10,809U-10,Cid Universitaria/M Barra Fun,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-28,305,1
+ONI-809U-21,809U-21,M Barra Funda/M Vila Madalena,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-817C-10,817C-10,Lapa/H.Clinicas Circular,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-8319-10,8319-10,Pq Continental/Pca Ramos Azeve,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-8319-21,8319-21,Shop Vila Lobos/Pq Continenal,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-30,347,1
+ONI-856R-10,856R-10,Lapa/Socorro,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-8615-10,8615-10,P.Lapa/Parque D. Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-8700-01,8700-01,T C Limpo/Pca Ramos De Azeved,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-8700-24,8700-24,Lgo Do Taboao/Pca Ramos De Aze,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-27,248,1
+ONI-874C-10,874C-10,Pq Continental/Metr V Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-875C-01,875C-01,Term Lapa/Metro Sta Cruz,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-875H-10,875H-10,Lapa/Metro Vila Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-875P-10,875P-10,M. Barra Funda/M. Ana Rosa,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-30,329,1
+ONI-877T-10,877T-10,Vila Anastacio/Metro Paraiso,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-9050-10,9050-10,Term Lapa / Itaim Bibi,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-01,2024-12-31,366,1
+ONI-9051-10,9051-10,Lapa / Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-27,259,1
+ONI-909T-10,909T-10,Ter Pinheiro/ Ter P Q D Pedro,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-01-02,2024-12-28,309,1
+ONI-N701-11,N701-11,Term Sto Amaro/T Pq D Pedro Ii,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N704-11,N704-11,Term Capelinha/Term Sto Amaro,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N706-11,N706-11,Term Campo Limpo/Term Pinheiro,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N731-11,N731-11,Term Capelinha/Term Sto Amaro,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N734-11,N734-11,Term Capelinha/Valo Velho,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N735-11,N735-11,Term Capelinha/Jardim Guaruja,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N741-11,N741-11,Term Capelinha/Valo Velho,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N744-11,N744-11,Term Joao Dias/Jd Vaz De Lima,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-5119-23,5119-23,Te Joao Dias/Inst Lucy Montoro,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-27,251,2
+ONI-6801-10,6801-10,Jd.Ibirapuera-Term Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6801-51,6801-51,Jd Ibirapuera/Term Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-27,250,2
+ONI-6803-10,6803-10,Jd.Capelinha-Term Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6804-10,6804-10,Jd.Inga-Term Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6805-10,6805-10,Term Capelinha-Term Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6805-31,6805-31,Term Capelinha/Term Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-30,325,1
+ONI-6806-10,6806-10,Jd Novo Horizonte-T.Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6813-10,6813-10,Jd Lidia-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6815-10,6815-10,Jd Comercial-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-28,308,1
+ONI-6816-10,6816-10,Jd Mitsutani-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6816-31,6816-31,Jardim Mitsutani/Term Capelinh,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-27,249,1
+ONI-6817-10,6817-10,Jd Sao Bento-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-31,365,1
+ONI-6818-10,6818-10,Jd Vale Das Virtudes-T.Capelin,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6820-10,6820-10,Jd Das Rosas-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6820-31,6820-31,Jd.Rosas/Term. Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6821-10,6821-10,Jd Jangadeiro-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6823-10,6823-10,Jd. Guaruja-Term. Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6824-10,6824-10,Pq Fernanda-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6825-10,6825-10,Valo Velho-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6826-10,6826-10,Jd Sto Eduardo-Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6835-10,6835-10,Valo Velho- Term Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6835-31,6835-31,Valo Velho/Term.Capelinha,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-31,365,1
+ONI-6836-10,6836-10,Capao Redondo-Term Joao Dias,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-7059-10,7059-10,Pq Do Engenho/Term Campo Limpo,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-7060-10,7060-10,Valo Velho/Term Campo Limpo,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N832-11,N832-11,Term Lapa/Parque Continental,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N835-11,N835-11,Term Pinheiros/Jd João Xxiii,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N836-11,N836-11,Term Pinheiros/Pq Continental,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N840-11,N840-11,M Vila Mariana/Santa Cecilia,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-N841-11,N841-11,Metro Vila Mariana/Sta Cecilia,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,365,1
+ONI-N842-11,N842-11,T Pinheiros/Cohab Raposo Tavar,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-6232-10,6232-10,Vila Ida/Pca Ramos Azevedo,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-31,364,1
+ONI-714C-10,714C-10,Cohab Educandario/Lgo Polvora,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-31,364,1
+ONI-719R-10,719R-10,Rio Pequeno/Metro Barra Funda,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-748A-10,748A-10,Jd Dabril/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-748A-41,748A-41,Jd Peri Peri/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-30,324,1
+ONI-748R-10,748R-10,Jd Joao Xxiii/Metro Barra Fund,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-7725-10,7725-10,Rio Pequeno/Metro Vila Madalen,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-27,306,1
+ONI-775A-10,775A-10,Jd Adalgiza/Metro Vila Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-775N-10,775N-10,Rio Pequeno/Metro V Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-775V-10,775V-10,Rio Pequeno/Metro Sta Cruz,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-778J-10,778J-10,Jd Arpoador/Metro Barra Funda,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-778J-41,778J-41,Cohab Rap.Tavares-Barra Funda,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-30,335,1
+ONI-8018-10,8018-10,Vila Sonia/Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-8019-10,8019-10,Pq Continental/Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-31,364,1
+ONI-8019-31,8019-31,P Continental/Term Vila Sonia,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-8020-10,8020-10,Butanta/Shop Morumbi,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-31,365,1
+ONI-8021-10,8021-10,Jd. Maria Luiza/Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-28,301,1
+ONI-8023-10,8023-10,Cdhu Raposo Tavares/Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-8024-10,8024-10,Jd Jaqueline/Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,176,1
+ONI-8027-10,8027-10,Vila Dalva/Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-8077-10,8077-10,Jd Joao Xxiii/Metro Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-28,309,1
+ONI-809D-10,809D-10,Cohab Educandario/Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-809H-10,809H-10,Jd Boa Vista/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-809J-10,809J-10,Jd Colombo/Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-809N-10,809N-10,Vila Dalva/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-30,324,1
+ONI-809R-10,809R-10,Rio Pequeno/Pinheiros,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-31,364,1
+ONI-809T-10,809T-10,Raposo Tavares/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-8252-10,8252-10,Lapa/Pca Ramos De Azevedo,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-28,283,1
+ONI-857R-10,857R-10,Term Campo Limpo/Aclimacao,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-857R-41,857R-41,E Hebraica Rebouças/M Paraiso,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-02,2024-12-27,252,1
+ONI-875C-10,875C-10,Lapa/Metro Sta Cruz,Ônibus,SPTrans,Local de Articulação Regional,AR9,2024-01-01,2024-12-31,366,1
+ONI-9921PR,9921PR,Term Campo Limpo/Transppass,Ônibus,SPTrans,Local de Articulação Regional,E08,2024-01-02,2024-12-30,281,1
+ONI-N138-11,N138-11,Term Cachoeirinha/Jd Princesa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-N139-11,N139-11,Term Pirituba/Jd Paulistano,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-N140-11,N140-11,Term Pirituba/Vila Mirante,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,365,1
+ONI-N141-11,N141-11,Term Cachoeirinha/Jd Carombe,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-N142-11,N142-11,Term Pirituba/Term Casa Verde,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1012-10,1012-10,Jd Monte Belo/Term Jd Britania,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1012-21,1012-21,Jd Rosinha/Term Jd Britania,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,253,1
+ONI-1015-10,1015-10,Chac Maria Trindade/T Jd Brita,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1021-10,1021-10,Cohab Brasilandi/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-31,365,1
+ONI-1023-10,1023-10,Vl. Pirituba - Cptm Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1034-10,1034-10,Morro Grande/Conexao Vila Lori,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1036-10,1036-10,Cohab Brasilandia/Conexao Vila,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-119L-10,119L-10,Vila Sulina/Terminal Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-30,326,1
+ONI-139A-10,139A-10,Conexao Vila Lorio/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8010-10,8010-10,Perus/Pq Residencial Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8010-21,8010-21,Sitio Botuquara/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-27,250,1
+ONI-8013-10,8013-10,Morro Doce/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8013-41,8013-41,Jd Paineiras/Term Jd Britania,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8014-10,8014-10,Morro Doce/Perus,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8017-10,8017-10,Cptm Vila Aurora/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8017-21,8017-21,Voith/Cptm Vila Aurora,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,250,1
+ONI-819A-10,819A-10,Vila Aurora/Jd Primavera,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8194-10,8194-10,Perus/Cachoeirinha,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8199-10,8199-10,Pirituba/Cvn Cachoeirinha,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9004-10,9004-10,Jd Elisa Maria/Term V N Cachoe,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9005-10,9005-10,Jd Princesa/Term V N Cachoeir,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9005-41,9005-41,Jd.Vista Alegre/T.Cachoeirinha,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,251,1
+ONI-9005-42,9005-42,Sitio D Francos/T V N Cachoeir,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,250,1
+ONI-9006-10,9006-10,Vila Penteado/Term V N Cachoei,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9008-10,9008-10,Pq Taipas/Term V N Cachoeir,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9008-41,9008-41,Estancia Jaragua/Term V N Cach,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,249,1
+ONI-9009-10,9009-10,Cohab Brasilandia/Term V N Cac,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9011-10,9011-10,City Jaragua/Term V N Cachoeir,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9011-21,9011-21,Estacao Jaragua/City Jaragua,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9015-10,9015-10,Vila Zatt/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9015-31,9015-31,Vila Zatt/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,250,1
+ONI-9018-10,9018-10,Vila Mirante/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9019-10,9019-10,Jd Paulista/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9020-10,9020-10,Vila Mirante/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9023-10,9023-10,Pque De Taipas/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9032-10,9032-10,Jd Damasceno/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9032-21,9032-21,Jd Damasceno/Term Cachoeirinha,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,253,1
+ONI-9047-10,9047-10,Jd Paulistano/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9090-10,9090-10,Pq Tiete/Term Casa Verde,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9181-10,9181-10,Vila Terezinha/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9188-10,9188-10,Capela Da Lagoa/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9188-42,9188-42,Capela Da Lagoa/Term Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-28,255,1
+ONI-9191-10,9191-10,Jd Elis Maria/Bom Retiro,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9191-21,9191-21,Barra Funda/Bom Retiro,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,250,1
+ONI-938P-10,938P-10,Vila Penteado/Metro B Funda,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-938V-10,938V-10,Jd Vista Alegre/Metro Barra Fu,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9717-10,9717-10,Cohab Brasilandia/Santana,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-978T-10,978T-10,Jd Guarani/Metro Barra Funda,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9785-10,9785-10,Terezinha/Barra Funda,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9785-51,9785-51,Jd Carombe/Ttvn Cachoeirinha,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-27,249,1
+ONI-9789-10,9789-10,Jd Dos Guedes/Barra Funda,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-N137-11,N137-11,Term Pirituba/Perus,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-30,355,1
+ONI-1017-10,1017-10,Perus/Vila Iorio,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1020-10,1020-10,Perus/Conexao Vila Iorio,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1024-10,1024-10,Jd Carombe/Conex Petronio Port,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1025-10,1025-10,Jardim Carombé/Lapa,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-1026-10,1026-10,Vila Iara/Conex Petron Portela,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8015-10,8015-10,Cem.Perus/Term.Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-8015-21,8015-21,Cemite De Perus/Est De Perus,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-30,251,1
+ONI-8016-10,8016-10,Jd.Rincao/Term.Pirituba,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-848L-10,848L-10,Recanto Dos Humildes/Term Prin,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-9784-10,9784-10,Jd Dos Francos/Barra Funda,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-01,2024-12-31,366,1
+ONI-N232-11,N232-11,Metro Tucuruvi/Pq Novo Mundo,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-N234-11,N234-11,Metro Tucuruvi/Largo Do Peri,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,365,1
+ONI-N241-11,N241-11,Metro Santana/Vila Albertina,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1016-10,1016-10,Cemiterio Do Horto/Center Nort,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1018-10,1018-10,Vila Rosa/Santana,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-118Y-10,118Y-10,Lauzane Paulista/Lapa,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-121G-10,121G-10,Pq Novo Mundo/Jacana,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-128Y-10,128Y-10,Jd Pery Alto/Lapa,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1701-10,1701-10,Jova Rural / Anehembi,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1701-21,1701-21,Jova Rural/Metro Tucuruvi,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1701-22,1701-22,Jova Rural/Metro Tucuruvi,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-02,2024-12-27,254,1
+ONI-1705-10,1705-10,Jd Sao Joao /Metro Tucuruvi,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1705-51,1705-51,Cem Pq Pinheiros/Metro Tucuruv,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-02,2024-12-27,250,1
+ONI-1709-10,1709-10,Jd Joamar/Metro Tucuruvi,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1709-21,1709-21,Jd Joamar/Metro Santana,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-04,2024-12-27,247,1
+ONI-172J-10,172J-10,Jd Brasil/Tatuape,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-172P-10,172P-10,Vila Zilda/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-172R-10,172R-10,Jd Brasil/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-172X-10,172X-10,Pq Novo Mundo/Tatuape,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-172Y-10,172Y-10,Vila Constança/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1720-10,1720-10,Jd Guanca/Cantareira,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1720-21,1720-21,Vila Sabrina/Metro Tucuruvi,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1722-10,1722-10,Jd Marina/Tucuruvi,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1730-10,1730-10,Center Norte/Santana,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1738-10,1738-10,Vila Constancia/Metro Carandir,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1775-10,1775-10,Vila Albertina/Center Norte,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-178Y-10,178Y-10,Vila Amelia/Metro Jd Sao Paulo,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-178Y-21,178Y-21,Cj Dos Bancarios/M Jd Sao Paul,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-02,2024-12-27,251,1
+ONI-1780-10,1780-10,Jd Hebron/Term Parada Inglesa,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1785-10,1785-10,Vila Aurora/Metro Santana,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1786-10,1786-10,Vila Albertina/Metro Santana,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1787-10,1787-10,Vila Marieta/Metro Santana,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-9002-10,9002-10,Jd Pery Alto/Term V N Cachoeir,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-N231-11,N231-11,Term Cachoeirinha/Pedra Branca,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1206-10,1206-10,Pq Vila Maria/Correio,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-1702-10,1702-10,Jova Rural/Tiete,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-172K-10,172K-10,Jd Tremembe/Tatuape,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-172U-10,172U-10,Cem P Pinheiros/Mooca,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-179X-10,179X-10,Jd Fontalis/Bom Retiro,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-2013-10,2013-10,Jd Robru/Est Itaim Paulista,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-2014-10,2014-10,Jd Peri Alto/Metro Barra Funda,Ônibus,SPTrans,Local de Distribuição,D02,2024-01-01,2024-12-31,366,1
+ONI-N333-11,N333-11,Term Sao Miguel/Cidade Kemel,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,365,1
+ONI-2004-10,2004-10,Jd Miriam/Guaianazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2005-10,2005-10,Jd Romano/Sao Miguel,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2006-10,2006-10,Cidade Kemel I /Itaim Paulista,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2007-10,2007-10,Cidade Kemel Ii/Sao Miguel,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2008-10,2008-10,Jd N Sra Caminho/Estacao Itaim,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2009-10,2009-10,Jd Robru/Guaianazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2021-10,2021-10,Jd Bandeirantes/Est Guaianazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2201-10,2201-10,Divisa De Ferraz/Guaianazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2202-10,2202-10,Hosp Itaim/Guaiazazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2702-10,2702-10,Vila Americana/Metro A Alvin,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2702-21,2702-21,Jd Pedro J Nunes/Metro A Alvim,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-02,2024-12-27,250,1
+ONI-2703-10,2703-10,Jd Etelvina/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2703-21,2703-21,Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-02,2024-12-27,250,1
+ONI-2703-22,2703-22,Jd Gianetti/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-02,2024-12-27,250,1
+ONI-2704-10,2704-10,Jd Robru/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2705-10,2705-10,Jd Fanganielo/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2707-10,2707-10,Chabilandia/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-2707-31,2707-31,Chabilandia/Metro Itquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-02,2024-12-27,252,1
+ONI-2708-10,2708-10,Jd Lajeado/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3002-10,3002-10,Jd Mabel/Sao Miguel,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3006-10,3006-10,Jd Fanganielo/Es Cptm Guaianaz,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3006-21,3006-21,Etc Guaianazes/Cptm Guaianazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-02-20,2024-12-20,184,1
+ONI-3008-10,3008-10,Jd Miriam/Cptm Itaim Paulista,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3009-10,3009-10,Itaim Paulista/Sao Miguel,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-02,2024-12-31,357,1
+ONI-3010-10,3010-10,Cem Da Saudade/Term A E Carval,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3026-10,3026-10,Vila Iolanda Ii/Est Guaianz Cp,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3033-10,3033-10,Guaianazes/Sao Mateus,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3064-10,3064-10,Cidade Tiradentes/Est Guaianaz,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3064-41,3064-41,S Etelvina Ii B6/T Cid Tiraden,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3754-10,3754-10,Inacio Monteiro/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3756-10,3756-10,Barro Branco/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3768-10,3768-10,Vila Yolanda/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-3795-10,3795-10,Jd Sao Carlos/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-4019-10,4019-10,Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-4051-10,4051-10,Jd Sao Paulo/Cptm Guaianazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-4052-10,4052-10,Cptm Guaianazes/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-4053-10,4053-10,Guaianazes/Cptm Jose Bonifacio,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-4055-10,4055-10,Cptm Guaianazes/Vila Solange,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-4056-10,4056-10,Term S Mateus/Pq Boa Esperança,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-407T-10,407T-10,Jd Redil/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D03,2024-01-01,2024-12-31,366,1
+ONI-N341-11,N341-11,Term Sao Miguel/Vila Cisper,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,364,1
+ONI-2016-10,2016-10,Jd Das Oliveiras/Sao Miguel,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2017-10,2017-10,Jd Robru/Sao Miguel,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2018-10,2018-10,Jd Campos/Sao Miguel Circular,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2019-10,2019-10,Pq Paineiras/Shopping Penha,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2203-10,2203-10,Burgo Paulista/Shop Penha,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2726-10,2726-10,Limoeiro/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2730-10,2730-10,Vila Jacui/Metro A Alvin,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2731-10,2731-10,Vila Progresso/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-2734-10,2734-10,Jd Campos/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-3051-10,3051-10,Erm Matarazzo/Term A E Carvalh,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-4085-10,4085-10,Cohab Faze Do Carmo/M Itaquera,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-4093-10,4093-10,Cidade Tiradentes/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D04,2024-01-01,2024-12-31,366,1
+ONI-N438-11,N438-11,M Itaquera/Hosp Sta Marcelina,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-N440-11,N440-11,Term V Carrao/Savoy Dalila,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,362,1
+ONI-3013-10,3013-10,Term Cidade Tiraden/Metalurgic,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,364,1
+ONI-3019-10,3019-10,Term Cidade Tiradentes/Vila Pa,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,362,1
+ONI-3020-10,3020-10,Conj Jose Bonifacio/Shop Arica,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3025-10,3025-10,Jd Wilma Flor/Est Guaianazes C,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3027-10,3027-10,Vila Minerva/Shop Aricanduva,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3031-10,3031-10,J Alto Paulistan/Metro Itaquer,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3054-10,3054-10,Jd Palanque/Jd Tiete,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-342C-10,342C-10,Jd Marilia/Penha,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-342N-10,342N-10,Cohab Jusc.Kubisc/Penha,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3712-10,3712-10,Jd Sao Joao/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3712-51,3712-51,Vl Cosmopolita/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3718-10,3718-10,Metro A Alvin/Nova America,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-372F-10,372F-10,Fac Sao Judas Tadeu/Metr Bress,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-02,2024-12-30,314,1
+ONI-3721-10,3721-10,Jd Marilia/Metro A Alvim,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3721-41,3721-41,Jd Marilia/Metro Arthur Alvim,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3722-10,3722-10,Cohab J Bonifacio/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-02,2024-12-30,323,1
+ONI-3728-10,3728-10,Metro A Alvin/Pq Savoy City,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3728-41,3728-41,Metr Artur Alvim/Pq Nova Savoy,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-02,2024-12-31,360,1
+ONI-373L-10,373L-10,Jd Limoeiro/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3732-10,3732-10,Cohab Jose Bonifacio/Metro Ita,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3735-10,3735-10,Metro A Alvin/Jd Sao Joao Circ,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3735-21,3735-21,Metro Artur Alvim/Jd S Joao,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-02,2024-12-27,250,1
+ONI-3735-41,3735-41,Jd São Jose/Metro Artur Alvim,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3736-10,3736-10,Jd N S P Carmo/Metro A Alvim,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3738-10,3738-10,Cohab Juscelino/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3739-10,3739-10,Recanto Verde Sol/Metro Itaque,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3741-10,3741-10,Est Dom Bosco/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3742-10,3742-10,Jd Das Laranjeiras/M Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3743-10,3743-10,Sao Mateus/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3751-10,3751-10,Cohab Prestes Maia/Metr Itaque,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3761-10,3761-10,3A Divisao/Metro Carrao,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3766-10,3766-10,Cohab Ii/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-02,2024-12-28,313,1
+ONI-3766-51,3766-51,Cohab Ii/ Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,181,1
+ONI-3773-10,3773-10,Res Santa Barbara/Metro Carrao,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3785-10,3785-10,Cohab Barro Branco/Metro Itaqu,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3787-10,3787-10,Cid.Tiradentes/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3789-10,3789-10,Cidade Tiradentes/Metro Itaque,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-3796-10,3796-10,Gleba Do Pessego/Metro Itaquer,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-4020-10,4020-10,E T Itaquera/Jd Novo Horizonte,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-4021-10,4021-10,Metro Itaquera/Vila Chuca,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-4086-10,4086-10,Cid Tiradentes/Term Cid Tirade,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-4092-10,4092-10,Setor Iib/Term Cid Tiradentes,Ônibus,SPTrans,Local de Distribuição,D05,2024-01-01,2024-12-31,366,1
+ONI-N332-11,N332-11,Term A E Carvalho/Vila Cisper,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-N344-11,N344-11,Term Penha /Vila Cisper,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,363,1
+ONI-N433-11,N433-11,Term V Carrao/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2709-10,2709-10,Vila Uniao/Metro Patriarca,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2709-31,2709-31,Vila Uniao/Metro Patriarca,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2710-10,2710-10,Metro Patriarca/Burgo Paulista,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2710-31,2710-31,Metro Patriarca/Vl.S Francisco,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-02,2024-12-28,306,1
+ONI-2711-10,2711-10,Ponte Rasa/Metro Patriarca,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2712-10,2712-10,Jd Sao Nicolau/Metro A Alvin,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2714-10,2714-10,Vl Rui Barbosa/Metro V Matilde,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2715-10,2715-10,Vila Silvia/Metro Patriarca,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2716-10,2716-10,Chac Cruz Do Sul/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2717-10,2717-10,Metro Guilhermina/Cangaiba,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2718-10,2718-10,Vila Silvia/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2719-10,2719-10,Ermelino Matarazzo/Metr V Mati,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2720-10,2720-10,Jd Belem/Metro Guilhermina,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2720-31,2720-31,Metro Guilhermina/Jd Belem,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,327,1
+ONI-2721-10,2721-10,Jd Nazare/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2722-10,2722-10,Jd Veronia/Metr Guilhermina,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2722-31,2722-31,Jd Veronia/Metro Guilhermina,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2723-10,2723-10,Uniao De V Nova/Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2724-10,2724-10,Metro A Alvin/Conj Araucaria,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2725-10,2725-10,Jd Sao Carlos/Metro A Alvin,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2727-10,2727-10,Conj A E Carv/Metro A Alvin,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2728-10,2728-10,Jd Castelo/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2732-10,2732-10,Vila Regina/Metro A Alvin,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2733-10,2733-10,Pq Guarani/Metro Itaquera Circ,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2735-10,2735-10,Jd Keralux/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2735-21,2735-21,Jd Sao Francisco/Metro Penha,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-02,2024-12-27,257,1
+ONI-3023-10,3023-10,Shop Aricanduva/Pq Sao Rafael,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3029-10,3029-10,Jd Das Rosas/Metro Tatuape,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3046-10,3046-10,Vila Guarani/Tatuape,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3053-10,3053-10,Jd Itapolis/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3069-10,3069-10,J Recanto Verde Sol/T S Mateus,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3134-10,3134-10,Shop Aricanduva/Metro Tamandua,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-372U-10,372U-10,Vila Santa Isabel/Metro Tatuap,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3725-10,3725-10,Metro V Matilde/Vila Dalila,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3725-41,3725-41,Metro Vl Matilde/Vl Aricanduva,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3729-10,3729-10,Shop Aricanduva/Metro Carrao,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3731-10,3731-10,Shop Aricanduva/Metro V Matild,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3734-10,3734-10,Cidade Lider/Metro A Alvim,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3737-10,3737-10,Shop Aricanduva/Metr Guilherm,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3737-31,3737-31,M.Guilhermina/M.Patriarca Circ,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-374V-10,374V-10,Vila Verde / Metro Itaquera,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3745-10,3745-10,Jd Imperador/Tatuape,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3762-10,3762-10,Jd Iva/Metro Tatuape,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3763-10,3763-10,Term Vl Carrao/Metro Tatuape,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3778-10,3778-10,Jd Sta Terezinha/Metro Carrao,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-3791-10,3791-10,Shop Aricanduva/Metro A Alvim,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-4724-10,4724-10,Metro Patriarca/Vila Nhocune,Ônibus,SPTrans,Local de Distribuição,D06,2024-01-01,2024-12-31,366,1
+ONI-2590-10,2590-10,Uniao De Vila Nova/Pq D Pedro,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-3161-10,3161-10,Jd Colorado/Term P D Pedro Ii,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-02,2024-12-31,365,1
+ONI-476G-10,476G-10,Jardim Elba/Ibirapuera,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-476G-41,476G-41,Vila Industrial/Metro Ana Rosa,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-513C-10,513C-10,Vila California/E. T. Itaquera,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-513C-31,513C-31,Vl California/E. T. Itaquera,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-573A-10,573A-10,Metro Bresser/Vila Alpina,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-574C-10,574C-10,Term.Sao Mateus/Div.S.Caetano,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-574R-10,574R-10,Term.Sapopemba/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-575A-10,575A-10,Div.S.Caetano/Shop Met.Tatuape,Ônibus,SPTrans,Local de Distribuição,D07,2024-01-01,2024-12-31,366,1
+ONI-N534-11,N534-11,Term Sacoma/Vila Arapua,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,338,1
+ONI-N536-11,N536-11,Term Sacoma/Jardim Itapolis,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,364,1
+ONI-N539-11,N539-11,Term Sacoma/Hosp Heliopolis,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,348,1
+ONI-3098-10,3098-10,Jd Sao Francisco/Shop Aricandu,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-3098-31,3098-31,Sao Mateus / Sao Rafael,Ônibus,SPTrans,Local de Distribuição,D08,2024-02-18,2024-12-31,318,1
+ONI-3099-10,3099-10,Nove De Julho/Jd Da Conquista,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-3112-10,3112-10,Vila Industrial/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-364A-10,364A-10,Ipiranga/Shop Aricanduva,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-373T-10,373T-10,Jd Itapolis/Metro Bresser,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4025-10,4025-10,Vila California/Metro Tatuape,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4027-10,4027-10,Hosp Sao Mateus/Jd Santo Andre,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4027-41,4027-41,Pq Das Flores/Sao Mateus,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,360,1
+ONI-4028-10,4028-10,Hosp Sao Mateus/Pq Das Flores,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4029-10,4029-10,Sao Mateus/Vla Prudente,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4030-10,4030-10,Fazenda Da Juta/Shop Aricanduv,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,365,1
+ONI-4031-10,4031-10,Pq Sta Madalena/Central Plaz S,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,365,1
+ONI-4032-10,4032-10,Vila Das Merces/Objetivo Unip,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4033-10,4033-10,Jd Guairaca/Nova Conquista,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-414P-10,414P-10,Vila Industrial/Penha,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4716-10,4716-10,Sacoma/Metro Santa Cruz,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4726-10,4726-10,Mooca / Metro Tatuape,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4729-10,4729-10,Pq Bancario/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,365,1
+ONI-4734-10,4734-10,Vila Moraes/Metro Saude,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-4734-21,4734-21,Vila Moraes/Metro Saude,Ônibus,SPTrans,Local de Distribuição,D08,2024-02-19,2024-12-27,203,1
+ONI-4735-10,4735-10,Sao Mateus/Metro Carrao,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-02,2024-12-30,353,1
+ONI-5020-10,5020-10,Hosp Heliop/Term Sacoma,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-5025-10,5025-10,Jd Guairaca/Metro Tamanduatei,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-5031-10,5031-10,Vila Arapua/Term Sacoma,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-5031-21,5031-21,Vila Conde Do Pinhal/Term Saco,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-02,2024-12-27,258,1
+ONI-5032-10,5032-10,Vila Arapua/Term Sacoma,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-5035-10,5035-10,Vila Arapua/Term Sacoma,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-514T-10,514T-10,Term Sacoma/Jd Itapolis,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-524L-10,524L-10,Pq Sao Lucas/Tatuape,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-524M-10,524M-10,Masc.Moraes/Shop.Aricanduva,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-573H-10,573H-10,Hosp.Sapopemba/Metro Bresser,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-573T-10,573T-10,Term.Sapopemba/Metro Carrao,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-573T-31,573T-31,Term Sapopemba/Teotonio Vilela,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-02,2024-12-27,252,1
+ONI-574W-10,574W-10,Jd. Walkiria/Metro Belem,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-01,2024-12-31,366,1
+ONI-9930PR,9930PR,Terminal Sacoma,Ônibus,SPTrans,Local de Distribuição,D08,2024-01-02,2024-12-30,249,1
+ONI-N637-11,N637-11,Metro Jabaquara/Jardim Miriam,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-N640-11,N640-11,Term Santo Amaro/Eldorado,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5010-10,5010-10,Cidade Vargas/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5011-10,5011-10,Eldorado/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5012-10,5012-10,Jd Guacuri/Jabaquara,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5013-10,5013-10,Jd Luso/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5013-31,5013-31,Jd Miriam/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-02,2024-12-27,255,1
+ONI-5015-10,5015-10,Jd Sao Jorge/Jabaquara,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5018-10,5018-10,Shop. Interlagos - Jabaquara,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5018-31,5018-31,Shopping Interlagos/Jabaquara,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5022-10,5022-10,Vila Sta Margarida/Jabaquara,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5024-10,5024-10,Vila Missionaria/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5024-31,5024-31,Vila Missionaria/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5123-10,5123-10,Jd Miriam/Hosp Sao Paulo,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5127-10,5127-10,Vila Guacuri/Rio Pequeno,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5128-10,5128-10,Jd Apura/Shop Morumbi,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-517J-10,517J-10,Jd Selma/Pinheiros,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-527R-10,527R-10,Vila Imperio/Real Parque,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-546A-10,546A-10,Jd Apura/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-546A-31,546A-31,Jd Apura/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-546J-10,546J-10,Jd Selma/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-546J-31,546J-31,Jd Selma/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,330,1
+ONI-546J-41,546J-41,Jd Selma/Colegio Santa Maria,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-29,2024-12-13,199,1
+ONI-546T-10,546T-10,Vila Guacuri/Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5701-10,5701-10,Vila Santa Catarina/Metro Conc,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5702-10,5702-10,Cidade Julia/Metro Jabaquara,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5752-10,5752-10,V. Missionaria/Metro Conceicao,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5757-10,5757-10,Jd. Miriam/Metro Conceicao,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5757-51,5757-51,Pedreira/Metro Conceiçao,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5759-10,5759-10,Pq Primavera/Metro Conceicao,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-5759-31,5759-31,Pq Primavera/Metro Conceicao,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-607A-10,607A-10,Jd Apura/Socorro,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-607A-21,607A-21,Jd Apura/Estaçao Jurubatuba,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-02,2024-12-27,255,1
+ONI-627J-10,627J-10,Jd Miriam/Metro Sao Judas,Ônibus,SPTrans,Local de Distribuição,D09,2024-01-01,2024-12-31,365,1
+ONI-N635-11,N635-11,Term Grajau/Jardim Gaivotas,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-N636-11,N636-11,Term Grajau/Jardim Noronha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-N638-11,N638-11,Term Grajau/Unisa,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-N639-11,N639-11,Term Grajau/Vargem Grande,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-TREI-10,TREI-10,Treinamento,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-05,2024-12-30,50,4
+ONI-6L01-10,6L01-10,Marsilac/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L01-22,6L01-22,Vila Progresso/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,248,1
+ONI-6L01-23,6L01-23,Embura / Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,248,1
+ONI-6L02-10,6L02-10,Eucaliptos/Term Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L03-10,6L03-10,Cipo Meio / Term Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L04-10,6L04-10,Jd Oriental/Term Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L04-41,6L04-41,Jd Fontes/Term Parelh,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-30,325,1
+ONI-6L04-42,6L04-42,Jd Oriental/Term Parelh,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-30,325,1
+ONI-6L05-10,6L05-10,Barragem/Term Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L05-21,6L05-21,Cid Nova America/Term Parelhei,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-04,2024-12-27,246,1
+ONI-6L07-10,6L07-10,Jd Santa Fe/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-30,324,1
+ONI-6L08-10,6L08-10,Papai Noel/Term Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L10-10,6L10-10,Pq Florestal/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L10-41,6L10-41,Messianica/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6L11-10,6L11-10,Ilha Do Borore/Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6016-10,6016-10,Jd Noronha/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6016-41,6016-41,Jd Porto Velho/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6020-10,6020-10,Chac Bosque Do Sol/Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,249,1
+ONI-6020-51,6020-51,Estrada Do Jusa/Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,249,1
+ONI-6021-10,6021-10,Terminal Varginha/Jardim Nova,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6027-10,6027-10,Jd Graúna - Term Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6030-10,6030-10,Faculdade Osec/Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6031-10,6031-10,Jd S Bernardo - Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6034-10,6034-10,Pq Res Cocaia - Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6050-10,6050-10,J Vale Das Virtudes/Santo Amar,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6051-10,6051-10,Jd Itajai/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6051-31,6051-31,Jd.Itajai/Term.Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,250,1
+ONI-6052-10,6052-10,J Sete Setembro/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6052-31,6052-31,Jd Almeida Prado/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,249,1
+ONI-6053-10,6053-10,Jd Ellus/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6055-10,6055-10,Jd Sao Bernardo/Shop Interlago,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6056-10,6056-10,Pq Santa Cecilia/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-31,363,1
+ONI-6057-10,6057-10,Vila Natal/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6058-10,6058-10,Jd Noronha/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-606Y-10,606Y-10,Est Mendes/Vl Natal Chac Conde,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6061-10,6061-10,Jd Marilda/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6062-10,6062-10,Jd Castro Alves/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6062-51,6062-51,Jd Castro Alves/Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6063-10,6063-10,Jd Varginha/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6063-21,6063-21,Jd Novo Horizonte/Ter Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,248,1
+ONI-6063-41,6063-41,Jd Varginha/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6063-42,6063-42,Chacara Sto Amaro/Ter Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6063-43,6063-43,Vila Da Paz/Terminal Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6069-10,6069-10,Jd Sao Bernardo/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6071-10,6071-10,Jd Orion/Term Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6072-10,6072-10,Jd Sao Nicolau/Term. Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6072-21,6072-21,Jd Ipora/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,246,1
+ONI-6072-23,6072-23,Term Varginha/Balneario S Jose,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6073-10,6073-10,Jd Santa Terezinha/Term Vargin,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6074-10,6074-10,Jd Gaivotas/Est Jurubatuba,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6075-10,6075-10,Jd Rec Campo Belo/T Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6076-10,6076-10,Jd Progresso/Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6076-41,6076-41,Jd Satelite Ii/Term Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-31,362,1
+ONI-6078-10,6078-10,Cantinho Do Ceu/Shop Interlago,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6080-10,6080-10,Jd Lucelia/Shop Interlagos,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6083-10,6083-10,Term Grajau/Jd Eliana,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6084-10,6084-10,Jd Chacara Do Sol/Term Varginh,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6092-10,6092-10,Jd Das Pedras/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6093-10,6093-10,Vargem Grande/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6099-10,6099-10,Papai Noel - Term.Parelheiros,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6115-10,6115-10,Cantinho Do Ceu/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6115-41,6115-41,Pq Res Dos Lagos/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,266,1
+ONI-6116-10,6116-10,Jd Prainha/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6118-10,6118-10,Jd Icarai/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6120-10,6120-10,Jd Lucelia/Term Grajau,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-6726-10,6726-10,Jd Gaivota/Metro Ana Rosa,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-01,2024-12-31,365,1
+ONI-9940PR,9940PR,Terminal Grajau - 6726-10,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,246,1
+ONI-9941PR,9941PR,Terminal Grajau - 6093-10,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-12-27,245,1
+ONI-N736-11,N736-11,T Jd Angela/Jd Horizonte Azul,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-N737-11,N737-11,Term Jd Angela/Parque Do Lago,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-N738-11,N738-11,Term Guarapiranga/Pq Do Lago,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-N739-11,N739-11,Term Capelinha/Jd Universal,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-N740-11,N740-11,Term Jd Angela/Jd Riviera,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-N743-11,N743-11,Term Joao Dias/Jardim Planalto,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-N746-11,N746-11,Term Campo Limpo/Jardim Irene,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-6008-10,6008-10,Jd Planalto/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6008-41,6008-41,Jd Angela/Jd Copacabana,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-27,251,1
+ONI-6010-10,6010-10,Jd Sao Luiz/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6012-10,6012-10,Jd Angela/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6012-31,6012-31,Pq Independencia/Jd Angela,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-27,257,1
+ONI-6015-10,6015-10,Vila Calu/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6017-10,6017-10,Jd Nakamura/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6022-10,6022-10,Pq Cerejeira/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6028-10,6028-10,Riviera/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6035-10,6035-10,Jd Gilda/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6035-21,6035-21,V Gilda/Term Guarapiranga,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-30,325,1
+ONI-6036-10,6036-10,Jd Macedonia/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6037-10,6037-10,Jd Mitsutani/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6039-10,6039-10,Valo Velho/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6039-21,6039-21,Terminal Capelinha/Cohab,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6041-10,6041-10,Jd Jangadeiro/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6041-21,6041-21,Monte Azul/Term Joao Dias,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-27,251,1
+ONI-6042-10,6042-10,Jd Tres Estrelas/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-31,361,1
+ONI-6042-21,6042-21,Jd Sonia/Inga,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-31,325,1
+ONI-6043-10,6043-10,Jd Capelinha/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6044-10,6044-10,Jd Sto Eduardo/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6045-10,6045-10,Valo Velho/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6045-21,6045-21,Valo Velho/Capao Redondo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-27,273,1
+ONI-6046-10,6046-10,Jd Sao Bento Novo/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-6047-10,6047-10,Jd Lidia/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6059-10,6059-10,Jd Universal/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6258-10,6258-10,Jd Sao Francisco/Chac Sto Anto,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-6258-31,6258-31,Pq Figueira G/T Guarapiranga,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-677Y-10,677Y-10,Jd Guaruja/Vila Guarani,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-6812-10,6812-10,Jd Capela/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-7005-10,7005-10,Jd Vera Cruz/Jd Angela,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-31,363,1
+ONI-7005-51,7005-51,Jd Vera Cruz/M Capao Redondo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7006-10,7006-10,Jd Horizonte Azul/Jd Angela,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7006-51,7006-51,Jd Horizon Azul/M Capao Redon,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7009-10,7009-10,Jd Sao Lourenço/Jd Angela,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-701H-10,701H-10,Hosp. Guarapiranga - Circular,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-08,2024-12-04,53,1
+ONI-7011-10,7011-10,Jd Dos Reis/Jd Angela,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-7011-31,7011-31,Jd Dos Reis/Jd Angela,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-31,363,1
+ONI-7012-10,7012-10,Pq Do Lago/Term Guarapiranga,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7017-10,7017-10,Jd Guaruja/Term Guarapiranga,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7049-10,7049-10,Parque Do Lago/T Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7051-10,7051-10,Jd Rosana/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-7052-10,7052-10,Jd Helga/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,365,1
+ONI-7053-10,7053-10,Jd Macedonia/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7053-21,7053-21,Jd Maria Sampaio/T Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-27,251,1
+ONI-7053-22,7053-22,Jd Maria Sampaio/T Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7054-10,7054-10,Jd Macedonia/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-31,362,1
+ONI-7055-10,7055-10,Jd Guaruja/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7057-10,7057-10,Jd Mitsutani/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7062-10,7062-10,Inocoop C Limpo/T Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7062-31,7062-31,Campo Limpo/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7062-41,7062-41,Metro Campo Limpo/Horto Do Ype,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-7063-10,7063-10,Jd Macedonia/Term Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,364,1
+ONI-N843-11,N843-11,Term Capelinha/Jardim Arariba,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-6412-10,6412-10,Paraisopolis/Term Princ Isabel,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-6418-10,6418-10,Real Parque/Term Bandeira,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-02,2024-12-28,294,1
+ONI-6837-10,6837-10,Jd Das Palmas-Term Capelinha,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-7013-10,7013-10,Pq Arariba/Pinheiros,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-745M-10,745M-10,Campo Limpo/Shop Sp Market,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-745M-21,745M-21,Cohab Adventista/Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-02,2024-12-27,248,1
+ONI-746K-10,746K-10,Paraisopolis/Brooklin,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-746P-10,746P-10,Paraisopolis/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-746R-10,746R-10,Real Parque/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-746V-10,746V-10,Jd Reboucas/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-756A-10,756A-10,Jd Paulo Vi/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-775F-10,775F-10,Jd Das Palmas/Hosp Clinicas,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-775F-31,775F-31,Jd Das Palmas/Pq Do Povo,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-8028-10,8028-10,Paraisapolis/Estaçao Morumbi,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-8029-10,8029-10,Shop Portal/Terminal Morimbi,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-8030-10,8030-10,Paraisópolis - Metrô Morumbi,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-807J-10,807J-10,Term Campo Limpo/Shop Morumbi,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-02,2024-12-30,323,1
+ONI-807M-10,807M-10,T Campo Limpo/Shopping Morumbi,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-807P-10,807P-10,Paraisopolis/Sant0 Amaro,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-8072-10,8072-10,Pq Ipe/Butanta,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-8073-10,8073-10,Jd Guarau/Butanta,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-8078-10,8078-10,Jd Das Palmas/Metro Campo Limp,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-809L-10,809L-10,Campo Limpo/Lapa,Ônibus,SPTrans,Local de Distribuição,D12,2024-01-01,2024-12-31,364,1
+ONI-N837-11,N837-11,Term Joao Dias/Cdhu Butanta,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,363,1
+ONI-7002-10,7002-10,Jd Rosa Maria/Hosp Clinicas,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-7040-10,7040-10,Paraisopolis/Pinheiros,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-736G-10,736G-10,Jd Inga/Borba Gato,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-736I-10,736I-10,Jd Inga/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-746C-10,746C-10,Jd Taboao/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-746H-10,746H-10,Jd Jaqueline/Sto Amaro,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-8025-10,8025-10,Jd Rosa Maria/Butanta,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-8026-10,8026-10,Jd Inga/Butanta,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-8038-10,8038-10,Jaguare/Lapa,Ônibus,SPTrans,Local de Distribuição,D13,2024-01-01,2024-12-31,364,1
+ONI-N105-11,N105-11,Term Cachoeirinha/Term Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8000-01,8000-01,Term Lapa/Pca Ramos De Azevedo,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8300-01,8300-01,Term Pirituba/Term Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-27,251,1
+ONI-8538-10,8538-10,Vila Iara/Paissandu,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-28,298,1
+ONI-8542-21,8542-21,Brasilandia/Terminal Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-917M-10,917M-10,Morro Grande/Metro Ana Rosa,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-31,365,1
+ONI-917M-31,917M-31,Morro Grande/Metro Ana Rosa,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-27,249,1
+ONI-938L-10,938L-10,Ttvn Cachoeirinha/Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-978A-10,978A-10,Ttvn Cachoeirinha/Mbarra Funda,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-N101-11,N101-11,Term Lapa/Term Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-N102-11,N102-11,Term Lapa/Term Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-N103-11,N103-11,Term Pirituba/Term Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-N104-11,N104-11,Term Pirituba/Term Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-N106-11,N106-11,T Pq D Pedro /Met Barra Funda,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-129F-10,129F-10,Conex Petron Port/M Barra Fund,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-129F-41,129F-41,Con Petron Port/Pca Do Correio,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-27,253,1
+ONI-1896-10,1896-10,Jaragua/Praça Ramos De Azevedo,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-199D-10,199D-10,Vila Lorio/Terminal Pinheiros,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-209P-01,209P-01,Cachoeirinha/Term Pinheiros,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8000-10,8000-10,Term Lapa/Pca Ramos,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-31,341,2
+ONI-8050-10,8050-10,Pq Morro Doce/Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8050-21,8050-21,Anhanguera/Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-27,248,1
+ONI-8050-31,8050-31,Pq Morro Doce/Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-30,327,1
+ONI-8055-10,8055-10,Perus/Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8055-51,8055-51,Perus/Barra Funda,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8100-10,8100-10,Termpirituba/Term Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8200-10,8200-10,Term Pirituba/Termpirituba,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8215-10,8215-10,Jd Paulistano/Pca Do Correio,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8300-10,8300-10,Term Pirituba/Term Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8400-10,8400-10,Term Pirituba/Pca Ramos,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-846M-10,846M-10,Jd Marisa/Shop Ibirapuera,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-31,365,1
+ONI-847P-10,847P-10,Term Pirituba/Itaim Bibi,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-847P-42,847P-42,Vila Brasilandia/Itaim Bibi,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-31,364,1
+ONI-8500-10,8500-10,Term Pirituba/Barra Funda,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8528-10,8528-10,Jd Guarani/Pca Do Correio,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8544-10,8544-10,Cid Dabril 3 Gleba/Pc Ramos Az,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-31,364,2
+ONI-8549-10,8549-10,Taipas/Pca Do Correio,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8594-10,8594-10,Cid Dabril/Pca Ramos Azevedo,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8594-21,8594-21,Cid Pirituba/Pca Ramos Azevedo,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-27,248,1
+ONI-8594-41,8594-41,Cohab Pedra Verde/Pca Ramos Az,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-27,248,1
+ONI-8600-10,8600-10,Term Pirituba/Lgo Paissandu,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8600-22,8600-22,Term Pirituba/Lgo Do Paissandu,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-27,250,1
+ONI-8622-10,8622-10,Morro Doce/Pca Ramos De Azeved,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-8677-10,8677-10,Jd Libano/Pca Ramos De Azevedo,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-8686-10,8686-10,Mangalot/Pca Ramos Azevedo,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-30,355,1
+ONI-917H-10,917H-10,Mercado Pirituba/Vla Mariana,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-9301-10,9301-10,Term Casa Verde/Paissandu,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-938C-10,938C-10,Cohab Taipas/Term Princ Isabel,Ônibus,SPTrans,Estrutural,E01,2024-01-02,2024-12-31,364,1
+ONI-938C-21,938C-21,Cohab Taipas/Terminal Lapa,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,83,1
+ONI-9500-10,9500-10,Term Cachoeirinha/Paissandu,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-9501-10,9501-10,Term  Cachoeirinha/Paissandu,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-957T-10,957T-10,Cohab Taipas/Itaim Bibi,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-9653-10,9653-10,Pedra Branca/Lgo Do Paissandu,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,2
+ONI-975A-10,975A-10,Vila Brasilandia/Metro Ana Ros,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-978J-10,978J-10,Voith/Pca Princ Isabel,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-978L-10,978L-10,Term Cachoeirnha/Term P Isabel,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,366,1
+ONI-N202-11,N202-11,Met Santana/Term Pinheiros,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-N205-11,N205-11,Term Cachoeirinha/Term Pinheir,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-106A-10,106A-10,Metro Santana / Itaim Bibi,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-107T-10,107T-10,Cid Universit/ Metro Tucuruvi,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-1156-10,1156-10,Vila Sabrina/Pc Do Correio,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-119C-10,119C-10,Vila Sabrina/Term Princ Isabel,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-172N-10,172N-10,Shop Center Norte/Metro Belem,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-1732-10,1732-10,Vila Sabrina/Metro Santa Cecil,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-175P-10,175P-10,Edu Chaves/Ana Rosa,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-175T-10,175T-10,Metro Santana/Metro Jabaquara,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-177H-10,177H-10,Metro Santana/Butanta- Usp,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-29,311,1
+ONI-177H-21,177H-21,Metro Santana/Pinheiros,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,176,1
+ONI-177Y-10,177Y-10,Casa Verde/Pinheiros,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-178A-10,178A-10,Imirim/Lapa,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-178T-10,178T-10,Metro Santana/Ceasa,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,2
+ONI-208M-10,208M-10,Metro Santana/Term Pinheiros,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-209P-10,209P-10,Cachoeirinha/Term Pinheiros,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-2104-10,2104-10,Metro Santana/Term Pq D Pedro,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-2123-10,2123-10,Vila Medeiros/Metro Liberdade,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-31,365,1
+ONI-2127-10,2127-10,Jd Brasil/Metro Liberdade,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-2161-10,2161-10,Pq Edu Chaves/Pca Do Correio,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,2
+ONI-2182-10,2182-10,Jd Brasil/Pca Do Correio,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-271A-10,271A-10,Term Penha/Metro Santana,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-271A-51,271A-51,Cangaiba/Metro Santana,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-271C-10,271C-10,Pq Vila Maria/Pca Da Republica,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-271F-10,271F-10,Metro Belem/Shop Center Norte,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-272N-10,272N-10,Pq Novo Mundo/Metro Bras,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-31,365,1
+ONI-701A-10,701A-10,Pq Edu Chaves/Metro V Madalena,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-701U-10,701U-10,Jacana/Butanta Usp,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-28,309,1
+ONI-9300-10,9300-10,Term.Casa Verde-Pq.D.Pedro Ii,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,2
+ONI-9354-10,9354-10,N Sra Fatima/Term Correio,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-967A-10,967A-10,Imirim/Pinheiros,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-31,310,2
+ONI-971C-10,971C-10,Cohab/Metro Santana,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-971R-10,971R-10,Estacao Jaragua/Metro Santana,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-971R-21,971R-21,Jd Damasceno/Metro Santana,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-27,249,1
+ONI-971R-42,971R-42,Cdhu Voith/Metro Santana,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-28,307,1
+ONI-971R-51,971R-51,Chica Luisa/Metro Santana,Ônibus,SPTrans,Estrutural,E02,2024-01-02,2024-12-27,249,1
+ONI-971X-10,971X-10,Term Cachoeirinha/Metro Santan,Ônibus,SPTrans,Estrutural,E02,2024-01-01,2024-12-31,366,1
+ONI-N301-11,N301-11,Term A E Carvalho/T P D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-N302-11,N302-11,T A E Carvalho/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-N305-11,N305-11,Term Sao Miguel/Cptm Guaianaze,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-N306-11,N306-11,Term Sao Miguel/Metro Itaquera,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-N308-11,N308-11,Metro Itaquera/Term Pq D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-N331-11,N331-11,Term A E Carvalho/Oliveirinha,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-1177-10,1177-10,Term.A.E.Carvalho-Est.Luz,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-1177-31,1177-31,Term A E Carvalho/Est Da Luz,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,249,1
+ONI-1178-10,1178-10,Sao Miguel-Pca Do Correio,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-1178-31,1178-31,Sao Miguel/Pça Do Correio,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-28,309,1
+ONI-1178-32,1178-32,Abel Tavares/Pça Do Correio,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,249,1
+ONI-1178-33,1178-33,Pça Do Correio/Sao Miguel,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,250,1
+ONI-1178-42,1178-42,Cj.Hab.Vila Silvia-Pca.Correio,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,249,1
+ONI-2059-10,2059-10,Sao Miguel-Guaianazes,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-208V-10,208V-10,Term A E Carvalho-Pça Da Se,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-233A-10,233A-10,Jd Helena-Ceret,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,2
+ONI-2523-10,2523-10,Vila Progresso-T Princ Isabel,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-253F-10,253F-10,Term.A.E.Carvalho-T.Sao Mateus,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-2551-10,2551-10,Term.A.E.Carvalho-Term.D.Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-2552-10,2552-10,Vila Mara-Term.D.Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-2552-41,2552-41,Jd S Martinho/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,249,1
+ONI-2582-10,2582-10,Vila Nova Curuça/Ter P D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-2582-21,2582-21,Vila Robertina/Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,249,1
+ONI-2626-10,2626-10,Jd Nazare/ Term P D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,2
+ONI-2666-10,2666-10,Jd Camargo Velho/Ter P D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,2
+ONI-2666-21,2666-21,Jd Camargo Velh/T P D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,249,1
+ONI-2762-10,2762-10,Ermelino Matarazzo-Met.Tatuape,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-2767-10,2767-10,Cid Pedr J Nunes-Metro Tatuape,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-2769-10,2769-10,Jd Romano/Metro Tatuape,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,2
+ONI-2770-10,2770-10,Guaianazes-Metro Vila Matilde,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-31,365,1
+ONI-3063-10,3063-10,Guaianazes-Term Sao Mateus,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-3063-41,3063-41,Guaianazes-Term Sao Mateus,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,250,1
+ONI-3301-10,3301-10,Term Sao Miguel/Term Pq D Pedr,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,2
+ONI-3459-10,3459-10,Itaim Paulista/Term P D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,2
+ONI-3459-21,3459-21,Cem Da Saudade/Term P D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,248,1
+ONI-3459-23,3459-23,Metro Bresser/Itaim Paulista,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,249,1
+ONI-3459-24,3459-24,Itaim Paulista/T.Pq D.Pedroii,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,248,1
+ONI-352A-10,352A-10,Jd.Helena-Term.Sao Mateus,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,2
+ONI-354M-10,354M-10,Term Sao Miguel/Term Sao Mateu,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-3686-10,3686-10,Jd.Saopaulo-Term.D.Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-31,365,1
+ONI-3686-21,3686-21,Jd Sao Paulo/Metro Patriarca,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,83,1
+ONI-4001-10,4001-10,Itaquera/Term Vila Carrao,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-4002-10,4002-10,Guaianazes/Term Vila Carrao,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-407F-10,407F-10,Term Sao Mateus/Metro Belem,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-407K-10,407K-10,Term Sao Mateus/Metro Carrao,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-31,365,1
+ONI-4210-10,4210-10,T Cid Tiradentes/T Pq D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-4310-10,4310-10,E.T.Itaquera/Term Pq D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-4310-21,4310-21,Artur Alvim/Parque Dom Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-27,251,1
+ONI-4311-10,4311-10,Ter Sao Mateus/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-4313-10,4313-10,T Cid Tiradentes/T Pq D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,366,1
+ONI-4314-10,4314-10,Inacio Monteiro/T Pq D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-31,365,1
+ONI-4314-21,4314-21,Inacio Monteiro/Term Vl Carrao,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,83,1
+ONI-9927PR,9927PR,Term Sto Amaro/Term Bandeira,Ônibus,SPTrans,Estrutural,E09,2024-01-02,2024-12-31,292,1
+ONI-N501-11,N501-11,Term S Mateus/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-N502-11,N502-11,Term Sacoma/Term Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-N503-11,N503-11,Ter Sao Mateus/Term Pq D Pedro,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-N504-11,N504-11,Term Sacoma/Term Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-N505-11,N505-11,Term Sacoma/Term Pinheiros,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-N506-11,N506-11,Term Sacoma/Metro Vl Madalena,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-N507-11,N507-11,Term Sacoma/Metro Santana,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-311C-10,311C-10,Pque S Lucas/Bom Retiro,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-314J-10,314J-10,Sta Madalena/Metro Liberdade,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-314V-10,314V-10,Vila Ema/Metro Liberdade,Ônibus,SPTrans,Estrutural,E04,2024-01-02,2024-12-31,364,1
+ONI-3141-10,3141-10,Term Sao Mateus/Term P D Pedro,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-3390-10,3390-10,Term S Mateus/Term P D Pedro,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,2
+ONI-4115-10,4115-10,Shop Plaza Sul/Pç Republica,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-4222-10,4222-10,Pq Sta Madalena/Pça J Mendes,Ônibus,SPTrans,Estrutural,E04,2024-01-02,2024-12-31,364,2
+ONI-475M-10,475M-10,Jd Da Saude/T Amaral Gurgel,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-475R-10,475R-10,Jd Sao Saverio/Term P D Pedro,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-476A-10,476A-10,Ipiranga/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,2
+ONI-477A-10,477A-10,Sacoma/Ceasa,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,2
+ONI-478P-10,478P-10,Sacoma/Pompeia,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5103-10,5103-10,Term. Sacoma/Moema,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5107-10,5107-10,Term Sacoma/Term Correio,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5109-41,5109-41,Sao Mateus/Metro Tamanduatei,Ônibus,SPTrans,Estrutural,E04,2024-04-01,2024-05-28,2,1
+ONI-5110-10,5110-10,Term Sao Mateus/Term Mercado,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,2
+ONI-5110-21,5110-21,Sao Mateus/Terminal Mercado,Ônibus,SPTrans,Estrutural,E04,2024-01-02,2024-12-27,249,1
+ONI-5110-23,5110-23,Jd Planalto/Term Mercado,Ônibus,SPTrans,Estrutural,E04,2024-02-19,2024-12-27,198,1
+ONI-5110-24,5110-24,Sao Mateus/Vila Prudente,Ônibus,SPTrans,Estrutural,E04,2024-01-02,2024-12-23,247,1
+ONI-5110-41,5110-41,Sao Mateus/Metro Tamanduatei,Ônibus,SPTrans,Estrutural,E04,2024-01-02,2024-12-27,249,1
+ONI-5141-10,5141-10,Term. Sapopemba/Pca Do Correio,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5142-10,5142-10,Term.Sapopemba/T.Pq.D.Pedro Ii,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,2
+ONI-5143-10,5143-10,Term.Sapopemba/T.D.Pedro Ii,Ônibus,SPTrans,Estrutural,E04,2024-01-02,2024-12-30,361,1
+ONI-5144-10,5144-10,Term.Sapopemba/T.Princ.Isabel,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5145-10,5145-10,Term.Sapopemba/Pca.Almeida Jr.,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-519M-10,519M-10,Sao Mateus/Museu Do Ipiranga,Ônibus,SPTrans,Estrutural,E04,2024-01-02,2024-12-31,365,1
+ONI-574J-10,574J-10,Metro Conceicao/T Vila Carrao,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-874T-10,874T-10,Ipiranga/Lapa,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5105-10,5105-10,Term. Sacoma/Term.Mercado,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5105-11,5105-11,Exp Tiradentes - Rua Do Grito,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5105-12,5105-12,Exp Tiradentes - C A Ypiranga,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5105-13,5105-13,Exp Tiradentes - Ana Neri,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5105-15,5105-15,Exp Tiradentes - Mercado,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5105-16,5105-16,Exp Tiradentes - General Lecor,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-5105-17,5105-17,Exp Tiradentes - Alberto Lion,Ônibus,SPTrans,Estrutural,E04,2024-01-01,2024-12-31,366,1
+ONI-N603-11,N603-11,Term Pinheiros/Metro Jabaquara,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-N604-11,N604-11,Met Jabaquara/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-509J-10,509J-10,J Selma Via Joaniza/T P Isabel,Ônibus,SPTrans,Estrutural,E05,2024-01-02,2024-12-31,365,1
+ONI-509J-21,509J-21,Vila Missionaria/Moema,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,83,1
+ONI-509M-10,509M-10,Jd. Miriam/Term. Princ. Isabel,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5106-10,5106-10,Lgo.Sao Francisco/Jd. Selma,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5106-21,5106-21,Shopping Ibirapuera/Jd Selma,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5106-31,5106-31,Metro Ana Rosa/Jd Selma,Ônibus,SPTrans,Estrutural,E05,2024-01-02,2024-12-31,365,1
+ONI-5129-10,5129-10,Jd. Miriam/Chac. Sta. Maria,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5129-41,5129-41,Jd Miriam/Santo Amaro,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5131-10,5131-10,Cidade Ademar/Pca. Da Se,Ônibus,SPTrans,Estrutural,E05,2024-01-02,2024-12-31,365,1
+ONI-516N-10,516N-10,Jd Miriam/Itaim Bibi,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5175-10,5175-10,Balneario S Francisco/Pca Da S,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,2
+ONI-5178-10,5178-10,Jd Miriam/Lgo S Francisco,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5194-10,5194-10,J S Jorge At J Apura/L S Fcisc,Ônibus,SPTrans,Estrutural,E05,2024-01-02,2024-12-28,308,1
+ONI-5194-21,5194-21,Jd S Jorge Até Apura/Aeroporto,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,177,1
+ONI-5290-10,5290-10,Div Diadema/Pca Joao Mendes,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-546L-10,546L-10,Jd. Luso/Terminal Sto Amaro,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-546L-41,546L-41,Jd. Luso/Colegio Sta. Maria,Ônibus,SPTrans,Estrutural,E05,2024-01-29,2024-12-13,196,1
+ONI-5611-10,5611-10,Eldorado/Pca Joao Mendes,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-5614-10,5614-10,Eldorado/Praca Joao Mendes,Ônibus,SPTrans,Estrutural,E05,2024-01-02,2024-12-28,309,1
+ONI-5652-10,5652-10,Jd Iv Centenario/Lgo S Francis,Ônibus,SPTrans,Estrutural,E05,2024-01-02,2024-12-28,308,1
+ONI-5652-22,5652-22,Jd Iv Centenario/Pq Ibirapuera,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,133,1
+ONI-576M-10,576M-10,V Clara/Pinheiros,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-577T-10,577T-10,Jd. Miriam/Vl. Gomes,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-6000-10,6000-10,Term Parelheiros/Term Santo Am,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-607C-10,607C-10,Jd Miriam/Shopp Morumbi,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,2
+ONI-6338-10,6338-10,Jd. Miriam/Term. Princ. Isabel,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-6358-10,6358-10,Jd. Luso/Term. Bandeira,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,366,1
+ONI-9936PR,9936PR,Term Santo Amarao / Mobi Brasi,Ônibus,SPTrans,Estrutural,E05,2024-01-02,2024-12-30,251,1
+ONI-N601-11,N601-11,Term Grajau/Term Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-N602-11,N602-11,Term Grajau/Term Santo Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-N631-11,N631-11,Term Grajau/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-N632-11,N632-11,Term Grajau/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-5317-10,5317-10,Centro Sesc-Lgo.Sao Francisco,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-31,365,1
+ONI-5362-10,5362-10,Pq Res Cocaia - Pça Da Sé,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-5362-21,5362-21,Grajaú - Pça Da Sé,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-5362-22,5362-22,Jardim Eliana / Praca Da Se,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-5362-23,5362-23,Pq Res Cocaia/Borba Gato,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,293,1
+ONI-5362-41,5362-41,Pq Res Cocaia - Detran,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,250,1
+ONI-5370-10,5370-10,Term Varginha/Lgo S Francisco,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-5370-21,5370-21,Detran,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,251,1
+ONI-5630-10,5630-10,Jd Eliana - Brás,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-5630-21,5630-21,Jd Eliana/Detran,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-5632-10,5632-10,Vila São José - L S Francisco,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-31,365,1
+ONI-5632-21,5632-21,Jd Iporanga - L São Francisco,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,247,1
+ONI-5632-51,5632-51,Jd Alpino - Lgo São Francisco,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-6003-10,6003-10,Term Grajau/Term Varginha,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-6003-21,6003-21,Term Varginha/Cptm Mendes-V Na,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-6026-10,6026-10,Jd Icaraí - Term Santo Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,2
+ONI-607M-10,607M-10,Term Grajau/Shop Morumbi,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-31,365,1
+ONI-6091-10,6091-10,Vargem Grande/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-6091-21,6091-21,Vargem Grande/Term Parelheiros,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,248,1
+ONI-6091-51,6091-51,Colonia / Term Sto Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,248,1
+ONI-637G-10,637G-10,Grajaú - Butantã,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-31,365,1
+ONI-637G-51,637G-51,Jd Eliana - Grajaú,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-637V-10,637V-10,Pq América - Pinheiros,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,2
+ONI-675G-10,675G-10,Pq Res Cocaia - M Jabaquara,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-675G-22,675G-22,Colg Sta Maria/Pq Resid Cocaia,Ônibus,SPTrans,Estrutural,E06,2024-01-29,2024-12-12,196,1
+ONI-675G-41,675G-41,Jd Castro Alves/ Mto Jabaquara,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-675R-10,675R-10,Grajaú - M Jabaquara,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-675X-10,675X-10,Grajaú - M Vl Mariana,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-6913-10,6913-10,Term Bandeira/Term Varginha,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-6913-21,6913-21,Itaim Bibi,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-29,255,1
+ONI-695H-10,695H-10,Jd Herplin/Metro Pc Da Arvore,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-695X-10,695X-10,Term Varginha/Metro Jabaquara,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-695X-22,695X-22,Term.Varg./Shopping Interlagos,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-695Y-10,695Y-10,Term Parelheiros/Metro Pc Arvo,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-695Y-21,695Y-21,Autodromo/Term.Parelheiros,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,249,1
+ONI-695Y-41,695Y-41,Term Parelheiros/Col Sta Maria,Ônibus,SPTrans,Estrutural,E06,2024-01-29,2024-12-12,198,1
+ONI-6960-10,6960-10,Term Varginha/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-6960-21,6960-21,Etvitor Manzini/Term Varginha,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,251,1
+ONI-6970-10,6970-10,Term Grajau/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E06,2024-01-01,2024-12-31,366,1
+ONI-9910PR,9910PR,Term Varginha/Cidade Dutra,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-31,311,1
+ONI-9911PR,9911PR,Term Grajau/Cidade Dutra,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-31,311,1
+ONI-9912PR,9912PR,Term Sto Amaro/Cidade Dutra,Ônibus,SPTrans,Estrutural,E06,2024-01-02,2024-12-27,246,1
+ONI-N703-11,N703-11,Term Jd Angela/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-N705-11,N705-11,Term Sto Amaro/Term Pinheiros,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-N733-11,N733-11,Term Jd Angela/Vila Gilda,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-5391-10,5391-10,Term Jd Angela/Pca Da Se,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-5391-21,5391-21,Term Guarap - Lgo S Francisco,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,249,1
+ONI-5391-22,5391-22,Term Jd Angela/Moema,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,249,1
+ONI-6006-10,6006-10,Shopping Interlagos/Jd Hercula,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-6007-10,6007-10,Pq Sto Antonio/Jd Sto Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-6013-10,6013-10,Jd Nakamura-Term Sto Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-6013-21,6013-21,Etec/Jardim Angela,Ônibus,SPTrans,Estrutural,E07,2024-02-06,2024-12-19,154,1
+ONI-6014-10,6014-10,Jd Jacira-Term Sto Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-6019-10,6019-10,T.Guarapiranga/Jd.Godofredo,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-637A-10,637A-10,Term Jd Angela/Pinheiros,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-637A-21,637A-21,Vila Remo/Pinheiros,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,250,1
+ONI-637A-22,637A-22,Term.Jd.Angela/Itaim Bibi,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,251,1
+ONI-637A-25,637A-25,Piraporinha/Pinheiros,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,249,1
+ONI-637A-26,637A-26,Term Guarapiranga/Pinheiros,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,251,1
+ONI-637R-10,637R-10,Jd Aracati-Itaim Bibi,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-675K-10,675K-10,Term Jd Angela-Metro Sta Cruz,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-675K-23,675K-23,Vila Remo/Hospital Do Servidor,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,249,1
+ONI-675L-10,675L-10,T.Sto Amaro/M.Santa Cruz,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-31,365,1
+ONI-677A-10,677A-10,Term Jd Angela/Metro Ana Rosa,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-6840-10,6840-10,Jd Jacira-Term Capelinha,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-7001-10,7001-10,Vila Gilda/Term Jd Angela,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-7004-10,7004-10,Jd Jacira/Term Guido,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-7016-10,7016-10,Metro Jabaquara/Jardim Angela,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-7016-21,7016-21,Vila Santa Lucia/Ter Sto Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,250,1
+ONI-7021-10,7021-10,Jd Maraca/Term Joao Dias,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-31,362,1
+ONI-7022-10,7022-10,Jd Caiçara/Term Santo Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-7023-10,7023-10,Jd Nakamura/Term Santo Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-707A-10,707A-10,Jd Angela/Metro Pça Da Arvore,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-707A-23,707A-23,Piraporinha/Moema,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,250,1
+ONI-709A-10,709A-10,E. T. Agua Espraiada/M. Ana Ro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-737A-10,737A-10,Term Jd Angela - Term St Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-31,366,1
+ONI-9919PR,9919PR,Term J Angela/Vip Guarapiranga,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-30,306,1
+ONI-9934PR,9934PR,Vip Term Santo Amaro,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,246,1
+ONI-9935PR,9935PR,Term Santo Amaro - Vip,Ônibus,SPTrans,Estrutural,E07,2024-01-02,2024-12-27,246,1
+ONI-5111-10,5111-10,Term.Sto.Amaro-Term.D.Pedro Ii,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-5119-10,5119-10,Term Capelinha-Lg.S.Francisco,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-5119-22,5119-22,Te Joao Dias/Lgo Sao Francisco,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-27,250,1
+ONI-5318-10,5318-10,Chac.Santna-Pca.Se,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-6001-10,6001-10,Term.Capelinha-Term.Joao Dias,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-6048-10,6048-10,Jd.Angela-Sto.Amaro,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,2
+ONI-609F-10,609F-10,Chac.Santana -Pca Princ.Isabel,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-609F-21,609F-21,Chac.Santana-Pca.Isabel,Ônibus,SPTrans,Estrutural,E08,2024-01-18,2024-12-23,218,1
+ONI-6400-10,6400-10,Term.Joao Dias-Term.Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-27,252,1
+ONI-6403-10,6403-10,Term.Joao Dias-Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-30,326,1
+ONI-6450-10,6450-10,Term.Capelinha-Term.Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-6451-10,6451-10,Term Capelinha - Term Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-6455-10,6455-10,Term Capelinha - L S Francisco,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-648P-10,648P-10,Term Capelinha - Pinheiros,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-6500-10,6500-10,Term.Sto.Amaro-Term.Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-6505-10,6505-10,Term Guarapiranga/Term Bandeir,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-675I-10,675I-10,Term Joao Dias - Metro S Judas,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-807A-10,807A-10,T Campo Limpo/Term Santo Amaro,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-809P-10,809P-10,Term Campo Limpo/Pinheiros,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-857P-10,857P-10,Term Campo Limpo/Metro Paraiso,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-N801-11,N801-11,T Metro Butanta/T P D Pedro Ii,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-6250-10,6250-10,Jd Jaqueline/Term Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-28,308,1
+ONI-6262-10,6262-10,Ceasa/Term.Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-702C-10,702C-10,Jd Bonfiglioli/Belem,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-715M-10,715M-10,Jd Ma Luiza/Lgo Da Polvora,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-7458-10,7458-10,Jd Boa Vista/Estacao Da Luz,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-7545-10,7545-10,Jd Joao Xxiii/Pc Ramos De Azev,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-7545-21,7545-21,Butanta - Pça Ramos,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-23,228,1
+ONI-771P-10,771P-10,Jd Joao Xxiii/Center Norte,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-775P-10,775P-10,Jd Guarau/Metro Ana Rosa,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-31,365,1
+ONI-778R-10,778R-10,Coh Rap Tavares/Ter Princ Isab,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-7903-10,7903-10,Jd Joao Xxiii/Educandario,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-8075-10,8075-10,Term Campo Limpo/Metro Butanta,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-28,310,1
+ONI-8075-21,8075-21,Term Campo Limpo/Metro Morumbi,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-809A-10,809A-10,Jd D Abril/Pinheiros,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-809V-10,809V-10,Vila Gomes/Paulista,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-8610-10,8610-10,Jd Paulo Vi/Term Bandeira,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,1
+ONI-8700-10,8700-10,T Campo Limpo/Pca R D Azevedo,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,366,2
+ONI-8700-21,8700-21,Lgo Do Taboao/P Ramos De Azeve,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-27,249,1
+ONI-8705-10,8705-10,Shop Continental/Anhangabau,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-31,365,1
+ONI-8705-51,8705-51,Pq Continental/Pca Ramos,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,83,1
+ONI-8707-10,8707-10,Rio Pequeno/Term Princ Isabel,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-31,365,1
+ONI-909T-01,909T-01,Term Pinheiros/Term Pq D Pedro,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-28,303,1
+ONI-9914PR,9914PR,Term J Angela/V Campo Belo,Ônibus,SPTrans,Estrutural,E08,2024-03-21,2024-12-27,189,1
+ONI-9922PR,9922PR,Term Bandeira/V Campo Belo,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-27,241,1
+ONI-N702-11,N702-11,Term Sto Amaro/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-5154-10,5154-10,Sto Amaro/Est Da Luz,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-5300-10,5300-10,Term Sto Amaro/Pq Dom Pedro,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-6200-10,6200-10,Term Sto Amaro/Term Bandeira,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-6291-10,6291-10,Shop Morumbi/Term Bandeira,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-637P-10,637P-10,Term.Sto.Amaro-Pinheiros,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-6414-10,6414-10,Socorro/Term Bandeira,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-6422-10,6422-10,V Cruzeiro/Term Bandeira,Ônibus,SPTrans,Estrutural,E09,2024-01-02,2024-12-28,306,1
+ONI-675N-10,675N-10,Sto Amaro/Metro Ana Rosa,Ônibus,SPTrans,Estrutural,E09,2024-01-02,2024-12-28,308,1
+ONI-709G-10,709G-10,Term Guarapiranga/Itaim Bibi,Ônibus,SPTrans,Estrutural,E09,2024-01-02,2024-12-28,308,1
+ONI-709M-10,709M-10,Termin Sto Amaro/Term Pinheiro,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-709P-10,709P-10,Term Guido/Pinheiros,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,366,1
+ONI-7245-10,7245-10,Morumbi Shopping/Est Luz,Ônibus,SPTrans,Estrutural,E09,2024-01-02,2024-12-28,308,1
+ONI-7245-21,7245-21,E T Agua Espraiada/Term Sto Am,Ônibus,SPTrans,Estrutural,E09,2024-01-01,2024-12-31,175,1
+ONI-7550-10,7550-10,Term Sto Amaro/M Santa Cecilia,Ônibus,SPTrans,Estrutural,E09,2024-01-02,2024-12-28,309,1
+ONI-9928PR,9928PR,Term Bandeira/Term Sto Amaro,Ônibus,SPTrans,Estrutural,E09,2024-01-02,2024-12-26,243,1
+ONI-9945PR,9945PR,Terminal Butanta/Gato Preto,Ônibus,SPTrans,Outros,0,2024-02-26,2024-12-12,162,2
+ONI-SMATEU,SMATEU,Term,Ônibus,SPTrans,Outros,0,2024-01-01,2024-12-31,336,1
+ONI-626A-10,626A-10,Cantinho Do Ceu/Mar Paulista,Ônibus,SPTrans,Outros,192,2024-05-10,2024-12-31,235,1
+ONI-274P-10,274P-10,Penha/Metro Vl Mariana,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-31,357,1
+ONI-390E-41,390E-41,Pq Belem/Metro Tatuape,Ônibus,SPTrans,Estrutural,E03,2024-02-19,2024-12-23,180,1
+ONI-390E-42,390E-42,Etec Pq Belem/Metro Belem,Ônibus,SPTrans,Estrutural,E03,2024-01-09,2024-12-20,166,1
+ONI-908T-10,908T-10,Term Pq D Pedro Ii/Butanta,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-31,357,1
+ONI-N404-11,N404-11,Term Sao Mateus/Term Penha,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,359,1
+ONI-390E-10,390E-10,Term Penha/Term Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,360,2
+ONI-4312-10,4312-10,Jd Marilia/Term Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-02,2024-12-31,357,1
+ONI-4315-10,4315-10,T Vila Carrao/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,360,1
+ONI-N401-11,N401-11,Term Vl Carrao/T Pq D Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,359,1
+ONI-N732-11,N732-11,T Jd Angela/Term Rod Ja Jacira,Ônibus,SPTrans,Estrutural,E07,2024-01-01,2024-12-29,346,1
+ONI-9913PR,9913PR,Term P D Pedro/V Campo Belo,Ônibus,SPTrans,Estrutural,E08,2024-01-02,2024-12-27,176,1
+ONI-627M-10,627M-10,Mar Paulista/Term Santo Amaro,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-05-13,2024-12-31,233,1
+ONI-RNOT-11,RNOT-11,Reserva Notrna,Ônibus,SPTrans,Local de Distribuição,D01,2024-01-02,2024-12-25,126,3
+ONI-1701-23,1701-23,Jova Rural/Metro Santana,Ônibus,SPTrans,Local de Distribuição,D02,2024-04-13,2024-12-31,263,1
+ONI-3789-51,3789-51,Metalurgicos / Circular,Ônibus,SPTrans,Local de Distribuição,D05,2024-07-01,2024-12-31,184,1
+ONI-4087-10,4087-10,Term Itaquera / Vl Popular,Ônibus,SPTrans,Local de Distribuição,D05,2024-07-19,2024-12-31,166,1
+ONI-3069-21,3069-21,Alto Alegre/Term São Mateus,Ônibus,SPTrans,Local de Distribuição,D06,2024-04-16,2024-12-27,174,1
+ONI-606C-10,606C-10,Cantinho Do Ceu,Ônibus,SPTrans,Local de Distribuição,D10,2024-05-10,2024-12-31,232,1
+ONI-9924PR,9924PR,Term Varginha/Cooperpam,Ônibus,SPTrans,Local de Distribuição,D10,2024-02-28,2024-12-27,194,1
+ONI-5614-21,5614-21,Eldorado/Pq Ibirapuera,Ônibus,SPTrans,Estrutural,E05,2024-01-01,2024-12-31,118,1
+ONI-574A-21,574A-21,Jd Lourdes / Circular,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,118,1
+ONI-5791-21,5791-21,Eldorado/Metro Jabaquara,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-01,2024-12-31,138,1
+ONI-606Z-10,606Z-10,Balneario Mar Paulista/Circula,Ônibus,SPTrans,Local de Distribuição,D09,2024-10-05,2024-12-30,87,1
+ONI-6036-51,6036-51,Jd Macedonia/Hosp Campo Limpo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-02,2024-12-23,71,1
+ONI-PACPTM,PACPTM,Paese Cptm,Ônibus,SPTrans,Estrutural,E01,2024-01-03,2024-12-21,86,3
+ONI-909K-10,909K-10,Oktoberfest/Ginasio Do Ibirapu,Ônibus,SPTrans,Estrutural,E05,2024-02-01,2024-04-29,5,1
+ONI-OPAESE,OPAESE,Paese Onibus,Ônibus,SPTrans,Estrutural,E08,2024-01-03,2024-12-29,113,3
+ONI-847J-21,847J-21,City Jaragua/Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-01-01,2024-12-31,44,1
+ONI-407I-21,407I-21,Cj Manoel Da Nobrega/M Tatuape,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-01-01,2024-12-31,43,1
+ONI-6038-10,6038-10,Jd Das Rosas/Santo Amaro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-01-01,1,1
+ONI-6042-22,6042-22,Jd Vaz De Lima/Term Capelinha,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-01,2024-12-31,49,1
+ONI-8686-21,8686-21,Mangalot/Terminal Pirituba,Ônibus,SPTrans,Estrutural,E01,2024-01-01,2024-12-31,46,1
+ONI-4312-21,4312-21,Jardim Marilia/Metro Belem,Ônibus,SPTrans,Estrutural,E03,2024-01-01,2024-12-31,82,1
+ONI-8707-21,8707-21,Rio Pequeno/Butanta,Ônibus,SPTrans,Estrutural,E08,2024-01-01,2024-12-31,43,1
+ONI-PMETRO,PMETRO,Paese Metro,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-08,2024-12-31,86,2
+ONI-9929PR,9929PR,Term Itaquera/Pq D Pedro,Ônibus,SPTrans,Estrutural,E03,2024-01-10,2024-03-30,60,1
+ONI-637P-21,637P-21,Term Santo Amaro/Itaim Bibi,Ônibus,SPTrans,Estrutural,E09,2024-03-01,2024-03-01,1,1
+ONI-8082-10,8082-10,Cidade Universit/Metro Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-09-02,2024-12-28,99,1
+ONI-8083-10,8083-10,Cidade Universt/Metro Butanta,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-09-02,2024-12-28,100,1
+ONI-8084-10,8084-10,Metro Butanta/Cidade Universt,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-09-02,2024-12-28,99,1
+ONI-8085-10,8085-10,Crcular / Usp,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-09-02,2024-12-28,100,1
+ONI-1014-10,1014-10,Morro Doce / Cptm Perus,Ônibus,SPTrans,Local de Distribuição,D01,2024-09-16,2024-12-27,81,1
+ONI-1022-10,1022-10,Cptm Perus/Vila Santa Cruz,Ônibus,SPTrans,Local de Distribuição,D01,2024-09-16,2024-12-27,71,1
+ONI-606F-10,606F-10,Circular Formula 1/Autodromo,Ônibus,SPTrans,Estrutural,E05,2024-10-13,2024-11-01,3,2
+ONI-695Y-23,695Y-23,Mendes / Vila Natal,Ônibus,SPTrans,Estrutural,E06,2024-09-09,2024-12-27,76,1
+ONI-606F-01,606F-01,Circular - G.P. Sp/ Autódromo,Ônibus,SPTrans,Estrutural,E07,2024-10-29,2024-11-03,4,1
+ONI-PAESE5,PAESE5,Paese Area 5,Ônibus,SPTrans,Estrutural,E04,2024-01-06,2024-10-25,8,1
+ONI-189L-21,189L-21,Conexao Vi -Ioro - Lapa,Ônibus,SPTrans,Local de Articulação Regional,AR1,2024-08-11,2024-12-31,18,1
+ONI-4050-10,4050-10,Metro Itaquera/Pq Do Carmo,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-04-10,2024-08-04,7,1
+ONI-1788-31,1788-31,Jd Fontalis/Metro Santana,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-11-26,2024-12-27,19,1
+ONI-3141-51,3141-51,Vila Ester/Term P D Pedro I,Ônibus,SPTrans,Estrutural,E04,2024-02-02,2024-02-02,1,1
+ONI-179A-10,179A-10,Terminal Rodoviario Tiete/Anhe,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-02,2024-11-24,12,3
+ONI-PAESE,PAESE,Paese,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-01-10,2024-12-18,22,3
+ONI-606A-10,606A-10,Aereoporto / Formula 1,Ônibus,SPTrans,Local de Articulação Regional,E05,2024-11-02,2024-11-03,2,1
+ONI-906T-02,906T-02,Trianon Masp / G.P. Sp,Ônibus,SPTrans,Local de Articulação Regional,E05,2024-11-02,2024-11-03,2,1
+ONI-906T-10,906T-10,Trianon/Masp - Formula1,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-08-11,2024-11-03,3,2
+ONI-607F-01,607F-01,Term. Sto. Amaro / G.P. Sp,Ônibus,SPTrans,Estrutural,E07,2024-11-02,2024-11-03,2,1
+ONI-606P-10,606P-10,Shopping Sp Market / Formula 1,Ônibus,SPTrans,Estrutural,E08,2024-11-02,2024-11-30,3,1
+ONI-607F-10,607F-10,Term Santo Amaro / Formula 1,Ônibus,SPTrans,Estrutural,E08,2024-11-02,2024-11-03,2,1
+ONI-906T-01,906T-01,Trianon Masp / G.P. Sp,Ônibus,SPTrans,Estrutural,E09,2024-11-02,2024-11-03,2,1
+ONI-9916PR,9916PR,Term Bandeira/V Campo Belo,Ônibus,SPTrans,Estrutural,E08,2024-04-03,2024-04-22,14,1
+ONI-5110-22,5110-22,Fazenda Da Juta/Term Mercado,Ônibus,SPTrans,Estrutural,E04,2024-04-17,2024-05-03,2,1
+ONI-9920PR,9920PR,Ter Campo Limpo/V Campo Belo,Ônibus,SPTrans,Estrutural,E08,2024-04-04,2024-04-22,13,1
+ONI-715M-21,715M-21,Metro Butanta/Jd Maria Luiza,Ônibus,SPTrans,Estrutural,E08,2024-04-12,2024-12-04,2,1
+ONI-695V-01,695V-01,Term Capelinha/Metro Ana Rosa,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-12-04,2024-12-31,24,1
+ONI-879A-10,879A-10,Term Barra Funda/Anhembi,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-01-09,2024-12-23,19,2
+ONI-1180-10,1180-10,Vila Dr Eiras/P Princ Isabel,Ônibus,SPTrans,Local de Distribuição,D03,2024-04-10,2024-11-24,9,1
+ONI-8542-10,8542-10,Brasilandia/Pca Do Correio,Ônibus,SPTrans,Estrutural,E01,2024-08-26,2024-11-11,5,1
+ONI-573T-21,573T-21,Jd Tiete/T Sapopemba-Teot Vile,Ônibus,SPTrans,Local de Distribuição,D08,2024-03-12,2024-09-05,2,1
+ONI-514T-22,514T-22,Metro Vila Prudente/Jd Itapoli,Ônibus,SPTrans,Local de Distribuição,D08,2024-07-19,2024-08-14,7,1
+ONI-857P-21,857P-21,Campo Limpo/Paraiso,Ônibus,SPTrans,Estrutural,E08,2024-12-06,2024-12-06,1,1
+ONI-6075-41,6075-41,Jd Almeida/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-02-06,2024-02-06,1,1
+ONI-6450-51,6450-51,Term Capelinha/Itaim,Ônibus,SPTrans,Estrutural,E08,2024-03-06,2024-03-06,1,1
+ONI-5019-10,5019-10,Alto Da Mooca/E.T.Ana Neri,Ônibus,SPTrans,Estrutural,E04,2024-03-13,2024-04-17,3,2
+ONI-179A-04,179A-04,Term Rodoviario Tiete/Anhembi,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-03-16,2024-12-07,2,1
+ONI-RDOM-10,RDOM-10,Rede De Domingo,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-07,2024-11-26,13,3
+ONI-2010-21,2010-21,Pça Augusta Vitoria/Metro Sant,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-09-07,2024-09-07,1,1
+ONI-331T-10,331T-10,Jd Helena/Ccpd Raul Tabajara,Ônibus,SPTrans,Local de Articulação Regional,AR3,2024-04-08,2024-04-22,2,1
+ONI-EVENT2,EVENT2,E V E N T O 2,Ônibus,SPTrans,Local de Distribuição,D11,2024-01-22,2024-07-23,10,1
+ONI-EVENT1,EVENT1,E V E N T O 1,Ônibus,SPTrans,Local de Distribuição,D10,2024-01-21,2024-09-12,8,1
+ONI-2100-41,2100-41,Vl Formosa/Pça Da Republica,Ônibus,SPTrans,Local de Articulação Regional,AR0,2024-01-08,2024-01-08,1,1
+ONI-138Y-10,138Y-10,Casa Verde Alta/Lapa,Ônibus,SPTrans,Local de Distribuição,D02,2024-03-08,2024-03-08,1,1
+ONI-5145-41,5145-41,Cj.Teot Vilela/Pca Almeida Jr,Ônibus,SPTrans,Estrutural,E04,2024-10-08,2024-10-08,1,1
+ONI-179A-02,179A-02,Term Rodoviario Tiete/Anhembi,Ônibus,SPTrans,Local de Distribuição,D11,2024-06-20,2024-10-16,4,1
+ONI-PAESE8,PAESE8,Paese Area 8,Ônibus,SPTrans,Estrutural,E08,2024-09-08,2024-09-08,1,1
+ONI-778R-21,778R-21,Cohab Raposo Tavares/Term Prin,Ônibus,SPTrans,Estrutural,E08,2024-04-09,2024-07-21,2,1
+ONI-695T-01,695T-01,Term Capelinha/M Vila Mariana,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-12-09,2024-12-31,23,1
+ONI-5101-10,5101-10,Term Sacoma/ Term Pq D Pedro,Ônibus,SPTrans,Estrutural,E04,2024-01-10,2024-08-13,7,1
+ONI-2706-10,2706-10,Cem Da Saudade/Metro V Matilde,Ônibus,SPTrans,Local de Distribuição,D03,2024-12-11,2024-12-11,1,1
+ONI-2590-21,2590-21,Uniao De V Nova/Pq D Pedro Ii,Ônibus,SPTrans,Local de Distribuição,D07,2024-06-11,2024-12-23,2,1
+ONI-PAESE2,PAESE2,Paese Area 2,Ônibus,SPTrans,Estrutural,E06,2024-02-21,2024-11-24,7,2
+ONI-PAESE3,PAESE3,Paese Area 3,Ônibus,SPTrans,Estrutural,E05,2024-02-21,2024-10-11,3,2
+ONI-514T-21,514T-21,Jd Colorado/Metro Vila Prudent,Ônibus,SPTrans,Local de Distribuição,D08,2024-07-25,2024-10-11,4,1
+ONI-PAESE6,PAESE6,Paese Area 6,Ônibus,SPTrans,Local de Articulação Regional,AR6,2024-01-13,2024-07-13,3,2
+ONI-6073-21,6073-21,Jd Silveira/Term Varginha,Ônibus,SPTrans,Local de Distribuição,D10,2024-07-12,2024-07-12,1,1
+ONI-172X-31,172X-31,Chac. Bela Vista/Metro Tatuape,Ônibus,SPTrans,Local de Distribuição,D02,2024-04-13,2024-04-13,1,1
+ONI-PAESE7,PAESE7,Paese Area 7,Ônibus,SPTrans,Local de Articulação Regional,AR7,2024-03-13,2024-03-20,2,1
+ONI-5105-14,5105-14,Exp Tiradentes -Metro Pedro Ii,Ônibus,SPTrans,Estrutural,E04,2024-12-14,2024-12-31,18,1
+ONI-905X-10,905X-10,Fest Do Japao/Est São Judas,Ônibus,SPTrans,Local de Articulação Regional,E05,2024-07-14,2024-07-14,1,1
+ONI-179A-01,179A-01,Term Rodoviario Tiete/Anhembi,Ônibus,SPTrans,Local de Distribuição,D10,2024-06-14,2024-06-14,1,1
+ONI-179A-03,179A-03,Term Rodoviario Tiete/Anhembi,Ônibus,SPTrans,Estrutural,E08,2024-03-14,2024-03-16,2,1
+ONI-2202-51,2202-51,Hosp Itaim / Guaianazes,Ônibus,SPTrans,Local de Distribuição,D03,2024-08-16,2024-08-16,1,1
+ONI-6451-21,6451-21,Term Capelinha - Pça 14 Bis,Ônibus,SPTrans,Estrutural,E08,2024-03-16,2024-03-16,1,1
+ONI-2105-21,2105-21,Jd Filhos Da Terra/Metro Santa,Ônibus,SPTrans,Local de Articulação Regional,AR2,2024-12-17,2024-12-17,1,1
+ONI-4726-31,4726-31,Mooca/Metro Tatuape,Ônibus,SPTrans,Local de Distribuição,D08,2024-07-17,2024-07-19,2,1
+ONI-2701-10,2701-10,Itaim Paulista/Metro Arthur Al,Ônibus,SPTrans,Local de Distribuição,D03,2024-07-18,2024-07-18,1,1
+ONI-6084-21,6084-21,Jd Moraes Prado/Term Varginh,Ônibus,SPTrans,Local de Distribuição,D10,2024-04-29,2024-10-18,2,1
+ONI-874T-51,874T-51,Vila Prudente/Paulista,Ônibus,SPTrans,Estrutural,E04,2024-11-19,2024-11-19,1,1
+ONI-PRODAT,PRODAT,Sptrans/Prodata,Ônibus,SPTrans,Local de Articulação Regional,E06,2024-12-20,2024-12-20,1,1
+ONI-PAESE4,PAESE4,Paese Area 4,Ônibus,SPTrans,Estrutural,E05,2024-02-21,2024-02-21,1,1
+ONI-695Y-22,695Y-22,Term Parelheiros/ Borba Gato,Ônibus,SPTrans,Estrutural,E06,2024-08-22,2024-08-22,1,1
+ONI-9202-10,9202-10,Metro Bras - Av. Paulista,Ônibus,SPTrans,Local de Distribuição,D07,2024-12-22,2024-12-22,1,1
+ONI-3360-10,3360-10,Itaim Paulista-Metro Paraiso,Ônibus,SPTrans,Local de Distribuição,D07,2024-07-29,2024-12-23,2,1
+ONI-2460-10,2460-10,Cem.Saudade/T Pq.D.Pedro Ii,Ônibus,SPTrans,Estrutural,E03,2024-04-30,2024-09-23,2,1
+ONI-5370-22,5370-22,Term Varginha/Borba Gato,Ônibus,SPTrans,Estrutural,E06,2024-07-23,2024-09-27,2,1
+ONI-607L-01,607L-01,Aut Interlagos/Term Santo Amar,Ônibus,SPTrans,Estrutural,E05,2024-03-25,2024-03-25,1,1
+ONI-607L-10,607L-10,Auto De Interlagos/Term Sto Am,Ônibus,SPTrans,Estrutural,E06,2024-03-25,2024-03-25,1,1
+ONI-7004-21,7004-21,Jardim Jacira - Circular,Ônibus,SPTrans,Estrutural,E07,2024-03-30,2024-11-25,3,1
+ONI-8086-10,8086-10,Terminal Pinheiros - Circular,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-12-28,2024-12-31,4,1
+ONI-3309-10,3309-10,Ccpd-Raul Tabajara,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-05-29,2024-05-29,1,1

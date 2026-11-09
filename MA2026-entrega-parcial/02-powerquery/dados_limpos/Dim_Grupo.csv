@@ -1,0 +1,5 @@
+grupo,modalidade,ordem,grupo_oficial
+Estrutural,Ônibus,1,True
+Local de Articulação Regional,Ônibus,2,True
+Local de Distribuição,Ônibus,3,True
+Outros,Ônibus,4,False
