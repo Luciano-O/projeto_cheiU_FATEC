@@ -2,7 +2,7 @@
 
 Conferência de `MA2026-entrega-parcial/03-powerpivot/cheiU_03_PowerPivot.xlsx`, conforme a tabela do Guia Prático da Etapa 3. Responsável pelo QA: Maryele Naara Freitas Meira.
 
-Conferência por script, preparada por Luciano. Revisão da Maryele: pendente.
+Conferência por script, preparada por Luciano. Revisado por: Maryele Naara Freitas Meira, em 08/11/2026 (aba `Conferencia` e segmentações da aba `Validacao`).
 
 | # | Item | Resultado esperado | Como verificar | Obtido | Status |
 |---|---|---|---|---|---|
