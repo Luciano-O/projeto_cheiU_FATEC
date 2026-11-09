@@ -43,9 +43,9 @@ memories/                decisões, glossário, fontes de dados e diário do pro
 | Etapa | Aulas | Situação |
 |---|---|---|
 | 0 — Ambiente | — | em andamento |
-| 1 — Excel avançado | 2–3 | a fazer |
-| 2 — Power Query | 4–5 | a fazer |
-| 3 — Power Pivot e DAX | 6–7 | a fazer |
+| 1 — Excel avançado | 2–3 | feito na N1 (SPTrans), em revisão |
+| 2 — Power Query | 4–5 | feito na N1 (SPTrans), em revisão |
+| 3 — Power Pivot e DAX | 6–7 | feito na N1 (SPTrans), em revisão |
 | Parcial 1 | 8 | a fazer |
 | 4 — VBA | 10–11 | a fazer |
 | 5 — SQL | 12–13 | a fazer |

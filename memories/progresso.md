@@ -42,3 +42,21 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - guias das Etapas 4–7 (o `Ex.0` de cada etapa compara com eles);
   - E0.9: o acesso de Victor, Nicolly e Maryele ao `origin`.
 - **Próximo**: E0.3, E0.6 e E0.7; depois E1.0.
+
+## 2026-11-06 a 2026-11-08 · TRA-10 a TRA-36 · Etapas 1–3 da N1
+
+- **Feito**:
+  - decisão `0009`: MVP de demanda só com SPTrans, saída da Nicolly, uma branch e um PR por etapa;
+  - download dos 366 diários e 12 consolidados da SPTrans 2024, com catálogo de defeitos D1–D18;
+  - `cheiU_01_Excel.xlsx` (amostra de jan/2024): painel 579 × 579, 0 erros de fórmula, 0 células originais alteradas;
+  - `cheiU_02_PowerQuery.xlsx`: 486.864 lidas = 480.192 aceitas + 6.672 rejeitadas; 461.839 linhas na fato; teste de reenvio ok;
+  - `cheiU_03_PowerPivot.xlsx`: 5 relações, 27 medidas, `Conferencia` com todas as diferenças em 0, teste de linhagem ok;
+  - PRs empilhados #3 (Etapa 1), #4 (Etapa 2), #5 (Etapa 3) e relatório parcial em PDF;
+  - tudo montado por script via COM (`memories/automacao-excel.md`).
+- **Pendente**:
+  - merge dos PRs, tag `parcial-1` e push para `grupo` (a conta `Luciano-O` já tem escrita no `Ve3e3`);
+  - Victor e Maryele como colaboradores (E0.9), e os commits deles: QA das 3 etapas (TRA-73, 23, 35) e relatório (TRA-36), com o texto nas issues;
+  - interface do Excel: grupos de consultas, Tabela de Datas, hierarquia, diagrama e prints de `evidencias/`;
+  - Metrô (portal em 503 até 08/11) e CPTM (download pelo navegador);
+  - diferença contra o total publicado de janeiro a julho (até −5,15%): causa não confirmada.
+- **Próximo**: revisar e fazer o merge dos PRs; depois OD 2023, oferta e lotação.
