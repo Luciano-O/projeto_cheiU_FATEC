@@ -1,0 +1,149 @@
+// Medidas do modelo cheiU (Etapa 3). Separador vírgula; no Power Pivot pt-BR digite com ponto e vírgula.
+// Formato de cada medida: comentários "Pergunta", "Formato" e "Tabela" acima da expressão.
+// Este arquivo é a fonte da verdade: montar_etapa3.ps1 cria as medidas a partir dele.
+
+// ===== Demanda =====
+
+// Pergunta: quantos passageiros o sistema transportou no período e no filtro?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Total de Passageiros] =
+    SUM(Fato_Transporte[passageiros])
+
+// Pergunta: qual é o volume típico de um dia?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Média Diária de Passageiros] =
+    AVERAGEX(VALUES(Dim_Calendario[data]), [Total de Passageiros])
+
+// Pergunta: quanto o sistema transporta num dia útil típico?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Média Dia Útil] =
+    CALCULATE([Média Diária de Passageiros], Dim_Calendario[tipo_dia] = "Útil")
+
+// Pergunta: quanto o sistema transporta num sábado ou domingo típico (feriados à parte)?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Média Fim de Semana] =
+    CALCULATE([Média Diária de Passageiros], Dim_Calendario[tipo_dia] IN {"Sábado", "Domingo"})
+
+// Pergunta: quanto da demanda de um dia útil sobra no fim de semana?
+// Formato: percentual   Tabela: Fato_Transporte
+[Razão Fim de Semana/Útil] =
+    DIVIDE([Média Fim de Semana], [Média Dia Útil])
+
+// Pergunta: quanto cada linha representa do total de passageiros?
+// Formato: percentual   Tabela: Fato_Transporte
+[Participação % da Linha] =
+    DIVIDE([Total de Passageiros], CALCULATE([Total de Passageiros], ALL(Dim_Transporte)))
+
+// Pergunta: quanto cada grupo do sistema SPTrans representa do total?
+// Formato: percentual   Tabela: Fato_Transporte
+[Participação % do Grupo] =
+    DIVIDE([Total de Passageiros], CALCULATE([Total de Passageiros], ALL(Dim_Grupo), ALL(Dim_Transporte)))
+
+// Pergunta: a demanda subiu ou caiu em relação ao mês anterior?
+// Formato: percentual   Tabela: Fato_Transporte
+[Variação % sobre o Mês Anterior] =
+    VAR MesAtual = MAX(Dim_Calendario[mes])
+    VAR Atual = [Total de Passageiros]
+    VAR Anterior = CALCULATE([Total de Passageiros], ALLEXCEPT(Dim_Calendario, Dim_Calendario[tipo_dia]), Dim_Calendario[mes] = MesAtual - 1)
+    RETURN IF(HASONEVALUE(Dim_Calendario[mes]) && NOT ISBLANK(Anterior), DIVIDE(Atual - Anterior, Anterior))
+
+// Pergunta: qual é a posição da linha entre as mais usadas?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Ranking da Linha] =
+    IF(HASONEVALUE(Dim_Transporte[id_linha]), RANKX(ALL(Dim_Transporte), [Total de Passageiros], , DESC, DENSE))
+
+// ===== Realizado × publicado =====
+
+// Pergunta: quantos passageiros a SPTrans publicou como total oficial do mês?
+// Formato: inteiro   Tabela: Fato_Referencia_Mensal
+[Passageiros Publicados] =
+    SUM(Fato_Referencia_Mensal[passageiros_publicado])
+
+// Pergunta: os arquivos diários tratados batem com o total oficial publicado (só os três grupos oficiais)?
+// Formato: percentual   Tabela: Fato_Referencia_Mensal
+[Diferença % sobre o Publicado] =
+    VAR Calculado = CALCULATE([Total de Passageiros], Dim_Grupo[grupo_oficial] = TRUE())
+    VAR Publicado = [Passageiros Publicados]
+    RETURN DIVIDE(Calculado - Publicado, Publicado)
+
+// ===== Conferência (aba Conferencia) =====
+
+// Pergunta: quantas linhas a fato principal tem no modelo?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Conf Linhas Fato_Transporte] =
+    COUNTROWS(Fato_Transporte)
+
+// Pergunta: quantas linhas a fato de referência tem no modelo?
+// Formato: inteiro   Tabela: Fato_Referencia_Mensal
+[Conf Linhas Fato_Referencia_Mensal] =
+    COUNTROWS(Fato_Referencia_Mensal)
+
+// Pergunta: quantas linhas rejeitadas vieram da Etapa 2?
+// Formato: inteiro   Tabela: Rejeitados
+[Conf Linhas Rejeitados] =
+    COUNTROWS(Rejeitados)
+
+// Pergunta: há registros da fato sem linha correspondente em Dim_Transporte?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Conf Órfãs Fato_Transporte → Dim_Transporte] =
+    COUNTROWS(FILTER(Fato_Transporte, ISBLANK(RELATED(Dim_Transporte[id_linha]))))
+
+// Pergunta: há registros da fato com data fora de Dim_Calendario?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Conf Órfãs Fato_Transporte → Dim_Calendario] =
+    COUNTROWS(FILTER(Fato_Transporte, ISBLANK(RELATED(Dim_Calendario[data]))))
+
+// Pergunta: há meses de referência fora de Dim_Calendario?
+// Formato: inteiro   Tabela: Fato_Referencia_Mensal
+[Conf Órfãs Fato_Referencia_Mensal → Dim_Calendario] =
+    COUNTROWS(FILTER(Fato_Referencia_Mensal, ISBLANK(RELATED(Dim_Calendario[data]))))
+
+// Pergunta: há grupos de referência fora de Dim_Grupo?
+// Formato: inteiro   Tabela: Fato_Referencia_Mensal
+[Conf Órfãs Fato_Referencia_Mensal → Dim_Grupo] =
+    COUNTROWS(FILTER(Fato_Referencia_Mensal, ISBLANK(RELATED(Dim_Grupo[grupo]))))
+
+// Pergunta: há linhas de ônibus com grupo fora de Dim_Grupo?
+// Formato: inteiro   Tabela: Dim_Transporte
+[Conf Órfãs Dim_Transporte → Dim_Grupo] =
+    COUNTROWS(FILTER(Dim_Transporte, ISBLANK(RELATED(Dim_Grupo[grupo]))))
+
+// Pergunta: alguma chave se repete em Dim_Transporte?
+// Formato: inteiro   Tabela: Dim_Transporte
+[Conf PK Duplicada Dim_Transporte] =
+    COUNTROWS(Dim_Transporte) - DISTINCTCOUNT(Dim_Transporte[id_linha])
+
+// Pergunta: alguma data se repete em Dim_Calendario?
+// Formato: inteiro   Tabela: Dim_Calendario
+[Conf PK Duplicada Dim_Calendario] =
+    COUNTROWS(Dim_Calendario) - DISTINCTCOUNT(Dim_Calendario[data])
+
+// Pergunta: algum grupo se repete em Dim_Grupo?
+// Formato: inteiro   Tabela: Dim_Grupo
+[Conf PK Duplicada Dim_Grupo] =
+    COUNTROWS(Dim_Grupo) - DISTINCTCOUNT(Dim_Grupo[grupo])
+
+// Pergunta: o grão data × linha da fato tem duplicatas?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Conf Grão Duplicado Fato_Transporte] =
+    COUNTROWS(Fato_Transporte) - COUNTROWS(SUMMARIZE(Fato_Transporte, Fato_Transporte[data], Fato_Transporte[id_linha]))
+
+// Pergunta: quantos passageiros a Etapa 2 diz ter na fato?
+// Formato: inteiro   Tabela: Conf_Etapa2
+[E2 Passageiros no Fato] =
+    SUM(Conf_Etapa2[passageiros_no_fato])
+
+// Pergunta: quantas linhas a Etapa 2 diz ter na fato?
+// Formato: inteiro   Tabela: Conf_Etapa2
+[E2 Linhas no Fato] =
+    SUM(Conf_Etapa2[linhas_no_fato])
+
+// Pergunta: quantas linhas a Etapa 2 rejeitou?
+// Formato: inteiro   Tabela: Conf_Etapa2
+[E2 Linhas Rejeitadas] =
+    SUM(Conf_Etapa2[linhas_rejeitadas])
+
+// Pergunta: o modelo criou ou perdeu passageiros em relação à Etapa 2?
+// Formato: inteiro   Tabela: Conf_Etapa2
+[Conf Diferença de Passageiros] =
+    CALCULATE([Total de Passageiros], ALL(Fato_Transporte)) - [E2 Passageiros no Fato]
