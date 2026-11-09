@@ -52,11 +52,13 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - `cheiU_02_PowerQuery.xlsx`: 486.864 lidas = 480.192 aceitas + 6.672 rejeitadas; 461.839 linhas na fato; teste de reenvio ok;
   - `cheiU_03_PowerPivot.xlsx`: 5 relações, 27 medidas, `Conferencia` com todas as diferenças em 0, teste de linhagem ok;
   - PRs empilhados #3 (Etapa 1), #4 (Etapa 2), #5 (Etapa 3) e relatório parcial em PDF;
+  - merge dos PRs, tag `parcial-1` e push para o repositório do grupo (`6c1b63e`);
+  - QAs das 3 etapas, relatório em Markdown, apresentação e roteiro, commitados pelo Luciano (decisão `0010`);
   - tudo montado por script via COM (`memories/automacao-excel.md`).
 - **Pendente**:
-  - merge dos PRs, tag `parcial-1` e push para `grupo` (a conta `Luciano-O` já tem escrita no `Ve3e3`);
-  - Victor e Maryele como colaboradores (E0.9), e os commits deles: QA das 3 etapas (TRA-73, 23, 35) e relatório (TRA-36), com o texto nas issues;
+  - Victor e Maryele como colaboradores e com commits próprios (E0.9), para a N2 (decisão `0010`);
+  - revisão humana dos QAs, do relatório e da apresentação, e o ensaio cronometrado;
   - interface do Excel: grupos de consultas, Tabela de Datas, hierarquia, diagrama e prints de `evidencias/`;
   - Metrô (portal em 503 até 08/11) e CPTM (download pelo navegador);
   - diferença contra o total publicado de janeiro a julho (até −5,15%): causa não confirmada.
-- **Próximo**: revisar e fazer o merge dos PRs; depois OD 2023, oferta e lotação.
+- **Próximo**: OD 2023, oferta e lotação; depois as Etapas 4–7.
