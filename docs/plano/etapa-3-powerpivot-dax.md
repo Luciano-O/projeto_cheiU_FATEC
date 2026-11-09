@@ -24,6 +24,12 @@ MA2026-entrega-parcial/03-powerpivot/
 
 Decisão `memories/decisoes/0009`. Entram E3.0, E3.1, E3.2, E3.3, E3.6 e E3.7. **E3.4 (hora e lotação) e E3.5 (corredores) ficam para depois da N1.** O modelo da N1 tem `Fato_Transporte`, `Fato_Referencia_Mensal`, `Dim_Calendario`, `Dim_Transporte`, `Dim_Grupo` e `Rejeitados` (sem relação). `Dim_Horario` entra com o perfil horário.
 
+Refinamentos do E3.0:
+- as três decisões do E3.0 (fato por estação, capacidade dos ônibus e perfil de fim de semana) dependem de dados que ficaram para depois da N1 e só serão tomadas então;
+- `tipo_dia` tem quatro valores (Útil, Sábado, Domingo, Feriado), os mesmos de `Lista_Tipo_Dia` da Etapa 1;
+- `mes_rotulo` (`01 - Janeiro`) ordena os meses sem "Classificar por coluna";
+- `Variação % sobre o Mês Anterior` compara pelo número do mês em vez de `DATEADD`, que falha quando a segmentação de tipo de dia deixa as datas salteadas.
+
 ### E3.0 — Refinar o plano da Etapa 3
 - **Resp.** Luciano · Docs · **Depende de** E2.11
 - **Objetivo**: revisar o modelo-alvo com os dados reais em mãos e conferir de novo contra `docs/professor/guia-etapa-3-powerpivot.pdf`.
