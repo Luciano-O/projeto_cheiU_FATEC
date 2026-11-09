@@ -81,11 +81,11 @@ Corredores de análise: Leste → Centro (L3 × L11/L12) e Norte → Centro (L1 
 | Etapa | Responsável principal | Apoio |
 |---|---|---|
 | 0 Ambiente | Luciano | Victor (repositório do grupo, DevPlace, acesso dos integrantes) |
-| 1 Excel avançado | Nicolly (cadastros, amostra auditável) | Luciano (aquisição, dicionário, catálogo de defeitos) |
+| 1 Excel avançado | Luciano | Maryele (QA) |
 | 2 Power Query | Luciano | Maryele (QA) |
-| 3 Power Pivot e DAX | Luciano | Nicolly (validação e conferência) |
+| 3 Power Pivot e DAX | Luciano | Maryele (QA) |
 | 4 VBA | Maryele | Luciano |
-| 5 SQL | Nicolly | Luciano |
+| 5 SQL | Luciano | Maryele (QA) |
 | 6 API/Web | Victor | Luciano |
 | 7 Power BI | Grupo | — |
 | QA de todas as etapas | Maryele | — |

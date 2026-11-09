@@ -20,6 +20,10 @@ MA2026-entrega-parcial/03-powerpivot/
 └── README.md
 ```
 
+## Escopo da N1 (entrega de 07/11/2026)
+
+Decisão `memories/decisoes/0009`. Entram E3.0, E3.1, E3.2, E3.3, E3.6 e E3.7. **E3.4 (hora e lotação) e E3.5 (corredores) ficam para depois da N1.** O modelo da N1 tem `Fato_Transporte`, `Fato_Referencia_Mensal`, `Dim_Calendario`, `Dim_Transporte`, `Dim_Grupo` e `Rejeitados` (sem relação). `Dim_Horario` entra com o perfil horário.
+
 ### E3.0 — Refinar o plano da Etapa 3
 - **Resp.** Luciano · Docs · **Depende de** E2.11
 - **Objetivo**: revisar o modelo-alvo com os dados reais em mãos e conferir de novo contra `docs/professor/guia-etapa-3-powerpivot.pdf`.
@@ -97,7 +101,7 @@ MA2026-entrega-parcial/03-powerpivot/
 - **Aceite**: a tabela Horário × Alternativa × Demanda × Situação sai preenchida para os dois corredores às 07h, 10h e 18h, com a `origem_dado` visível.
 
 ### E3.6 — Abas `Validacao` e `Conferencia`
-- **Resp.** Nicolly · Excel, DAX · **Depende de** E3.5
+- **Resp.** Luciano · Excel, DAX · **Depende de** E3.5
 - **Objetivo**: provar que o modelo responde e que não cria nem perde valor. Só tabelas dinâmicas: gráficos de painel são da Etapa 7.
 - **Saídas**:
   - aba `Validacao` com tabelas dinâmicas:

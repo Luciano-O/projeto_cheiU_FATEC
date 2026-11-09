@@ -91,3 +91,14 @@ Resumo: **nenhuma fonte pública traz demanda por hora** de ônibus, Metrô ou C
 - BrasilAPI, feriados:
   - `https://brasilapi.com.br/api/feriados/v1/2024`
   - só feriados **nacionais**; acrescentar 25/01 (município de SP) e 09/07 (estado de SP).
+
+## Descobertas de 06/11/2026 (download de 2024)
+
+- A página de 2024 da SPTrans mudou de endereço: `https://capital.sp.gov.br/web/mobilidade/w/institucional/sptrans/acesso_a_informacao/362878` (a URL `.../w/passageiros-transportados-2024` dá 404). Ela publica três links malformados (`https://https://…` e um relativo quebrado); `baixar_sptrans.py` corrige.
+- Jan–jun: `.xls` em `/cidade/secretarias/upload/`; jul–dez: `/documents/d/mobilidade/<nome>-xlsx`. Os consolidados de jan–jun têm extensão `.xls` mas são `.xlsx` por dentro.
+- **O consolidado mensal só traz dia × linha de jan a jun**; de jul a dez vem mês × linha. Por isso a Etapa 2 lê os 366 diários, que têm sempre 16 colunas (com duas grafias de nome).
+- O cabeçalho dos diários varia da linha 3 à 10. Nos `.xls`, `Data` vem como texto `dd/mm/aaaa`.
+- Identidade confirmada: `Tot Passageiros Transportados` = `Pagantes` + `Int Ônibus->Ônibus` + `Com Gratuidade` + `Com Gratuidade Est`.
+- Totais mensais por grupo (página 245234): 2024 = 2.160.850.434.
+- Em 06/11 o portal do Metrô respondeu 503 "Em manutenção" (inclusive a OD 2023), e a CPTM bloqueia download automático (Incapsula).
+- Seis `.xls` antigos (jan e mai/2024) abrem vazios no `Excel.Workbook` do Power Query; `converter_xls_legado.py` gera cópias `.xlsx` em `diario_convertido/`. A aba de dados do consolidado de jan/2024 vem oculta.
