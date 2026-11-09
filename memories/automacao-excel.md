@@ -26,6 +26,11 @@ Receita verificada em 06/11/2026 (Excel 16, Microsoft 365 pt-BR, Windows PowerSh
 - **`Range.Value2` só para matrizes.** Depois de um `Value2 = 'texto'`, o binder COM do PowerShell guarda o tipo texto, e o próximo `Value2 = object[,]` falha com "Unable to cast Object[,] to String". Escalares vão por `.Formula`. Elementos que passaram por parâmetro de função chegam como `PSObject`: desembrulhe com `.psobject.BaseObject` (`Write-Tabela` e `Set-Valores` já fazem isso).
 - Aba copiada de outra pasta herda a visibilidade: o consolidado SPTrans de jan/2024 tem a aba de dados **oculta**.
 - `Application.Calculation` só pode ser trocado com uma pasta aberta.
+- Em coluna de tabela, `[@Coluna_Com_Sublinhado]` é recusado via `Formula2`; use `[@[Coluna]]` e `Tabela[[Coluna]]`. Grave a fórmula na primeira célula e deixe a tabela propagar.
+- Depois de criar dinâmicas sobre o modelo, o Excel recusa chamadas por alguns segundos (`RPC_E_CALL_REJECTED`): espere `Application.Ready` (`Esperar-Excel` em `montar_etapa3.ps1`).
+- `Excel.Workbook` devolve só `Name` e `Data` para `.xls` (sem `Kind`), e alguns `.xls` voltam vazios.
+- Nos `.xls`, uma célula de data pode chegar ao Power Query como texto `m/d/aaaa`.
+- Dinâmicas e segmentações sobre o Modelo de Dados funcionam via COM (`PivotCaches().Create(2, conexão ThisWorkbookDataModel, 6)`, `SlicerCaches.Add2`).
 - Localidade da consulta: não há API. Todo `Table.TransformColumnTypes` e conversão de texto leva `"pt-BR"` explícito.
 
 ## O que exige a interface (GUI)
