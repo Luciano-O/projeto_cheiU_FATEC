@@ -4,7 +4,7 @@ Conferência independente de `MA2026-entrega-parcial/01-excel/cheiU_01_Excel.xls
 
 Responsável pelo QA: Maryele Naara Freitas Meira.
 
-Conferência por script, preparada por Luciano. Revisão da Maryele: pendente.
+Conferência por script, preparada por Luciano. Revisado por: Maryele Naara Freitas Meira, em 08/11/2026 (painel da aba `Auditoria`).
 
 | # | Item | Resultado esperado | Como verificar | Obtido | Status |
 |---|---|---|---|---|---|

@@ -57,7 +57,7 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - tudo montado por script via COM (`memories/automacao-excel.md`).
 - **Pendente**:
   - Victor e Maryele como colaboradores e com commits próprios (E0.9), para a N2 (decisão `0010`);
-  - revisão humana dos QAs, do relatório e da apresentação, e o ensaio cronometrado;
+  - revisão do Victor no relatório e na apresentação, e o ensaio cronometrado (a Maryele revisou os painéis de conferência dos QAs em 08/11/2026);
   - interface do Excel: grupos de consultas, Tabela de Datas, hierarquia, diagrama e prints de `evidencias/`;
   - Metrô (portal em 503 até 08/11) e CPTM (download pelo navegador);
   - diferença contra o total publicado de janeiro a julho (até −5,15%): causa não confirmada.

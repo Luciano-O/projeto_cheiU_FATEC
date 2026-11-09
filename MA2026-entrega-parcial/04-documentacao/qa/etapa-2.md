@@ -2,7 +2,7 @@
 
 Conferência de `MA2026-entrega-parcial/02-powerquery/cheiU_02_PowerQuery.xlsx`, conforme a tabela do Guia Prático da Etapa 2. Responsável pelo QA: Maryele Naara Freitas Meira.
 
-Conferência por script, preparada por Luciano. Revisão da Maryele: pendente.
+Conferência por script, preparada por Luciano. Revisado por: Maryele Naara Freitas Meira, em 08/11/2026 (abas `Conf_Reconciliacao` e `Conf_Motivos`).
 
 | # | Item | Resultado esperado | Como verificar | Obtido | Status |
 |---|---|---|---|---|---|
