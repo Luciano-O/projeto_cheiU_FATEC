@@ -26,3 +26,5 @@ MA2026-entrega-final/02-bancodedados-sql/carga/*.csv
 
 # Proposta do grupo em PDF contém RAs: fica só local (resumo em docs/proposta/README.md)
 docs/proposta/proposta-grupo10.pdf
+.verificar.log
+.montar.log

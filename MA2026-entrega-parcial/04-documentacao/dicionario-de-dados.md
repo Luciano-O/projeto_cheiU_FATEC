@@ -6,7 +6,7 @@ Fontes baixadas em 06/11/2026 para `MA2026-entrega-parcial/01-excel/dados-brutos
 
 | Fonte | Pasta | Arquivos | Grão | Situação |
 |---|---|---|---|---|
-| SPTrans — passageiros transportados, diário | `sptrans/2024/diario/` | 366 (um por dia de 2024; 244 `.xls`, 122 `.xlsx`) | dia × linha × empresa/lote | baixado |
+| SPTrans — passageiros transportados, diário | `sptrans/2024/diario/` | 366 (um por dia de 2024; 243 `.xls`, 123 `.xlsx`) | dia × linha × empresa/lote | baixado |
 | SPTrans — consolidado mensal | `sptrans/2024/mensal/` | 12 | jan–jun: dia × linha; jul–dez: mês × linha | baixado (só referência e amostra da Etapa 1) |
 | SPTrans — totais mensais por grupo | `sptrans/referencia/totais_mensais.html` | 1 página (2013 a set/2026) | mês × grupo | baixado |
 | Metrô — entradas diárias por estação, entrada por linha mensal | `metro/2024/` | — | dia × estação; mês × linha | **pendente**: portal em manutenção (HTTP 503) |
@@ -18,7 +18,7 @@ Script de download: `01-excel/scripts/baixar_sptrans.py`. Perfil de layout: `01-
 
 - **Formato**: Excel, uma aba. O formato real (BIFF `.xls` ou OOXML `.xlsx`) nem sempre bate com a extensão.
 - **Cabeçalho**: em posição variável (linha 3 a 10). Acima dele fica um título de relatório.
-- **Linhas**: de 1.097 a 1.540 linhas de dado por dia; 480.192 no ano.
+- **Linhas**: de 1.097 a 1.540 linhas de dado por dia; 480.192 no ano (461.839 no grão dia × linha).
 - **Unidade**: passageiros (contagem por validação).
 
 | Coluna original | Tipo | Descrição |

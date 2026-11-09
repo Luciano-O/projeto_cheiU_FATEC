@@ -1,0 +1,10 @@
+ordem,etapa,linhas
+1,Arquivos diários na pasta,366
+2,"Linhas de título e cabeçalho descartadas (acima dos dados, D1/D2)",1413
+3,Linhas lidas abaixo do cabeçalho,486864
+4,Rejeitadas: linha vazia (D3),6672
+5,Rejeitadas: outros motivos,0
+6,Aceitas (dia × linha × empresa),480192
+7,"Fato_Transporte (dia × linha, D11)",461839
+8,Dim_Transporte (linhas de ônibus),1437
+9,Fato_Referencia_Mensal (mês × grupo),36

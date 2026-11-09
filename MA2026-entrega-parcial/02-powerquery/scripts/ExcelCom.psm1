@@ -245,6 +245,7 @@ function Read-Dax {
             continue
         }
         if ($l -match '^\[(.+?)\]\s*=\s*(.*)$') {
+            $nomeMedida = $Matches[1]; $inicioExpr = $Matches[2]   # os -match seguintes sobrescrevem $Matches
             if ($atual) { $res += $atual }
             $formato = 'geral'; $tabela = ''; $desc = ''
             foreach ($c in $coment) {
@@ -252,7 +253,7 @@ function Read-Dax {
                 if ($c -match 'Tabela:\s*(\S+)') { $tabela = $Matches[1] }
                 if ($c -match 'Pergunta:\s*(.+)$') { $desc = $Matches[1].Trim() }
             }
-            $atual = @{ Nome = $Matches[1]; Tabela = $tabela; Formato = $formato; Descricao = $desc; Formula = $Matches[2] }
+            $atual = @{ Nome = $nomeMedida; Tabela = $tabela; Formato = $formato; Descricao = $desc; Formula = $inicioExpr }
             $coment = @()
             continue
         }

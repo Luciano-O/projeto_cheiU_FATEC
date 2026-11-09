@@ -35,6 +35,23 @@ Decisão `memories/decisoes/0009`. Entram E2.0, E2.1, E2.2, E2.3 e E2.4 (se houv
 - `Fato_Referencia_Mensal`: totais mensais publicados pela SPTrans (mês × grupo), despivotados, com `mes_inicio`;
 - `Dim_Grupo` e `Ref_Feriados` em `05_Saida`, para a Etapa 3 só ler a Etapa 2.
 
+Defeitos do catálogo (`04-documentacao/catalogo-de-defeitos.md`) tratados no Power Query, por consulta:
+
+| Defeito | Consulta |
+|---|---|
+| D1, D2 cabeçalho em posição variável e título acima | `fnLerSPTrans` (procura a célula "Data") |
+| D3 linhas vazias | `stg_sptrans_linhas` → `Rejeitados` ("Linha vazia") |
+| D4 nomes de coluna diferentes | `fnLerSPTrans` com `cad_DePara_Coluna`; `Conf_Colunas` |
+| D5, D17 formato do arquivo | `fnLerSPTrans` (formato pelo conteúdo) e `stg_SPTrans_Bruto` (cópia convertida dos `.xls` que abrem vazios) |
+| D6 data em texto | `stg_sptrans_linhas` (`Date.FromText` com `pt-BR`) |
+| D7 código e nome na mesma célula | `stg_sptrans_linhas` |
+| D8, D9 grupo | `stg_sptrans_linhas` com `cad_DePara_Grupo`; "Outros" em `Dim_Grupo` |
+| D11 várias linhas no mesmo dia | `stg_sptrans_diario` (agrupa data × linha) |
+| D13 data do arquivo | a data vem do conteúdo; arquivo repetido → `Rejeitados` |
+| D14 tabela larga de referência | `stg_sptrans_referencia` (despivota, tira o total) |
+
+Os grupos de consultas (`01_Parametros`…) não têm API no COM: a lista fica na aba `Parametros` e a organização no Editor é feita pela interface.
+
 ### E2.0 — Refinar o plano da Etapa 2
 - **Resp.** Luciano · Docs · **Depende de** E1.7
 - **Objetivo**: ajustar os passos ao que a Etapa 1 encontrou (catálogo de defeitos, amostra) e conferir de novo contra `docs/professor/guia-etapa-2-powerquery.pdf`.
