@@ -43,10 +43,10 @@ memories/                decisões, glossário, fontes de dados e diário do pro
 | Etapa | Aulas | Situação |
 |---|---|---|
 | 0 — Ambiente | — | em andamento |
-| 1 — Excel avançado | 2–3 | feito na N1 (SPTrans), em revisão |
-| 2 — Power Query | 4–5 | feito na N1 (SPTrans), em revisão |
-| 3 — Power Pivot e DAX | 6–7 | feito na N1 (SPTrans), em revisão |
-| Parcial 1 | 8 | a fazer |
+| 1 — Excel avançado | 2–3 | entregue na Parcial 1 só com ônibus (SPTrans); faltam Metrô, CPTM, Pesquisa OD e prints de evidência |
+| 2 — Power Query | 4–5 | entregue na Parcial 1 só com ônibus (SPTrans); a diferença contra o total publicado passa de 0,5% de janeiro a julho |
+| 3 — Power Pivot e DAX | 6–7 | entregue na Parcial 1 com as medidas de demanda; faltam medidas por hora, lotação e corredores |
+| Parcial 1 | 8 | entregue (tag `parcial-1`) |
 | 4 — VBA | 10–11 | a fazer |
 | 5 — SQL | 12–13 | a fazer |
 | 6 — API/Web | 14–15 | a fazer |

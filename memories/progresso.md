@@ -62,3 +62,19 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - Metrô (portal em 503 até 08/11) e CPTM (download pelo navegador);
   - diferença contra o total publicado de janeiro a julho (até −5,15%): causa não confirmada.
 - **Próximo**: OD 2023, oferta e lotação; depois as Etapas 4–7.
+
+## 2026-11-09 a 2026-11-21 · TRA-38 · reverificação da N1 e status
+
+- **Feito**:
+  - reverificação em 09/11, sem alterar arquivos versionados:
+    - `verificar_etapa2.ps1`: 26 × 26 `.pq`, 0 diferenças; reconciliação e teste de reenvio iguais aos de 08/11;
+    - `verificar_etapa3.ps1`: 10 `.pq` e 27 medidas sem diferença; linhagem +1.000 com ida e volta;
+    - conferência própria dos CSVs de `dados_limpos/` (461.839 linhas, 2.124.704.175 passageiros, 0 duplicatas no grão) e dos painéis das Etapas 1 e 3, todos com diferença 0;
+  - Linear: TRA-18 (E2.2), TRA-24 (E2.11) e TRA-30 (E3.2) passaram de Backlog para In Progress. O trabalho já está na `main`, mas falta parte do aceite. O que falta ficou comentado em cada issue, e também em TRA-72 e TRA-11, que continuam In Progress;
+  - `README.md`: status das Etapas 1–3 e da Parcial 1.
+- **Pendente**:
+  - prints de `evidencias/` e itens de interface (grupos de consultas, Tabela de Datas, hierarquia, diagrama), que fecham TRA-72, TRA-24 e TRA-30;
+  - diferença do 1º semestre contra o publicado: confirmar com a SPTrans ou registrar uma decisão (TRA-18);
+  - teste de `.bas` via COM (TRA-11);
+  - `relatorio-parcial.pdf` (22:34 de 08/11) é anterior ao `relatorio-parcial.md` (23:07): conferir se o conteúdo diverge.
+- **Próximo**: OD 2023, oferta e lotação; depois as Etapas 4–7.
