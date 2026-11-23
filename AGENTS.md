@@ -18,7 +18,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
 | URL, formato, granularidade ou pegadinha de uma fonte ou API | `memories/fontes-de-dados.md` |
 | automatizar o Excel (consultas, modelo, VBA) por script | `memories/automacao-excel.md` (criado no passo E0.7) |
 | o que aconteceu nas sessões anteriores | final de `memories/progresso.md` |
-| status das tarefas | Linear, time **TRA**, projeto **cheiU — Mobilidade Urbana (ILP590)** |
+| status das tarefas | Linear, time **TRA**, projeto **cheiU — Mobilidade Urbana (ILP590)**; cópia pública nas issues do repositório `grupo` (`memories/decisoes/0011`) |
 
 ## Fluxo de uma sessão
 
@@ -32,6 +32,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
    - plano que mudou → edite o arquivo da etapa em `docs/plano/` e espelhe na issue;
    - sempre: entrada datada no fim de `memories/progresso.md` (feito, pendente, próximo passo).
 5. **Entregar**: commits `TRA-<n>: <resumo>`, push, PR para `main` com `Closes TRA-<n>` na descrição e a evidência do Aceite. Comente o link do PR na issue, que continua em *In Progress* (o time não tem status de revisão). O merge é do Luciano e leva a issue a *Done*: termine a sessão com o PR aberto e o pedido de revisão.
+   - **Espelho no repositório do grupo**: toda issue do Linear tem uma cópia nas issues de `grupo`. Até a TRA-75, TRA-n é a #(n−4); depois, procure pelo título. Ao começar uma sessão, feche como concluída a cópia de cada issue que foi para *Done*. Se uma issue for criada ou mudar de status, título ou labels, atualize a tabela `ISSUES` de `docs/scripts/espelhar_linear.py` e rode o script com `--executar`.
    - **Issue de outro integrante** (label `Resp: Maryele` ou `Resp: Victor`): o professor avalia o histórico de commits por pessoa. O agente prepara o trabalho na branch, sem commitar, e deixa na issue o passo a passo para o responsável revisar, fazer o commit com a própria conta e abrir o PR (`memories/decisoes/0008`).
 
 ## Regras
@@ -44,7 +45,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
 - **Segredos** (senha do SQL Server, token Olho Vivo) ficam só em `.env` na raiz; o modelo é `.env.example`.
 - **Dados brutos** com mais de 25 MB por arquivo ficam fora do Git; versione o script de download e a linha do `manifesto.csv`.
 - **Estrutura**: as pastas `MA2026-entrega-*` seguem exatamente o modelo do professor. Na raiz ficam só `README.md`, `AGENTS.md`, `CLAUDE.md`, `memories/`, `docs/` e arquivos de configuração.
-- **Autonomia**: branch, commit, push, PR, Linear e `memories/` você faz sozinho, exceto o commit das issues de outro integrante (ver Fluxo, passo 5). Merge, instalação de software, tarefas agendadas e downloads de código de terceiros esperam o "ok" do Luciano.
+- **Autonomia**: branch, commit, push, PR, Linear, o espelho de issues no `grupo` e `memories/` você faz sozinho, exceto o commit das issues de outro integrante (ver Fluxo, passo 5). Merge, instalação de software, tarefas agendadas e downloads de código de terceiros esperam o "ok" do Luciano.
 - **Issues com label `Humano`** exigem uma pessoa (criar conta, autorizar integração, apresentar). Prepare tudo que der e deixe o passo a passo na issue.
 
 ## Convenções
