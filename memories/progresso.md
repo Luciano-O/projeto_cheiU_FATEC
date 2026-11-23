@@ -78,3 +78,15 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - teste de `.bas` via COM (TRA-11);
   - `relatorio-parcial.pdf` (22:34 de 08/11) é anterior ao `relatorio-parcial.md` (23:07): conferir se o conteúdo diverge.
 - **Próximo**: OD 2023, oferta e lotação; depois as Etapas 4–7.
+
+## 2026-11-21 a 2026-11-23 · TRA-7 (relacionada) · espelho das issues no repositório do grupo
+
+- **Feito**:
+  - 71 issues criadas em `Ve3e3/projeto_cheiU_FATEC`, de TRA-5 a TRA-75, com TRA-n = #(n−4); 11 milestones e 18 labels (decisão `0011`);
+  - as 22 em Done no Linear foram fechadas como concluídas, e as 5 em In Progress levam a label `Em andamento`;
+  - script `docs/scripts/espelhar_linear.py` versionado; uma segunda execução com `--executar` não alterou nada;
+  - `AGENTS.md`: regra para manter o espelho em dia (passo 5 do Fluxo) e o espelho incluído na autonomia do agente.
+- **Pendente**:
+  - o espelho só se atualiza quando alguém roda o script ou fecha a cópia à mão. A integração nativa (E0.3) continua em Todo e precisa de uma pessoa para autorizar;
+  - quem não tem conta no workspace do Linear não abre os links do Linear que estão nas issues.
+- **Próximo**: OD 2023, oferta e lotação; depois as Etapas 4–7.
