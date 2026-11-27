@@ -35,7 +35,7 @@ Receita verificada em 06/11/2026 (Excel 16, Microsoft 365 pt-BR, Windows PowerSh
 
 ## O que exige a interface (GUI)
 
-- Grupos de consultas no Editor do Power Query (`01_Parametros`…): não há propriedade de grupo no `WorkbookQuery`.
+- Grupos de consultas no Editor do Power Query (`01_Parametros`…): não há propriedade de grupo no `WorkbookQuery`. Feito em 27/11/2026 pelo controle do computador: Dados › Obter Dados › Iniciar Editor; Shift/Ctrl+clique seleciona; botão direito › Mover Para o Grupo › Novo Grupo. Clicar numa consulta dispara a prévia (a de `Fato_Transporte` leva ~2 min): termine a seleção numa consulta leve. Fechar o Editor pelo X e escolher Manter não atualiza as consultas. Os grupos ficam no `DataMashup` (entrada `QueryGroups` e `QueryGroupID` de cada consulta). **`Ctrl+S` pode não gravar**: salve pelo disquete da barra de título e confira a data do arquivo.
 - Marcar tabela de datas, classificar por coluna, hierarquias, ocultar colunas e o print da Exibição de Diagrama do Power Pivot. Feito em 27/11/2026 pelo controle do computador (`03-powerpivot/README.md` lista os passos). O Power Pivot abre por Dados › Modelo de Dados › Gerenciar (não há guia Power Pivot ligada); no diagrama, ctrl+clique seleciona vários campos e o menu de contexto tem Criar Hierarquia e Ocultar das Ferramentas de Cliente. **`Ctrl+S` na janela do Power Pivot não salva**: use o disquete da barra de acesso rápido dela e confira a data do arquivo. Esses ajustes se perdem quando o script remonta a pasta.
 - Prints de evidência (Gerenciador de Nomes, Rastrear Precedentes, Gerenciar Relações).
 - Importar e exportar `.bas` (exige "Confiar no acesso ao modelo de objeto do projeto do VBA"): não testado, fica para a Etapa 4.

@@ -139,3 +139,9 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
 - **Feito**: `Dim_Calendario` marcada como Tabela de Datas; `nome_mes` por `mes` e `nome_dia` por `dia_semana`; hierarquia `Ano › Mês › Dia`; 5 chaves técnicas ocultas; `docs/diagrama_modelo.png`. `verificar_etapa3.ps1` depois de salvar: `.pq` 10 × 10, `.dax` 28 × 28, 5 relações ativas, linhagem ok.
 - **Pendente**: relações e hierarquia Faixa › Hora das fatos horárias (dependem de E2.6–E2.8); os ajustes da interface se perdem se `montar_etapa3.ps1` remontar a pasta (passos no README da Etapa 3).
 - **Próximo**: grupos de consultas e prints da Etapa 2 (TRA-24).
+
+## 2026-11-27 · TRA-24 (E2.11) · grupos de consultas e prints da Etapa 2
+
+- **Feito**: as 39 consultas organizadas nos 6 grupos (`01_Parametros`…`06_Conferencia`) pelo Editor do Power Query e gravadas no `.xlsx`; prints do painel com grupos, de `Fato_Transporte` (prévia e 20 etapas aplicadas) e da `Conf_Reconciliacao` em `02-powerquery/evidencias/`; `verificar_etapa2.ps1` depois de salvar (resultado no PR).
+- **Pendente**: teste de clonar e atualizar numa máquina de outro integrante (único item do aceite que falta); os grupos se perdem se `montar_etapa2.ps1` remontar a pasta (passos no README da Etapa 2).
+- **Próximo**: Metrô e OD 2023 quando o portal voltar; E2.8 quando houver o GTFS (E0.5).
