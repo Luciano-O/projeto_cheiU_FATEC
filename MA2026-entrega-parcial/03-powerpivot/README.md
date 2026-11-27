@@ -19,6 +19,16 @@ powershell -NoProfile -ExecutionPolicy Bypass -File MA2026-entrega-parcial/03-po
 | `scripts/montar_etapa3.ps1` | monta modelo, relações, medidas, `Validacao` e `Conferencia` |
 | `scripts/verificar_etapa3.ps1` | compara `.pq` e `.dax` com a pasta e faz o teste de linhagem |
 
+### Ajustes feitos pela interface do Power Pivot
+
+O COM não tem API para estes ajustes. Eles foram feitos na interface em 27/11/2026 e ficam só no `.xlsx`: depois de remontar com `montar_etapa3.ps1`, refaça-os em Dados › Modelo de Dados › Gerenciar.
+
+1. `Dim_Calendario` marcada como Tabela de Datas pela coluna `data` (Design › Marcar como Tabela de Data).
+2. `nome_mes` classificado por `mes` e `nome_dia` por `dia_semana` (Página Inicial › Classificar por Coluna).
+3. Hierarquia `Ano › Mês › Dia` em `Dim_Calendario` (`ano`, `nome_mes`, `dia`), na Exibição de Diagrama.
+4. Chaves técnicas ocultas das ferramentas de cliente: `Fato_Transporte[data]`, `Fato_Transporte[id_linha]`, `Fato_Referencia_Mensal[mes_inicio]`, `Fato_Referencia_Mensal[grupo]` e `Dim_Transporte[grupo]`. As dinâmicas usam os campos das dimensões.
+5. Print da Exibição de Diagrama em `docs/diagrama_modelo.png`: 5 relações 1:N em direção única, sem caminho ambíguo; `Rejeitados` e `Conf_Etapa2` fora da estrela.
+
 ## Medidas de análise
 
 | Medida | Pergunta | Valor em 2024 |
@@ -55,7 +65,7 @@ Verificado em 08/11/2026 e de novo em 27/11/2026, com a CPTM:
 
 ## Pendências
 
-- Exigem a interface do Power Pivot: marcar `Dim_Calendario` como Tabela de Datas, hierarquia Ano › Mês › Dia, ocultar chaves técnicas e `docs/diagrama_modelo.png`.
+- Hierarquia Faixa › Hora e as relações das fatos horárias: dependem de `Dim_Horario` e das fatos da OD e da oferta (E2.6–E2.8).
 - Prints em `evidencias/` (diagrama, gerenciar relações, gerenciar medidas, validação, conferência).
 - Herdadas da Etapa 2: sem Metrô; diferença contra o publicado de jan a jun, aceita como reprocessamento da fonte (decisão `0014`).
 - Trem (CPTM) entra desde 27/11/2026 como embarcados com estimativa diária (decisão `0012`): as médias por tipo de dia e a razão fim de semana/útil misturam ônibus (real) e trem (estimado). A dinâmica realizado × publicado usa `Passageiros de Ônibus`, porque o publicado é só da SPTrans.
