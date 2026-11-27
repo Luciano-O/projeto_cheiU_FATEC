@@ -127,3 +127,9 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - Etapa 2: 39 × 39 `.pq`, reconciliação com 3 fontes e diferença 0, reenvio ok; Etapa 3: `Conferencia` 0 (463.876 linhas, 2.564.533.459 passageiros), linhagem ok.
 - **Pendente**: confirmar com a SPTrans, se alguém do grupo quiser, o reprocessamento do 1º semestre.
 - **Próximo**: prints e itens de interface (TRA-72, TRA-24, TRA-30).
+
+## 2026-11-27 · TRA-72 (E1.6) · prints da Etapa 1
+
+- **Feito**: prints do painel de conferência, do Rastrear Precedentes em `Grupo_Trat` e do Gerenciador de Nomes em `01-excel/evidencias/`, feitos pela interface do Excel (controle do computador); a pasta foi fechada sem salvar, e o `.xlsx` versionado não mudou.
+- **Pendente**: nada na TRA-72.
+- **Próximo**: grupos de consultas e prints da Etapa 2 (TRA-24); Tabela de Datas, hierarquia e diagrama da Etapa 3 (TRA-30).
