@@ -121,7 +121,7 @@ ISSUES = """
 69|Backlog|F|Setup;Resp: Luciano|f3-congelar-a-entrega-final-tag-final|[F.3] Congelar a entrega final (tag final)
 70|Done|E0|Docs;Resp: Luciano|e08-alinhar-o-plano-aos-guias-do-professor|[E0.8] Alinhar o plano aos guias do professor
 71|Todo|E0|Setup;Resp: Victor;Humano|e09-commits-proprios-de-cada-integrante|[E0.9] Commits próprios de cada integrante
-72|In Progress|E1|Excel;Resp: Luciano|e16-base-auditavel-da-amostra-bruto-tratado-auditoria|[E1.6] Base auditável da amostra (Bruto, Tratado, Auditoria)
+72|Done|E1|Excel;Resp: Luciano|e16-base-auditavel-da-amostra-bruto-tratado-auditoria|[E1.6] Base auditável da amostra (Bruto, Tratado, Auditoria)
 73|Done|E1|QA;Docs;Resp: Maryele|e17-qa-e-fechamento-da-etapa-1|[E1.7] QA e fechamento da Etapa 1
 74|Done|E2|Docs;Resp: Luciano|e20-refinar-o-plano-da-etapa-2|[E2.0] Refinar o plano da Etapa 2
 75|Done|E2|Power Query;Resp: Luciano|e21-parametros-e-cadastros-da-etapa-1|[E2.1] Parâmetros e cadastros da Etapa 1

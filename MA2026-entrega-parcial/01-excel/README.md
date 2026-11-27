@@ -75,8 +75,17 @@ powershell -NoProfile -ExecutionPolicy Bypass -File MA2026-entrega-parcial/01-ex
 
 Os dados brutos vêm de `scripts/baixar_sptrans.py` e `scripts/baixar_cptm.py` (idempotentes, grava `dados-brutos/manifesto.csv`). O perfil de layout de cada arquivo sai de `scripts/perfilar_sptrans.py`.
 
+## Evidências
+
+Prints feitos na interface do Excel em 27/11/2026, em `evidencias/`:
+
+| Arquivo | Mostra |
+|---|---|
+| `01_painel_conferencia.jpg` | painel da aba `Auditoria`: 579 detectados × 579 registrados, diferença 0 em todos os tipos; 0 erros de fórmula e 0 células originais alteradas |
+| `02_rastrear_precedentes_grupo_trat.jpg` | Rastrear Precedentes em `Grupo_Trat` (V2): a seta vem de `Grupo` (C2) e o ícone de planilha aponta para `Cad_DePara_Grupo` na aba `Cadastros` |
+| `03_gerenciador_de_nomes.jpg` | Gerenciador de Nomes: tabelas `Cad_*`, `Param_*`, `Tab_*`, listas `Lista_*` e `CaminhoRepo` (a coluna Valor foi cortada porque mostra o caminho local) |
+
 ## Pendências
 
 - Metrô (E1.2): o portal do Metrô segue em manutenção (06/11 e 27/11). A CPTM foi baixada em 27/11 (`dados-brutos/cptm/2024/`, defeitos D19–D22) e entra na Etapa 2 (E2.4).
-- Prints de evidência em `evidencias/` (painel, Rastrear Precedentes, Gerenciador de Nomes): exigem a interface do Excel.
 - Escopo respeitado: sem Power Query, DAX ou macro neste arquivo.
