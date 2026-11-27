@@ -90,13 +90,55 @@ try {
     [void](Próxima-Tabela 'Param_Pesos_Tipo_Dia' 'Pesos por tipo de dia (CPTM mensal → diário)' @(
         ,@('tipo_dia', 'peso', 'fonte')
         ,@('Útil', 1, 'premissa: referência')
-        ,@('Sábado', 0.6, 'premissa até haver as razões MSA/MDU do Metrô (E2.4)')
-        ,@('Domingo', 0.4, 'premissa até haver as razões MDO/MDU do Metrô (E2.4)')
+        ,@('Sábado', 0.6, 'premissa até haver as razões MSA/MDU do Metrô (E2.3; decisão 0012)')
+        ,@('Domingo', 0.4, 'premissa até haver as razões MDO/MDU do Metrô (E2.3; decisão 0012)')
         ,@('Feriado', 0.4, 'premissa: feriado conta como domingo')
     ))
 
+    $loTri = Próxima-Tabela 'Cad_Linha_Trilho' 'Linhas de trilho (CPTM; o Metrô entra com a E2.3)' @(
+        ,@('linha_fonte', 'id_linha', 'codigo_linha', 'nome_linha', 'modalidade', 'operador', 'grupo')
+        ,@('7', 'TRM-L7', 'L7', 'Rubi', 'Trem', 'CPTM', 'CPTM')
+        ,@('10', 'TRM-L10', 'L10', 'Turquesa', 'Trem', 'CPTM', 'CPTM')
+        ,@('11', 'TRM-L11', 'L11', 'Coral', 'Trem', 'CPTM', 'CPTM')
+        ,@('12', 'TRM-L12', 'L12', 'Safira', 'Trem', 'CPTM', 'CPTM')
+        ,@('13', 'TRM-L13', 'L13', 'Jade', 'Trem', 'CPTM', 'CPTM')
+    )
+
+    # De-para de estações da CPTM: grafia do arquivo (por linha) → nome padronizado (D20, D23).
+    $estacoes = @(
+        @('7', 'Brás', 'Brás'), @('7', 'Luz', 'Luz'), @('7', 'Palmeiras-Barra Funda', 'Palmeiras-Barra Funda'), @('7', 'Água Branca', 'Água Branca'),
+        @('7', 'Lapa', 'Lapa'), @('7', 'Piqueri', 'Piqueri'), @('7', 'Pirituba', 'Pirituba'), @('7', 'Vila Clarice', 'Vila Clarice'),
+        @('7', 'Jaraguá', 'Jaraguá'), @('7', 'Vila Aurora', 'Vila Aurora'), @('7', 'Perus', 'Perus'), @('7', 'Caieiras', 'Caieiras'),
+        @('7', 'Franco da Rocha', 'Franco da Rocha'), @('7', 'Baltazar Fidelis', 'Baltazar Fidelis'), @('7', 'Francisco Morato', 'Francisco Morato'),
+        @('7', 'Botujuru', 'Botujuru'), @('7', 'Campo Limpo Paulista', 'Campo Limpo Paulista'), @('7', 'Várzea Paulista', 'Várzea Paulista'),
+        @('7', 'Jundiaí', 'Jundiaí'),
+        @('10', 'Brás', 'Brás'), @('10', 'Juventus-Mooca', 'Juventus-Mooca'), @('10', 'Ipiranga', 'Ipiranga'), @('10', 'Tamanduateí', 'Tamanduateí'),
+        @('10', 'São Caetano do Sul-Pref. Walter Braido', 'São Caetano do Sul-Prefeito Walter Braido'), @('10', 'Utinga', 'Utinga'),
+        @('10', 'Prefeito Saladino', 'Prefeito Saladino'), @('10', 'Pref. Celso Daniel-Santo André', 'Prefeito Celso Daniel-Santo André'),
+        @('10', 'Capuava', 'Capuava'), @('10', 'Mauá', 'Mauá'), @('10', 'Guapituba', 'Guapituba'),
+        @('10', 'Ribeirão Pires-Antônio Bespalec', 'Ribeirão Pires-Antônio Bespalec'), @('10', 'Rio Grande da Serra', 'Rio Grande da Serra'),
+        @('11', 'Luz', 'Luz'), @('11', 'Brás', 'Brás'), @('11', 'Tatuapé', 'Tatuapé'), @('11', 'Corinthians-Itaquera', 'Corinthians-Itaquera'),
+        @('11', 'Dom Bosco', 'Dom Bosco'), @('11', 'José Bonifácio', 'José Bonifácio'), @('11', 'Guaianases', 'Guaianases'),
+        @('11', 'Antonio Gianetti Neto', 'Antonio Gianetti Neto'), @('11', 'Ferraz de Vasconcelos', 'Ferraz de Vasconcelos'), @('11', 'Poá', 'Poá'),
+        @('11', 'Calmon Viana', 'Calmon Viana'), @('11', 'Suzano', 'Suzano'), @('11', 'Jundiapeba', 'Jundiapeba'), @('11', 'Braz Cubas', 'Braz Cubas'),
+        @('11', 'Mogi Das Cruzes', 'Mogi das Cruzes'), @('11', 'Estudantes', 'Estudantes'),
+        @('12', 'Brás', 'Brás'), @('12', 'Tatuapé', 'Tatuapé'), @('12', 'Engº. Goulart', 'Engenheiro Goulart'), @('12', 'USP Leste', 'USP Leste'),
+        @('12', 'Comendador Ermelino', 'Comendador Ermelino'), @('12', 'São Miguel Paulista', 'São Miguel Paulista'),
+        @('12', 'Jardim Helena-Vila Mara', 'Jardim Helena-Vila Mara'), @('12', 'Itaim Paulista', 'Itaim Paulista'), @('12', 'Jardim Romano', 'Jardim Romano'),
+        @('12', 'Engº. Manoel Feio', 'Engenheiro Manoel Feio'), @('12', 'Itaquaquecetuba', 'Itaquaquecetuba'), @('12', 'Aracaré', 'Aracaré'),
+        @('12', 'Calmon Viana', 'Calmon Viana'),
+        @('13', 'Engº. Goulart', 'Engenheiro Goulart'), @('13', 'Guarulhos CECAP', 'Guarulhos-Cecap'), @('13', 'Guarulhos-CECAP', 'Guarulhos-Cecap'),
+        @('13', 'Aeroporto Guarulhos', 'Aeroporto-Guarulhos'), @('13', 'Aeroporto-Guarulhos', 'Aeroporto-Guarulhos')
+    )
+    $linhasEst = @(,@('linha_fonte', 'grafia_fonte', 'estacao', 'observacao'))
+    foreach ($e in $estacoes) {
+        $obs = if ($e[1] -ceq $e[2]) { 'grafia oficial' } else { 'grafia do arquivo da CPTM padronizada' }
+        $linhasEst += ,@($e[0], $e[1], $e[2], $obs)
+    }
+    $loEst = Próxima-Tabela 'Cad_Estacao' 'Estações da CPTM: de-para da grafia do arquivo' $linhasEst
+
     $listas = [ordered]@{
-        'Lista_Grupo'         = @('grupo', 'Estrutural', 'Local de Articulação Regional', 'Local de Distribuição', 'Outros')
+        'Lista_Grupo'         = @('grupo', 'Estrutural', 'Local de Articulação Regional', 'Local de Distribuição', 'Outros', 'CPTM')
         'Lista_Modalidade'    = @('modalidade', 'Ônibus', 'Metrô', 'Trem')
         'Lista_Tipo_Dia'      = @('tipo_dia', 'Útil', 'Sábado', 'Domingo', 'Feriado')
         'Lista_Tipo_Problema' = @('tipo_problema', 'Vazio ou zero', 'Empresa como código', 'Grupo fora dos oficiais', 'Grupo não cadastrado', 'Acima do limite', 'Data inválida')
@@ -112,6 +154,8 @@ try {
     # Validação em lista na própria coluna de destino dos de-para.
     $wb.Worksheets.Item('Cadastros').ListObjects.Item('Cad_DePara_Grupo').ListColumns.Item('grupo').DataBodyRange.Validation.Add(3, 1, 1, '=Lista_Grupo')
     $wb.Worksheets.Item('Cadastros').ListObjects.Item('Cad_DePara_Grupo').ListColumns.Item('modalidade').DataBodyRange.Validation.Add(3, 1, 1, '=Lista_Modalidade')
+    $wb.Worksheets.Item('Cadastros').ListObjects.Item('Cad_Linha_Trilho').ListColumns.Item('grupo').DataBodyRange.Validation.Add(3, 1, 1, '=Lista_Grupo')
+    $wb.Worksheets.Item('Cadastros').ListObjects.Item('Cad_Linha_Trilho').ListColumns.Item('modalidade').DataBodyRange.Validation.Add(3, 1, 1, '=Lista_Modalidade')
     $cad.Columns.AutoFit() | Out-Null
     Log 'Cadastros prontos'
 

@@ -1,6 +1,6 @@
 ﻿# Verificações de publicação e QA da Etapa 2 (E2.10 e E2.11). Não salva a pasta de trabalho.
 # 1. os .pq de scripts_m são idênticos às consultas da pasta;
-# 2. teste de reenvio: um arquivo extra na pasta muda as contagens, e elas voltam ao retirá-lo.
+# 2. teste de reenvio: um arquivo extra na pasta da SPTrans e outro na da CPTM mudam as contagens, e elas voltam ao retirá-los.
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File MA2026-entrega-parcial\02-powerquery\scripts\verificar_etapa2.ps1
 $ErrorActionPreference = 'Stop'
 $repo = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
@@ -8,6 +8,8 @@ Import-Module (Join-Path $PSScriptRoot 'ExcelCom.psm1') -Force
 $dir = Join-Path $repo 'MA2026-entrega-parcial\02-powerquery'
 $pasta = Join-Path $repo 'MA2026-entrega-parcial\01-excel\dados-brutos\sptrans\2024\diario'
 $extra = Join-Path $pasta 'zz_teste_reenvio.xlsx'
+$pastaCptm = Join-Path $repo 'MA2026-entrega-parcial\01-excel\dados-brutos\cptm\2024\embarcados'
+$extraCptm = Join-Path $pastaCptm 'Embarcados Acumulados - 2024 - 01-Jan_teste_reenvio.xlsx'
 function Log($m) { Write-Host ("[{0:HH:mm:ss}] {1}" -f (Get-Date), $m) }
 
 function Ler-Conf($wb, [string]$rotulo) {
@@ -28,10 +30,11 @@ try {
 
     Ler-Conf $wb 'ANTES'
     Copy-Item (Join-Path $pasta '01ago2024.xlsx') $extra
-    try { Ler-Conf $wb 'COM EXTRA' } finally { Remove-Item $extra -Force }
+    Copy-Item (Join-Path $pastaCptm 'Embarcados Acumulados - 2024 - 01-Jan.xlsx') $extraCptm
+    try { Ler-Conf $wb 'COM EXTRA' } finally { Remove-Item $extra, $extraCptm -Force }
     Ler-Conf $wb 'DEPOIS'
     $wb.Close($false)
 } finally {
-    if (Test-Path $extra) { Remove-Item $extra -Force }
+    foreach ($x in $extra, $extraCptm) { if (Test-Path $x) { Remove-Item $x -Force } }
     Stop-ExcelCom $xl
 }

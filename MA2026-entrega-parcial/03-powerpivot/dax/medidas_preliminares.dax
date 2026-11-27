@@ -9,6 +9,11 @@
 [Total de Passageiros] =
     SUM(Fato_Transporte[passageiros])
 
+// Pergunta: quantos passageiros os ônibus da SPTrans transportaram (sem o trem, que é embarcado e estimado por dia)?
+// Formato: inteiro   Tabela: Fato_Transporte
+[Passageiros de Ônibus] =
+    CALCULATE([Total de Passageiros], Dim_Transporte[modalidade] = "Ônibus")
+
 // Pergunta: qual é o volume típico de um dia?
 // Formato: inteiro   Tabela: Fato_Transporte
 [Média Diária de Passageiros] =

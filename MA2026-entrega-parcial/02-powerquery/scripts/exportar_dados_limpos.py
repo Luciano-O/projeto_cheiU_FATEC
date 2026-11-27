@@ -18,7 +18,8 @@ DIR = Path(__file__).resolve().parents[1]
 ARQ = DIR / "cheiU_02_PowerQuery.xlsx"
 SAIDA = DIR / "dados_limpos"
 TABELAS = ["Fato_Transporte", "Fato_Referencia_Mensal", "Dim_Transporte", "Dim_Grupo", "Ref_Feriados", "Rejeitados",
-           "Conf_Reconciliacao", "Conf_Motivos", "Conf_Colunas", "Conf_Etapas", "Conf_Publicado"]
+           "Conf_Reconciliacao", "Conf_Motivos", "Conf_Colunas", "Conf_Etapas", "Conf_Publicado",
+           "stg_cptm_mensal_estacao", "Conf_CPTM"]
 POR_SEMESTRE = {"Fato_Transporte"}
 
 

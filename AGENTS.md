@@ -31,7 +31,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
    - descoberta sobre fonte ou API → `memories/fontes-de-dados.md`;
    - plano que mudou → edite o arquivo da etapa em `docs/plano/` e espelhe na issue;
    - sempre: entrada datada no fim de `memories/progresso.md` (feito, pendente, próximo passo).
-5. **Entregar**: commits `TRA-<n>: <resumo>`, push, PR para `main` com `Closes TRA-<n>` na descrição e a evidência do Aceite. Comente o link do PR na issue, que continua em *In Progress* (o time não tem status de revisão). O merge é do Luciano e leva a issue a *Done*: termine a sessão com o PR aberto e o pedido de revisão.
+5. **Entregar**: commits `TRA-<n>: <resumo>`, push, PR para `main` com `Closes TRA-<n>` na descrição e a evidência do Aceite. Comente o link do PR na issue. Com o Aceite verificado, publique (decisão `0013`): `gh pr merge <n> --merge`, `git fetch origin` e `git push grupo origin/main:main`; a issue vai para *Done* e a cópia no `grupo` é fechada. PR que não fecha o Aceite (`Refs TRA-<n>`) também é publicado, e a issue fica em *In Progress*.
    - **Espelho no repositório do grupo**: toda issue do Linear tem uma cópia nas issues de `grupo`. Até a TRA-75, TRA-n é a #(n−4); depois, procure pelo título. Ao começar uma sessão, feche como concluída a cópia de cada issue que foi para *Done*. Se uma issue for criada ou mudar de status, título ou labels, atualize a tabela `ISSUES` de `docs/scripts/espelhar_linear.py` e rode o script com `--executar`.
    - **Issue de outro integrante** (label `Resp: Maryele` ou `Resp: Victor`): o professor avalia o histórico de commits por pessoa. O agente prepara o trabalho na branch, sem commitar, e deixa na issue o passo a passo para o responsável revisar, fazer o commit com a própria conta e abrir o PR (`memories/decisoes/0008`).
 
@@ -45,7 +45,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
 - **Segredos** (senha do SQL Server, token Olho Vivo) ficam só em `.env` na raiz; o modelo é `.env.example`.
 - **Dados brutos** com mais de 25 MB por arquivo ficam fora do Git; versione o script de download e a linha do `manifesto.csv`.
 - **Estrutura**: as pastas `MA2026-entrega-*` seguem exatamente o modelo do professor. Na raiz ficam só `README.md`, `AGENTS.md`, `CLAUDE.md`, `memories/`, `docs/` e arquivos de configuração.
-- **Autonomia**: branch, commit, push, PR, Linear, o espelho de issues no `grupo` e `memories/` você faz sozinho, exceto o commit das issues de outro integrante (ver Fluxo, passo 5). Merge, instalação de software, tarefas agendadas e downloads de código de terceiros esperam o "ok" do Luciano.
+- **Autonomia**: branch, commit, push, PR, Linear, o espelho de issues no `grupo` e `memories/` você faz sozinho, exceto o commit das issues de outro integrante (ver Fluxo, passo 5). Merge e push da `main` para o `grupo` também, depois do Aceite verificado (decisão `0013`). Instalação de software, tarefas agendadas e downloads de código de terceiros esperam o "ok" do Luciano.
 - **Issues com label `Humano`** exigem uma pessoa (criar conta, autorizar integração, apresentar). Prepare tudo que der e deixe o passo a passo na issue.
 
 ## Convenções
@@ -65,7 +65,7 @@ Idioma: pt-BR em documentos, issues, commits e PRs. Identificadores técnicos se
 ## Repositórios
 
 - `origin`: https://github.com/Luciano-O/projeto_cheiU_FATEC — onde o trabalho acontece.
-- `grupo`: https://github.com/Ve3e3/projeto_cheiU_FATEC — repositório oficial citado na proposta; recebe a `main` e as tags nas entregas (passo E0.4).
+- `grupo`: https://github.com/Ve3e3/projeto_cheiU_FATEC — repositório oficial citado na proposta; recebe a `main` a cada PR publicado e as tags nas entregas (decisão `0013`).
 
 ## Equipe
 

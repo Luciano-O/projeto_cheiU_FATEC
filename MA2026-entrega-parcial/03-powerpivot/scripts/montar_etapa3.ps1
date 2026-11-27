@@ -69,7 +69,8 @@ try {
     Add-Valor $pt1 'Total de Passageiros'
     $pt2 = Add-Dinamica $wb $val 'A22' 'PT_Realizado_Publicado'
     Add-Campo $pt2 '[Dim_Calendario].[mes_rotulo]' 1
-    foreach ($m in 'Total de Passageiros', 'Passageiros Publicados', 'Diferença % sobre o Publicado', 'Variação % sobre o Mês Anterior') { Add-Valor $pt2 $m }
+    # O publicado é só da SPTrans: o realizado ao lado dele é só de ônibus (decisão 0012).
+    foreach ($m in 'Passageiros de Ônibus', 'Passageiros Publicados', 'Diferença % sobre o Publicado', 'Variação % sobre o Mês Anterior') { Add-Valor $pt2 $m }
     $pt3 = Add-Dinamica $wb $val 'A40' 'PT_Tipo_Dia'
     Add-Campo $pt3 '[Dim_Calendario].[tipo_dia]' 1
     foreach ($m in 'Média Diária de Passageiros', 'Total de Passageiros') { Add-Valor $pt3 $m }

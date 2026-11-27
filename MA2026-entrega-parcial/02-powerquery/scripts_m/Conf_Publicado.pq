@@ -1,7 +1,8 @@
 // Conf_Publicado
-// Soma mensal do fato × total publicado pela SPTrans, por mês (só os três grupos oficiais).
+// Soma mensal do fato × total publicado pela SPTrans, por mês (só ônibus dos três grupos oficiais).
 let
-    Fato = Table.NestedJoin(Fato_Transporte, {"id_linha"}, Dim_Transporte, {"id_linha"}, "d", JoinKind.LeftOuter),
+    Onibus = Table.SelectRows(Fato_Transporte, each [modalidade] = "Ônibus"),
+    Fato = Table.NestedJoin(Onibus, {"id_linha"}, Dim_Transporte, {"id_linha"}, "d", JoinKind.LeftOuter),
     ComGrupo = Table.ExpandTableColumn(Fato, "d", {"grupo"}),
     Mes = Table.AddColumn(ComGrupo, "mes_inicio", each Date.StartOfMonth([data]), type date),
     Oficiais = Table.SelectRows(Mes, each [grupo] <> "Outros"),

@@ -69,7 +69,7 @@ ISSUES = """
 17|Done|E1|Excel;Resp: Luciano|e15-aba-cadastros-cadastros-de-para-e-parametros|[E1.5] Aba `Cadastros`: cadastros, de-para e parâmetros
 18|In Progress|E2|Power Query;Resp: Luciano|e22-sptrans-diario|[E2.2] SPTrans diário
 19|Backlog|E2|Power Query;Resp: Luciano|e23-metro|[E2.3] Metrô
-20|Backlog|E2|Power Query;Resp: Luciano|e24-cptm-com-estimativa-diaria|[E2.4] CPTM com estimativa diária
+20|Done|E2|Power Query;Resp: Luciano|e24-cptm-com-estimativa-diaria|[E2.4] CPTM com estimativa diária
 21|Backlog|E2|Power Query;Resp: Luciano|e25-viagens-da-od-2023|[E2.5] Viagens da OD 2023
 22|Done|E2|Power Query;Resp: Luciano|e29-consolidacao-rejeitados-e-conferencia|[E2.9] Consolidação, `Rejeitados` e conferência
 23|Done|E2|QA;Resp: Maryele|e210-qa-da-etapa-2|[E2.10] QA da Etapa 2
