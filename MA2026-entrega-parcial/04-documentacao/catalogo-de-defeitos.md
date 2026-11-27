@@ -1,6 +1,6 @@
 # Catálogo de defeitos — fontes de 2024
 
-Defeitos encontrados nos arquivos reais baixados em 06/11/2026 (SPTrans) e 27/11/2026 (CPTM, D19–D22), em `01-excel/dados-brutos/`. O levantamento vem de `01-excel/scripts/perfilar_sptrans.py` (saída em `dados-brutos/sptrans/2024/perfil_layout.csv`) e de uma varredura de conteúdo em 1 de cada 6 arquivos diários (80.978 linhas).
+Defeitos encontrados nos arquivos reais baixados em 06/11/2026 (SPTrans) e 27/11/2026 (CPTM, D19–D23), em `01-excel/dados-brutos/`. O levantamento vem de `01-excel/scripts/perfilar_sptrans.py` (saída em `dados-brutos/sptrans/2024/perfil_layout.csv`) e de uma varredura de conteúdo em 1 de cada 6 arquivos diários (80.978 linhas).
 
 Legenda da coluna "Como cada etapa trata":
 - **trata**: a etapa corrige;
@@ -32,6 +32,7 @@ Legenda da coluna "Como cada etapa trata":
 | D20 | Rótulos que mudam entre meses | março usa "Entradas - Acumulados no Mês" (os outros meses, "Embarcados"); de junho a dezembro o título tem espaço antes da barra (`junho /24`); o nome da linha vem com espaço não separável (` LINHA 10`) | CPTM embarcados | registra | trata: a leitura procura o bloco pelo texto `LINHA n` sem espaços, e o título não é usado (E2.4) |
 | D21 | Planilha de relatório, não tabela | um bloco por linha, com cabeçalho repetido, código do serviço só na 1ª estação (`BAS-JUN`), subtotais "Totais do Serviço" e "Totais da Linha", total geral "Totais CPTM" e notas de rodapé; a mesma estação aparece em mais de uma linha (Brás em L7, L10, L11 e L12) | CPTM embarcados | registra | trata: preenche a linha para baixo, remove subtotais e rodapé e confere a soma contra "Totais CPTM" (E2.4) |
 | D22 | Duas colunas de total que não batem numa estação | `Total Entradas` = soma das quatro tarifas nos 768 registros estação × mês; `Total` difere dela só em Palmeiras-Barra Funda (L7), nos 12 meses (jan: 3.214.508 × 1.837.015), provavelmente pelo rateio com a L8, que a CPTM não opera | CPTM embarcados | registra | trata: usa `Total Entradas`, que fecha com as tarifas, e documenta a diferença (E2.4) |
+| D23 | Grafia da estação muda entre meses | L13: `Guarulhos CECAP` (7 meses) × `Guarulhos-CECAP` (5) e `Aeroporto Guarulhos` (8) × `Aeroporto-Guarulhos` (4); abreviações como `Engº. Goulart` e `Pref. Celso Daniel-Santo André` | CPTM embarcados | trata: `Cad_Estacao` (de-para por linha e grafia → nome padronizado) | trata: `stg_cptm_linhas` casa pelo de-para; estação sem de-para → `Rejeitados` |
 
 Verificações que **não** acharam defeito na amostra:
 - `Tot Passageiros Transportados` = `Pagantes` + `Int Ônibus->Ônibus` + `Com Gratuidade` + `Com Gratuidade Est` em todas as 80.978 linhas;

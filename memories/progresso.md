@@ -102,3 +102,17 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - Metrô: `transparencia.metrosp.com.br` continua em 503 (também no navegador), então `baixar_metro.py` e a E1.3 (OD 2023, mesmo portal) seguem bloqueados; TRA-14 fica In Progress;
   - reconciliar os embarcados com o PDF de Transportados (MDU) na E2.4.
 - **Próximo**: E2.4 (CPTM no Power Query, com `Param_Pesos_Tipo_Dia`) ou voltar ao Metrô quando o portal responder.
+
+## 2026-11-27 · TRA-20 (E2.4) · CPTM no Power Query com estimativa diária
+
+- **Feito**:
+  - Etapa 1: `Cad_Linha_Trilho` (5 linhas da CPTM, grupo "CPTM") e `Cad_Estacao` (66 grafias → estação padronizada, D23); "CPTM" em `Lista_Grupo`; o painel de auditoria continua com 579 × 579;
+  - Etapa 2: 9 consultas novas (`pPastaCPTM`, `cad_Linha_Trilho`, `cad_Estacao`, `cad_Pesos_Tipo_Dia`, `stg_cptm_linhas`, `stg_cptm_mensal_estacao`, `stg_cptm_mensal_linha`, `stg_cptm_diario_estimado`, `Conf_CPTM`); `Fato_Transporte`, `Dim_Transporte`, `Dim_Grupo`, `Rejeitados`, `Conf_Reconciliacao`, `Conf_Etapas` e `Conf_Publicado` com a CPTM;
+  - conferência: CPTM 768 − 768 − 0 = 0 e 438.924.668 = 438.924.668; `Conf_CPTM` com diferença 0 nas 72 linhas mês × linha; SPTrans sem mudança; reenvio das duas fontes ok (mês repetido da CPTM → "Arquivo duplicado"); `.pq` 35 × 35;
+  - Etapa 3: medida `Passageiros de Ônibus` (28 medidas) na dinâmica realizado × publicado; `Conferencia` com diferença 0 (463.669 linhas, 2.563.628.843 passageiros); linhagem ok;
+  - decisão `0012` (pesos provisórios, `Total Entradas`, arredondamento acumulado); comparação com o MDU publicado no README da Etapa 2 (razão 0,913, métricas diferentes);
+  - decisão `0013`: o agente mergeia e empurra a `main` para o `grupo` depois do Aceite; PR #11 publicado (`998fa96`).
+- **Pendente**:
+  - trocar os pesos de `Param_Pesos_Tipo_Dia` pelas razões do Metrô quando a E2.3 sair;
+  - os QAs das Etapas 2 e 3 (Maryele) foram feitos antes da CPTM: vale uma revisão dos painéis novos.
+- **Próximo**: Metrô (E1.2/E2.3) e OD 2023 quando o portal voltar.

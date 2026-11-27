@@ -5,6 +5,16 @@ ordem,etapa,linhas
 4,Rejeitadas: linha vazia (D3),6672
 5,Rejeitadas: outros motivos,0
 6,Aceitas (dia × linha × empresa),480192
-7,"Fato_Transporte (dia × linha, D11)",461839
-8,Dim_Transporte (linhas de ônibus),1437
+7,"Fato_Transporte: ônibus (dia × linha, D11)",461839
+8,Dim_Transporte: linhas de ônibus,1437
 9,Fato_Referencia_Mensal (mês × grupo),36
+10,CPTM: arquivos mensais na pasta,12
+11,CPTM: linhas lidas da aba Embarcados,1212
+12,"CPTM: descartadas (vazias, títulos, notas e cabeçalhos de linha, D21)",312
+13,"CPTM: descartadas (subtotais e total geral, D21; conferidos em Conf_CPTM)",132
+14,CPTM: linhas de estação,768
+15,CPTM: rejeitadas,0
+16,CPTM: aceitas (mês × linha × estação),768
+17,CPTM: mês × linha,60
+18,"Fato_Transporte: trem (dia × linha, estimado)",1830
+19,Dim_Transporte: linhas de trem,5

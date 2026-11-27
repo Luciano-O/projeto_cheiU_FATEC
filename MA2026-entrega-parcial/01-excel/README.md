@@ -39,8 +39,10 @@ Formatação condicional: total vazio ou zero (vermelho), total acima do limite 
 | `Cad_DePara_Coluna` | 18 | nome da coluna em cada layout → nome padrão (D4), usado pela `fnLerSPTrans` |
 | `Cad_Feriados_2024` | 15 | nacionais, 25/01 (município), 09/07 (estado) e pontos facultativos; provisório até a BrasilAPI (Etapa 6) |
 | `Param_Limites` | 1 | `limite_max_passageiros_dia_linha` = 30.000 (premissa: máximo de jan/24 = 33.411; percentil 99,9 = 22.473) |
-| `Param_Pesos_Tipo_Dia` | 4 | pesos para distribuir a CPTM mensal por dia (premissa até haver dados do Metrô) |
-| `Tab_Grupo`, `Tab_Modalidade`, `Tab_Tipo_Dia`, `Tab_Tipo_Problema`, `Tab_Situacao` | 4, 3, 4, 6, 3 | listas `Lista_*` no Gerenciador de Nomes |
+| `Param_Pesos_Tipo_Dia` | 4 | pesos para distribuir a CPTM mensal por dia (premissa até haver dados do Metrô, decisão `0012`) |
+| `Cad_Linha_Trilho` | 5 | linhas da CPTM (L7, L10–L13): código do arquivo → `id_linha`, nome, operador e grupo "CPTM" |
+| `Cad_Estacao` | 66 | de-para (linha, grafia do arquivo da CPTM) → estação padronizada, com as grafias variáveis da L13 (D23) |
+| `Tab_Grupo`, `Tab_Modalidade`, `Tab_Tipo_Dia`, `Tab_Tipo_Problema`, `Tab_Situacao` | 5, 3, 4, 6, 3 | listas `Lista_*` no Gerenciador de Nomes |
 
 ## Conferência (06/11/2026)
 

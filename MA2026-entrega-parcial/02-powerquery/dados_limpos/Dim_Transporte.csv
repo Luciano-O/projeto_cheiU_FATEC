@@ -1436,3 +1436,8 @@ ONI-607L-10,607L-10,Auto De Interlagos/Term Sto Am,Ônibus,SPTrans,Estrutural,E0
 ONI-7004-21,7004-21,Jardim Jacira - Circular,Ônibus,SPTrans,Estrutural,E07,2024-03-30,2024-11-25,3,1
 ONI-8086-10,8086-10,Terminal Pinheiros - Circular,Ônibus,SPTrans,Local de Articulação Regional,AR8,2024-12-28,2024-12-31,4,1
 ONI-3309-10,3309-10,Ccpd-Raul Tabajara,Ônibus,SPTrans,Local de Articulação Regional,AR4,2024-05-29,2024-05-29,1,1
+TRM-L7,L7,Rubi,Trem,CPTM,CPTM,,2024-01-01,2024-12-31,366,1
+TRM-L10,L10,Turquesa,Trem,CPTM,CPTM,,2024-01-01,2024-12-31,366,1
+TRM-L11,L11,Coral,Trem,CPTM,CPTM,,2024-01-01,2024-12-31,366,1
+TRM-L12,L12,Safira,Trem,CPTM,CPTM,,2024-01-01,2024-12-31,366,1
+TRM-L13,L13,Jade,Trem,CPTM,CPTM,,2024-01-01,2024-12-31,366,1

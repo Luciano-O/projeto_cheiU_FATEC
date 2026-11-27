@@ -100,6 +100,7 @@ Os grupos de consultas (`01_Parametros`…) não têm API no COM: a lista fica n
   3. Distribuir o total mensal de cada linha pelos dias do mês: total × peso do dia ÷ soma dos pesos do mês.
 - **Aceite**: a soma diária estimada de cada mês é igual ao total mensal publicado; todas as estações estão mapeadas.
 - **Validar**: diferença máxima entre a soma estimada e o publicado = 0 (arredondamento à parte).
+- **Situação em 27/11/2026**: feita antes da E2.3, com os pesos provisórios de `Param_Pesos_Tipo_Dia` (decisão `0012`). `Cad_Linha_Trilho` e `Cad_Estacao` entraram na Etapa 1; `Conf_CPTM` tem diferença 0 nas 72 linhas. Falta trocar os pesos pelas razões do Metrô quando a E2.3 sair.
 
 ### E2.5 — Viagens da OD 2023
 - **Resp.** Luciano · Power Query · **Depende de** E1.3, E2.1

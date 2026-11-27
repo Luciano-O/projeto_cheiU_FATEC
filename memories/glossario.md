@@ -16,6 +16,11 @@ Medida publicada pelo Metrô: passageiros que passaram pelas catracas de uma est
 
 **Embarcados**:
 Medida publicada pela CPTM: passageiros que embarcaram numa estação, incluindo os que chegaram por transferência.
+No arquivo mensal é a coluna `Total Entradas` (soma de gratuidade, pagantes, transferências Metrô-V4-VM e não tarifados).
+
+**Demanda diária estimada (CPTM)**:
+Total mensal de embarcados de uma linha distribuído pelos dias do mês segundo o peso do tipo de dia (`Param_Pesos_Tipo_Dia`); `origem_dado = estimado` (decisão `0012`).
+_Evite_: demanda diária da CPTM (sem "estimada")
 
 **Demanda estimada por hora**:
 Demanda diária real distribuída pelas horas do dia segundo o perfil horário da modalidade.

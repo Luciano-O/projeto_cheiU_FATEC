@@ -3,7 +3,7 @@
 # Uso: powershell -NoProfile -ExecutionPolicy Bypass -File MA2026-entrega-parcial\02-powerquery\scripts\montar_etapa2.ps1
 param([string[]]$Saidas = @(
     'Fato_Referencia_Mensal', 'Conf_Colunas', 'Dim_Grupo', 'Ref_Feriados', 'Fato_Transporte', 'Dim_Transporte',
-    'Rejeitados', 'Conf_Reconciliacao', 'Conf_Motivos', 'Conf_Etapas', 'Conf_Publicado'))
+    'stg_cptm_mensal_estacao', 'Rejeitados', 'Conf_Reconciliacao', 'Conf_Motivos', 'Conf_Etapas', 'Conf_Publicado', 'Conf_CPTM'))
 $ErrorActionPreference = 'Stop'
 $repo = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
 Import-Module (Join-Path $PSScriptRoot 'ExcelCom.psm1') -Force
@@ -21,12 +21,12 @@ try {
     Set-NomeDefinido $wb 'CaminhoRepo' '=Parametros!$B$1'
     $ws.Range('A3').Formula = 'Grupos de consultas (Editor do Power Query):'
     $grupos = @(
-        @('01_Parametros', 'pCaminhoRepo, pArquivoEtapa1, pPastaSPTrans, pPastaSPTransConvertido, pArquivoTotaisSPTrans'),
-        @('02_Origem', 'stg_SPTrans_Bruto, fnLerSPTrans'),
-        @('03_Cadastros', 'cad_Etapa1, cad_DePara_Grupo, cad_DePara_Coluna, cad_Feriados, lst_Grupo'),
-        @('04_Tratamento', 'stg_sptrans_linhas, stg_sptrans_diario, stg_sptrans_referencia'),
-        @('05_Saida', 'Fato_Transporte, Fato_Referencia_Mensal, Dim_Transporte, Dim_Grupo, Ref_Feriados, Rejeitados'),
-        @('06_Conferencia', 'Conf_Reconciliacao, Conf_Motivos, Conf_Colunas, Conf_Etapas, Conf_Publicado'))
+        @('01_Parametros', 'pCaminhoRepo, pArquivoEtapa1, pPastaSPTrans, pPastaSPTransConvertido, pArquivoTotaisSPTrans, pPastaCPTM'),
+        @('02_Origem', 'stg_SPTrans_Bruto, fnLerSPTrans, stg_cptm_linhas'),
+        @('03_Cadastros', 'cad_Etapa1, cad_DePara_Grupo, cad_DePara_Coluna, cad_Feriados, lst_Grupo, cad_Linha_Trilho, cad_Estacao, cad_Pesos_Tipo_Dia'),
+        @('04_Tratamento', 'stg_sptrans_linhas, stg_sptrans_diario, stg_sptrans_referencia, stg_cptm_mensal_linha, stg_cptm_diario_estimado'),
+        @('05_Saida', 'Fato_Transporte, Fato_Referencia_Mensal, Dim_Transporte, Dim_Grupo, Ref_Feriados, Rejeitados, stg_cptm_mensal_estacao'),
+        @('06_Conferencia', 'Conf_Reconciliacao, Conf_Motivos, Conf_Colunas, Conf_Etapas, Conf_Publicado, Conf_CPTM'))
     for ($i = 0; $i -lt $grupos.Count; $i++) { $ws.Cells.Item(4 + $i, 1).Formula = $grupos[$i][0]; $ws.Cells.Item(4 + $i, 2).Formula = $grupos[$i][1] }
     Save-Pasta $wb $saida            # CÉL("nomearquivo") só funciona depois de salvo
     $xl.CalculateFull()
@@ -45,7 +45,7 @@ try {
     $wb.Worksheets.Item('Parametros').Activate()
     $wb.Save()
 
-    foreach ($q in @('Conf_Reconciliacao', 'Conf_Etapas', 'Conf_Motivos', 'Conf_Colunas', 'Conf_Publicado')) {
+    foreach ($q in @('Conf_Reconciliacao', 'Conf_Etapas', 'Conf_Motivos', 'Conf_Colunas', 'Conf_Publicado', 'Conf_CPTM')) {
         if (-not ($Saidas -contains $q)) { continue }
         $lo = $wb.Worksheets.Item($q).ListObjects.Item(1)
         Log "--- $q"
