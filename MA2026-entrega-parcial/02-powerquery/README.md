@@ -17,7 +17,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File MA2026-entrega-parcial/02-po
 
 ## Consultas
 
-Os grupos ficam listados na aba `Parametros` (o COM não tem API para os grupos do Editor).
+Os grupos foram criados no Editor do Power Query pela interface em 27/11/2026, porque o COM não tem API para eles. A lista também fica na aba `Parametros`. Depois de remontar com `montar_etapa2.ps1`, refaça-os no Editor: selecione as consultas, clique com o botão direito › Mover Para o Grupo › Novo Grupo, e salve pelo disquete da barra de título (confira a data do arquivo).
 
 | Grupo | Consultas |
 |---|---|
@@ -123,9 +123,20 @@ Soma mensal dos três grupos × total publicado pela SPTrans (`Conf_Publicado`):
 - Metrô (E2.3): sem arquivo (portal em manutenção). Quando ele chegar, as razões MSA/MDU e MDO/MDU do Metrô substituem os pesos provisórios da CPTM em `Param_Pesos_Tipo_Dia` da Etapa 1.
 - CPTM: só o total é distribuído por dia; `pagantes`, `integracao` e `gratuidades` ficam vazias nas linhas de trem.
 - `OUTRO PC`: linhas fora dos três grupos oficiais, no grupo "Outros" (3,1 milhões de passageiros no ano), aguardando esclarecimento.
-- Grupos de consultas no Editor (`01_Parametros`…) e prints em `evidencias/`: exigem a interface do Excel.
+- Teste numa máquina de outro integrante: clonar, abrir e Atualizar Tudo sem erro (o `CaminhoRepo` já se deriva sozinho numa cópia em outra pasta, como mostra o teste de linhagem da Etapa 3).
 
 Escopo respeitado: sem relacionamentos, DAX ou macro neste arquivo.
+
+## Evidências
+
+Prints feitos na interface do Excel em 27/11/2026, em `evidencias/`:
+
+| Arquivo | Mostra |
+|---|---|
+| `01_painel_consultas_grupos.jpg` | painel de consultas do Editor com os 6 grupos (`01_Parametros` 7, `02_Origem` 3, `03_Cadastros` 8, `04_Tratamento` 7, `05_Saida` 7, `06_Conferencia` 7) |
+| `02_fato_transporte_editor.jpg` | `Fato_Transporte` no Editor: prévia, barra de fórmulas e etapas aplicadas |
+| `03_fato_transporte_etapas_aplicadas.jpg` | as 20 etapas aplicadas de `Fato_Transporte` (ônibus, complemento de 08/07, trem, união e tipos) |
+| `04_conf_reconciliacao.jpg` | `Conf_Reconciliacao`: diferença 0 nas três fontes |
 
 ## Dados limpos
 
