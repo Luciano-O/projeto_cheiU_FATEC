@@ -71,10 +71,10 @@ A pasta de trabalho é gerada por `scripts/montar_etapa1.ps1` (o gêmeo em texto
 powershell -NoProfile -ExecutionPolicy Bypass -File MA2026-entrega-parcial/01-excel/scripts/montar_etapa1.ps1
 ```
 
-Os dados brutos vêm de `scripts/baixar_sptrans.py` (idempotente, grava `dados-brutos/manifesto.csv`). O perfil de layout de cada arquivo sai de `scripts/perfilar_sptrans.py`.
+Os dados brutos vêm de `scripts/baixar_sptrans.py` e `scripts/baixar_cptm.py` (idempotentes, grava `dados-brutos/manifesto.csv`). O perfil de layout de cada arquivo sai de `scripts/perfilar_sptrans.py`.
 
 ## Pendências
 
-- Metrô e CPTM (E1.2): o portal do Metrô estava em manutenção em 06/11 e a CPTM só permite download pelo navegador. Entram na Etapa 2 quando houver arquivo.
+- Metrô (E1.2): o portal do Metrô segue em manutenção (06/11 e 27/11). A CPTM foi baixada em 27/11 (`dados-brutos/cptm/2024/`, defeitos D19–D22) e entra na Etapa 2 (E2.4).
 - Prints de evidência em `evidencias/` (painel, Rastrear Precedentes, Gerenciador de Nomes): exigem a interface do Excel.
 - Escopo respeitado: sem Power Query, DAX ou macro neste arquivo.
