@@ -21,7 +21,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 REPO = "Ve3e3/projeto_cheiU_FATEC"
 RAIZ = Path(__file__).resolve().parents[2]
 SAIDA = Path(tempfile.gettempdir()) / "cheiU_espelho_linear"
-DATA = "21/11/2026"
+DATA = "27/11/2026"
 LIN = "https://linear.app/trabalho-microinformatica/issue/"
 EXECUTAR = "--executar" in sys.argv
 
@@ -63,7 +63,7 @@ ISSUES = """
 11|In Progress|E0|Setup;Power Query;Excel;Resp: Luciano|e07-prova-de-conceito-automacao-do-excel-via-com|[E0.7] Prova de conceito: automação do Excel via COM
 12|Done|E1|Docs;Resp: Luciano|e10-refinar-o-plano-da-etapa-1|[E1.0] Refinar o plano da Etapa 1
 13|Done|E1|Dados;Python;Resp: Luciano|e11-baixar-passageiros-transportados-da-sptrans-2024|[E1.1] Baixar passageiros transportados da SPTrans (2024)
-14|Todo|E1|Dados;Python;Resp: Luciano|e12-baixar-metro-e-cptm-2024|[E1.2] Baixar Metrô e CPTM (2024)
+14|In Progress|E1|Dados;Python;Resp: Luciano|e12-baixar-metro-e-cptm-2024|[E1.2] Baixar Metrô e CPTM (2024)
 15|Backlog|E1|Dados;Python;Resp: Luciano|e13-baixar-e-converter-a-pesquisa-od-2023|[E1.3] Baixar e converter a Pesquisa OD 2023
 16|Done|E1|Docs;Dados;Resp: Luciano|e14-inventario-dicionario-catalogo-de-defeitos-e-ficha-do-projeto|[E1.4] Inventário, dicionário, catálogo de defeitos e ficha do projeto
 17|Done|E1|Excel;Resp: Luciano|e15-aba-cadastros-cadastros-de-para-e-parametros|[E1.5] Aba `Cadastros`: cadastros, de-para e parâmetros

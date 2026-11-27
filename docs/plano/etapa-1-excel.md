@@ -57,6 +57,7 @@ Decisão `memories/decisoes/0009`. Entram E1.0, E1.1, E1.2 (se o Metrô e a CPTM
   - em `dados-brutos/cptm/2024/`: embarcados acumulados, xlsx mensais extraídos dos zips.
 - **Aceite**: 12 meses de cada série, com o manifesto atualizado.
 - **Validar**: contagem de arquivos por série = 12; abrir um arquivo de cada série e conferir mês e linhas.
+- **Situação em 27/11/2026**: CPTM pronta (`baixar_cptm.py`, 12 xlsx, D19–D22). Metrô pendente: o portal segue em 503 (D15), e `baixar_metro.py` só pode ser escrito e testado quando ele voltar.
 
 ### E1.3 — Baixar e converter a Pesquisa OD 2023
 - **Resp.** Luciano · Python, Dados · **Depende de** E0.6

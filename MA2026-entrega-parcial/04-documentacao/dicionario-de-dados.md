@@ -10,9 +10,10 @@ Fontes baixadas em 06/11/2026 para `MA2026-entrega-parcial/01-excel/dados-brutos
 | SPTrans — consolidado mensal | `sptrans/2024/mensal/` | 12 | jan–jun: dia × linha; jul–dez: mês × linha | baixado (só referência e amostra da Etapa 1) |
 | SPTrans — totais mensais por grupo | `sptrans/referencia/totais_mensais.html` | 1 página (2013 a set/2026) | mês × grupo | baixado |
 | Metrô — entradas diárias por estação, entrada por linha mensal | `metro/2024/` | — | dia × estação; mês × linha | **pendente**: portal em manutenção (HTTP 503) |
-| CPTM — embarcados acumulados | `cptm/2024/` | — | mês × estação | **pendente**: download só pelo navegador |
+| CPTM — embarcados acumulados | `cptm/2024/embarcados/` | 12 xlsx (um por mês, extraídos do zip anual) | mês × estação × linha (L7, L10–L13), por tipo de tarifa | baixado em 27/11/2026 |
+| CPTM — transportados (MDU) | `cptm/referencia/Transportados (MDU) - 2024.pdf` | 1 PDF | mês × linha (média de dia útil) | baixado (referência para reconciliar) |
 
-Script de download: `01-excel/scripts/baixar_sptrans.py`. Perfil de layout: `01-excel/scripts/perfilar_sptrans.py` → `sptrans/2024/perfil_layout.csv`.
+Scripts de download: `01-excel/scripts/baixar_sptrans.py` e `01-excel/scripts/baixar_cptm.py`. Perfil de layout: `01-excel/scripts/perfilar_sptrans.py` → `sptrans/2024/perfil_layout.csv`.
 
 ## SPTrans — arquivo diário
 

@@ -90,3 +90,15 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - o espelho só se atualiza quando alguém roda o script ou fecha a cópia à mão. A integração nativa (E0.3) continua em Todo e precisa de uma pessoa para autorizar;
   - quem não tem conta no workspace do Linear não abre os links do Linear que estão nas issues.
 - **Próximo**: OD 2023, oferta e lotação; depois as Etapas 4–7.
+
+## 2026-11-27 · TRA-14 (E1.2) · CPTM 2024 baixada; Metrô segue fora do ar
+
+- **Feito**:
+  - `baixar_cptm.py`: lê a página de operação da CPTM, baixa o zip anual dos Embarcados Acumulados de 2024 e o PDF de Transportados (MDU), e extrai os 12 xlsx mensais para `dados-brutos/cptm/2024/embarcados/`; manifesto com 14 linhas `cptm_*`; uma segunda execução não baixa nada;
+  - conferência dos 12 meses: linhas 7, 10, 11, 12 e 13 em todos, 64 estações-linha por mês, soma das quatro tarifas = `Total Entradas` nos 768 registros; total de 2024 = 438.924.668 entradas;
+  - defeitos D19 (setembro com título de outubro), D20 (rótulos variáveis), D21 (layout de relatório) e D22 (`Total` × `Total Entradas` em Palmeiras-Barra Funda) no catálogo; D15 atualizado;
+  - `fontes-de-dados.md`, dicionário de dados, README da Etapa 1 e plano da E1.2 atualizados.
+- **Pendente**:
+  - Metrô: `transparencia.metrosp.com.br` continua em 503 (também no navegador), então `baixar_metro.py` e a E1.3 (OD 2023, mesmo portal) seguem bloqueados; TRA-14 fica In Progress;
+  - reconciliar os embarcados com o PDF de Transportados (MDU) na E2.4.
+- **Próximo**: E2.4 (CPTM no Power Query, com `Param_Pesos_Tipo_Dia`) ou voltar ao Metrô quando o portal responder.
