@@ -68,6 +68,7 @@ Refinamentos do E3.0:
   5. Classificar `nome_mes` por `mes`; ocultar chaves técnicas.
   6. Reservar no diagrama o lugar de `Fato_Clima_Horario` (Etapa 6).
 - **Aceite**: o diagrama não tem caminhos ambíguos nem relações bidirecionais; `docs/diagrama_modelo.png` está salvo.
+- **Situação em 27/11/2026**: passos 1, 3, 5 e a parte Ano › Mês › Dia do passo 4 feitos (os da interface, pelo controle do computador); `docs/diagrama_modelo.png` salvo. Faltam as relações e a hierarquia Faixa › Hora das fatos horárias, que dependem de E2.6–E2.8.
 
 ### E3.3 — Medidas DAX de demanda
 - **Resp.** Luciano · DAX · **Depende de** E3.2

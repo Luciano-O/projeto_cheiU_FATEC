@@ -133,3 +133,9 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
 - **Feito**: prints do painel de conferência, do Rastrear Precedentes em `Grupo_Trat` e do Gerenciador de Nomes em `01-excel/evidencias/`, feitos pela interface do Excel (controle do computador); a pasta foi fechada sem salvar, e o `.xlsx` versionado não mudou.
 - **Pendente**: nada na TRA-72.
 - **Próximo**: grupos de consultas e prints da Etapa 2 (TRA-24); Tabela de Datas, hierarquia e diagrama da Etapa 3 (TRA-30).
+
+## 2026-11-27 · TRA-30 (E3.2) · ajustes do modelo pela interface do Power Pivot
+
+- **Feito**: `Dim_Calendario` marcada como Tabela de Datas; `nome_mes` por `mes` e `nome_dia` por `dia_semana`; hierarquia `Ano › Mês › Dia`; 5 chaves técnicas ocultas; `docs/diagrama_modelo.png`. `verificar_etapa3.ps1` depois de salvar: `.pq` 10 × 10, `.dax` 28 × 28, 5 relações ativas, linhagem ok.
+- **Pendente**: relações e hierarquia Faixa › Hora das fatos horárias (dependem de E2.6–E2.8); os ajustes da interface se perdem se `montar_etapa3.ps1` remontar a pasta (passos no README da Etapa 3).
+- **Próximo**: grupos de consultas e prints da Etapa 2 (TRA-24).
