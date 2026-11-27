@@ -44,7 +44,7 @@ memories/                decisões, glossário, fontes de dados e diário do pro
 |---|---|---|
 | 0 — Ambiente | — | em andamento |
 | 1 — Excel avançado | 2–3 | entregue na Parcial 1 só com ônibus (SPTrans); CPTM baixada e cadastrada em 27/11; faltam Metrô e Pesquisa OD (portal do Metrô fora do ar) e prints de evidência |
-| 2 — Power Query | 4–5 | entregue na Parcial 1 só com ônibus (SPTrans); CPTM com estimativa diária desde 27/11 (decisão `0012`); falta o Metrô; a diferença da SPTrans contra o total publicado passa de 0,5% de janeiro a julho |
+| 2 — Power Query | 4–5 | entregue na Parcial 1 só com ônibus (SPTrans); CPTM com estimativa diária desde 27/11 (decisão `0012`); falta o Metrô; a diferença da SPTrans contra o total publicado passa de 0,5% de janeiro a junho (reprocessamento da fonte, decisão `0014`) |
 | 3 — Power Pivot e DAX | 6–7 | entregue na Parcial 1 com as medidas de demanda; faltam medidas por hora, lotação e corredores |
 | Parcial 1 | 8 | entregue (tag `parcial-1`) |
 | 4 — VBA | 10–11 | a fazer |

@@ -116,3 +116,14 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - trocar os pesos de `Param_Pesos_Tipo_Dia` pelas razões do Metrô quando a E2.3 sair;
   - os QAs das Etapas 2 e 3 (Maryele) foram feitos antes da CPTM: vale uma revisão dos painéis novos.
 - **Próximo**: Metrô (E1.2/E2.3) e OD 2023 quando o portal voltar.
+
+## 2026-11-27 · TRA-18 (E2.2) · diferença contra o publicado investigada
+
+- **Feito**:
+  - os 12 consolidados mensais da SPTrans fecham com a soma dos diários; o total da página publicada é refeito por reprocessamento da bilhetagem (aviso da própria página);
+  - D24: o diário de 08/07/2024 veio sem 207 linhas (904.616 passageiros), que a 2ª versão do consolidado de julho traz; `stg_sptrans_consolidado_jul`, `Conf_Complemento_Jul` e `stg_sptrans_complemento` criam esse dia com `origem_dado = estimado`; julho passou de −0,77% para −0,25%;
+  - D25: 66 linhas mudam de grupo no ano (o modelo usa o grupo mais recente);
+  - decisão `0014`: complemento de julho, aceitação de jan–jun (2–5%) como limitação da fonte, sem fator de ajuste;
+  - Etapa 2: 39 × 39 `.pq`, reconciliação com 3 fontes e diferença 0, reenvio ok; Etapa 3: `Conferencia` 0 (463.876 linhas, 2.564.533.459 passageiros), linhagem ok.
+- **Pendente**: confirmar com a SPTrans, se alguém do grupo quiser, o reprocessamento do 1º semestre.
+- **Próximo**: prints e itens de interface (TRA-72, TRA-24, TRA-30).

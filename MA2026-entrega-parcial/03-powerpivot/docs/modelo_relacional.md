@@ -6,13 +6,13 @@ Modelo de Dados de `cheiU_03_PowerPivot.xlsx`. Todas as tabelas vêm de `cheiU_0
 
 | Tabela | Tipo | Grão | Chave | Linhas | Origem |
 |---|---|---|---|---|---|
-| `Fato_Transporte` | fato | data × linha (ônibus e trem) | `data` + `id_linha` | 463.669 | `Fato_Transporte` da Etapa 2: SPTrans diário (461.839, `origem_dado = real`) e CPTM estimada por dia (1.830, `estimado`, decisão `0012`) |
+| `Fato_Transporte` | fato | data × linha (ônibus e trem) | `data` + `id_linha` | 463.876 | `Fato_Transporte` da Etapa 2: SPTrans diário (461.839, `origem_dado = real`), complemento de 08/07/2024 (207, `estimado`, decisão `0014`) e CPTM estimada por dia (1.830, `estimado`, decisão `0012`) |
 | `Fato_Referencia_Mensal` | fato ("esperado") | mês × grupo | `mes_inicio` + `grupo` | 36 | totais mensais publicados pela SPTrans |
 | `Dim_Calendario` | dimensão | data | `data` | 366 | gerada no Power Query (2024 contínuo, feriados de `Ref_Feriados`) |
 | `Dim_Transporte` | dimensão | linha (ônibus ou trem) | `id_linha` | 1.442 | `Dim_Transporte` da Etapa 2: 1.437 de ônibus e 5 da CPTM |
 | `Dim_Grupo` | dimensão | grupo (SPTrans ou CPTM) | `grupo` | 5 | `Dim_Grupo` da Etapa 2; `grupo_oficial` marca os três grupos oficiais da SPTrans |
 | `Rejeitados` | fora da estrela | linha descartada | — | 6.672 | `Rejeitados` da Etapa 2; só para contagens |
-| `Conf_Etapa2` | fora da estrela | fonte | `fonte` | 2 | `Conf_Reconciliacao` da Etapa 2; base da aba `Conferencia` |
+| `Conf_Etapa2` | fora da estrela | fonte | `fonte` | 3 | `Conf_Reconciliacao` da Etapa 2; base da aba `Conferencia` |
 
 Reservado para a Etapa 6: `Fato_Clima_Horario` (data × hora), ligada a `Dim_Calendario`.
 

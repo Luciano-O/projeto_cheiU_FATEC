@@ -67,7 +67,7 @@ ISSUES = """
 15|Backlog|E1|Dados;Python;Resp: Luciano|e13-baixar-e-converter-a-pesquisa-od-2023|[E1.3] Baixar e converter a Pesquisa OD 2023
 16|Done|E1|Docs;Dados;Resp: Luciano|e14-inventario-dicionario-catalogo-de-defeitos-e-ficha-do-projeto|[E1.4] Inventário, dicionário, catálogo de defeitos e ficha do projeto
 17|Done|E1|Excel;Resp: Luciano|e15-aba-cadastros-cadastros-de-para-e-parametros|[E1.5] Aba `Cadastros`: cadastros, de-para e parâmetros
-18|In Progress|E2|Power Query;Resp: Luciano|e22-sptrans-diario|[E2.2] SPTrans diário
+18|Done|E2|Power Query;Resp: Luciano|e22-sptrans-diario|[E2.2] SPTrans diário
 19|Backlog|E2|Power Query;Resp: Luciano|e23-metro|[E2.3] Metrô
 20|Done|E2|Power Query;Resp: Luciano|e24-cptm-com-estimativa-diaria|[E2.4] CPTM com estimativa diária
 21|Backlog|E2|Power Query;Resp: Luciano|e25-viagens-da-od-2023|[E2.5] Viagens da OD 2023
