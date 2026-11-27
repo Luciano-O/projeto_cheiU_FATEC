@@ -81,6 +81,7 @@ Os grupos de consultas (`01_Parametros`…) não têm API no COM: a lista fica n
   5. Colunas finais: `data`, `grupo`, `lote`, `codigo_linha`, `nome_linha`, `passageiros_total`, `pagantes`, `gratuidades`, `integracao_onibus`.
 - **Aceite**: zero duplicatas no grão; `Conf_Colunas` vazia; a soma mensal de `passageiros_total` bate com os totais mensais do sistema publicados pela SPTrans (tolerância 0,5%).
 - **Validar**: tabela de reconciliação mês × (calculado, publicado, diferença %) anexada à issue.
+- **Situação em 27/11/2026**: a diferença contra o publicado foi investigada (decisão `0014`). Os consolidados fecham com os diários; o diário de 08/07 veio incompleto e foi complementado pelo consolidado de julho (D24). Jul–dez ficam abaixo de 0,5%; jan–jun (2–5%) são aceitos como reprocessamento da fonte.
 
 ### E2.3 — Metrô
 - **Resp.** Luciano · Power Query · **Depende de** E1.2, E2.1

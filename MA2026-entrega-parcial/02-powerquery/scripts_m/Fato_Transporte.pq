@@ -1,5 +1,6 @@
 // Fato_Transporte
-// Grão: data × id_linha. Ônibus (SPTrans, transportados, real) e Trem (CPTM, embarcados, estimado por dia
+// Grão: data × id_linha. Ônibus (SPTrans, transportados, real; 08/07/2024 complementado pelo consolidado,
+// estimado, decisão 0014) e Trem (CPTM, embarcados, estimado por dia
 // a partir do mensal, decisão 0012). O Metrô entra com a E2.3.
 let
     Onibus = stg_sptrans_diario,
@@ -8,7 +9,13 @@ let
     MetOni = Table.AddColumn(ModOni, "tipo_metrica", each "transportados", type text),
     OrigOni = Table.AddColumn(MetOni, "origem_dado", each "real", type text),
     Colunas = {"data", "id_linha", "modalidade", "passageiros", "pagantes", "integracao", "gratuidades", "tipo_metrica", "origem_dado"},
-    FinalOni = Table.SelectColumns(OrigOni, Colunas),
+    RealOni = Table.SelectColumns(OrigOni, Colunas),
+    Comp = stg_sptrans_complemento,
+    IdComp = Table.AddColumn(Comp, "id_linha", each "ONI-" & [codigo_linha], type text),
+    ModComp = Table.AddColumn(IdComp, "modalidade", each "Ônibus", type text),
+    MetComp = Table.AddColumn(ModComp, "tipo_metrica", each "transportados", type text),
+    OrigComp = Table.AddColumn(MetComp, "origem_dado", each "estimado", type text),
+    FinalOni = Table.Combine({RealOni, Table.SelectColumns(OrigComp, Colunas)}),
     Trem = stg_cptm_diario_estimado,
     ModTrem = Table.AddColumn(Trem, "modalidade", each "Trem", type text),
     // O mensal da CPTM traz tarifas, mas a distribuição diária é só do total: as aberturas ficam vazias.

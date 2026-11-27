@@ -1,5 +1,5 @@
 // Conf_Etapas
-// Contagem de linhas etapa por etapa, do arquivo ao fato. Ordem 1–9: SPTrans; 10–19: CPTM.
+// Contagem de linhas etapa por etapa, do arquivo ao fato. Ordem 1–9: SPTrans; 10–19: CPTM; 20–22: complemento de 08/07.
 let
     Arquivos = Table.RowCount(Table.SelectRows(Folder.Files(pPastaSPTrans), each List.Contains({".xls", ".xlsx"}, Text.Lower([Extension])))),
     Linhas = stg_sptrans_linhas,
@@ -12,6 +12,7 @@ let
     Estrutura = TipoCptm("vazia") + TipoCptm("texto") + TipoCptm("cabecalho_linha"),
     Subtotais = TipoCptm("total_servico") + TipoCptm("total_linha") + TipoCptm("total_cptm"),
     Modalidade = (m) => Table.RowCount(Table.SelectRows(Fato_Transporte, each [modalidade] = m)),
+    OniOrigem = (o) => Table.RowCount(Table.SelectRows(Fato_Transporte, each [modalidade] = "Ônibus" and [origem_dado] = o)),
     DimModalidade = (m) => Table.RowCount(Table.SelectRows(Dim_Transporte, each [modalidade] = m)),
     Tabela = #table(type table [ordem = Int64.Type, etapa = text, linhas = Int64.Type], {
         {1, "Arquivos diários na pasta", Arquivos},
@@ -20,7 +21,7 @@ let
         {4, "Rejeitadas: linha vazia (D3)", Contar("Linha vazia")},
         {5, "Rejeitadas: outros motivos", RejOni - Contar("Linha vazia")},
         {6, "Aceitas (dia × linha × empresa)", Table.RowCount(Table.SelectRows(Linhas, each [motivo] = null))},
-        {7, "Fato_Transporte: ônibus (dia × linha, D11)", Modalidade("Ônibus")},
+        {7, "Fato_Transporte: ônibus dos diários (dia × linha, D11)", OniOrigem("real")},
         {8, "Dim_Transporte: linhas de ônibus", DimModalidade("Ônibus")},
         {9, "Fato_Referencia_Mensal (mês × grupo)", Table.RowCount(Fato_Referencia_Mensal)},
         {10, "CPTM: arquivos mensais na pasta", ArquivosCptm},
@@ -32,6 +33,9 @@ let
         {16, "CPTM: aceitas (mês × linha × estação)", Table.RowCount(stg_cptm_mensal_estacao)},
         {17, "CPTM: mês × linha", Table.RowCount(stg_cptm_mensal_linha)},
         {18, "Fato_Transporte: trem (dia × linha, estimado)", Modalidade("Trem")},
-        {19, "Dim_Transporte: linhas de trem", DimModalidade("Trem")}})
+        {19, "Dim_Transporte: linhas de trem", DimModalidade("Trem")},
+        {20, "SPTrans consolidado jul/2024: linhas de ônibus", Table.RowCount(stg_sptrans_consolidado_jul)},
+        {21, "SPTrans jul/2024: linhas com diferença entre consolidado e diários", Table.RowCount(Conf_Complemento_Jul)},
+        {22, "Fato_Transporte: ônibus complementado em 08/07 (D24, estimado)", OniOrigem("estimado")}})
 in
     Tabela

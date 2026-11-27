@@ -21,12 +21,12 @@ Os grupos ficam listados na aba `Parametros` (o COM não tem API para os grupos 
 
 | Grupo | Consultas |
 |---|---|
-| `01_Parametros` | `pCaminhoRepo`, `pArquivoEtapa1`, `pPastaSPTrans`, `pPastaSPTransConvertido`, `pArquivoTotaisSPTrans`, `pPastaCPTM` |
+| `01_Parametros` | `pCaminhoRepo`, `pArquivoEtapa1`, `pPastaSPTrans`, `pPastaSPTransConvertido`, `pArquivoTotaisSPTrans`, `pPastaCPTM`, `pArquivoConsolidadoJul` |
 | `02_Origem` | `stg_SPTrans_Bruto` (`Folder.Files` da pasta inteira), `fnLerSPTrans`, `stg_cptm_linhas` (toda linha da aba `Embarcados`, com `tipo_registro`) |
 | `03_Cadastros` | `cad_Etapa1`, `cad_DePara_Grupo`, `cad_DePara_Coluna`, `cad_Feriados`, `lst_Grupo`, `cad_Linha_Trilho`, `cad_Estacao`, `cad_Pesos_Tipo_Dia` |
-| `04_Tratamento` | `stg_sptrans_linhas` (tipagem e motivo), `stg_sptrans_diario` (grão data × linha), `stg_sptrans_referencia` (totais publicados despivotados), `stg_cptm_mensal_linha` (mês × linha), `stg_cptm_diario_estimado` (dia × linha, estimado) |
+| `04_Tratamento` | `stg_sptrans_linhas` (tipagem e motivo), `stg_sptrans_diario` (grão data × linha), `stg_sptrans_referencia` (totais publicados despivotados), `stg_cptm_mensal_linha` (mês × linha), `stg_cptm_diario_estimado` (dia × linha, estimado), `stg_sptrans_consolidado_jul` e `stg_sptrans_complemento` (dia 08/07, D24) |
 | `05_Saida` | `Fato_Transporte`, `Fato_Referencia_Mensal`, `Dim_Transporte`, `Dim_Grupo`, `Ref_Feriados`, `Rejeitados`, `stg_cptm_mensal_estacao` (mês × linha × estação, real) |
-| `06_Conferencia` | `Conf_Reconciliacao`, `Conf_Motivos`, `Conf_Colunas`, `Conf_Etapas`, `Conf_Publicado`, `Conf_CPTM` |
+| `06_Conferencia` | `Conf_Reconciliacao`, `Conf_Motivos`, `Conf_Colunas`, `Conf_Etapas`, `Conf_Publicado`, `Conf_CPTM`, `Conf_Complemento_Jul` |
 
 Configuração: privacidade "Ignorar os níveis de privacidade" (`Queries.FastCombine`; todas as origens são arquivos da equipe) e localidade explícita (`"pt-BR"`) em toda conversão de tipo.
 
@@ -54,7 +54,7 @@ Configuração: privacidade "Ignorar os níveis de privacidade" (`Queries.FastCo
 | Lidas − aceitas − rejeitadas | 486.864 − 480.192 − 6.672 = 0 |
 | Passageiros aceitos − passageiros na fato | 2.124.704.175 − 2.124.704.175 = 0 |
 | `Conf_Colunas` | vazia |
-| `Fato_Transporte` | 461.839 linhas (dia × linha), os 366 dias, sem duplicata no grão |
+| `Fato_Transporte` | 461.839 linhas de ônibus dos diários (dia × linha), os 366 dias, sem duplicata no grão; mais 207 do complemento de 08/07 (D24) |
 | `Dim_Transporte` | 1.437 linhas de ônibus e 5 de trem |
 | Rejeitados | 6.672, todas "Linha vazia" (109 arquivos); nenhuma da CPTM |
 | `.pq` × consultas da pasta | 26 × 26, 0 diferenças (`scripts/verificar_etapa2.ps1`) |
@@ -70,7 +70,7 @@ Configuração: privacidade "Ignorar os níveis de privacidade" (`Queries.FastCo
 | Estações lidas − aceitas − rejeitadas | 768 − 768 − 0 = 0 (64 estações-linha por mês, todas no de-para) |
 | Embarcados aceitos − embarcados na fato | 438.924.668 − 438.924.668 = 0 |
 | `Conf_CPTM` (60 mês × linha + 12 totais do mês) | soma das estações = "Totais da Linha" e "Totais CPTM" do arquivo; soma diária estimada = total mensal; diferença 0 nas 72 linhas |
-| `Fato_Transporte` | 463.669 linhas: 461.839 de ônibus (real) + 1.830 de trem (5 linhas × 366 dias, estimado) |
+| `Fato_Transporte` | 463.876 linhas: 461.839 de ônibus (real) + 207 de ônibus em 08/07 (estimado, D24) + 1.830 de trem (5 linhas × 366 dias, estimado) |
 
 A estimativa diária distribui o total mensal de cada linha pelos dias do mês com os pesos de `Param_Pesos_Tipo_Dia` da Etapa 1 (Útil 1; Sábado 0,6; Domingo e Feriado 0,4), que são uma premissa até haver as razões do Metrô (decisão `0012`). Exemplo: L11 em janeiro de 2024, 10.823.084 embarcados, fica com 419.499 ou 419.500 por dia útil, 251.700 no sábado e 167.800 no domingo e nos feriados (01/01 e 25/01).
 
@@ -87,6 +87,17 @@ Referência externa (não é critério de aceite): a média de dia útil estimad
 
 A razão varia pouco de um mês para outro em cada linha, então a distribuição por tipo de dia não cria saltos entre os meses. Com essa comparação não dá para separar a diferença de métrica do erro dos pesos: só as razões do Metrô (E2.3) testam a premissa.
 
+### SPTrans: complemento de 08/07/2024 (D24)
+
+O diário de 08/07/2024 veio sem 207 linhas, que a 2ª versão do consolidado de julho traz. `Conf_Complemento_Jul` compara as duas fontes por linha. As 207 linhas com diferença são exatamente as que faltam em 08/07, e `nao_explicada` = 0 em todas. O dia dessas linhas entra em `Fato_Transporte` com `origem_dado = estimado`: 904.616 passageiros, com as aberturas (pagantes, integração e gratuidades) calculadas pela mesma diferença.
+
+| Verificação | Resultado |
+|---|---|
+| Linhas no consolidado de julho | 1.366 (as mesmas dos diários) |
+| Linhas com diferença | 207, todas sem 08/07 nos diários e com diferença positiva |
+| Complemento lido − no fato | 904.616 − 904.616 = 0 (207 linhas) |
+| Julho: consolidado × diários + complemento | 174.397.498 = 173.492.882 + 904.616 |
+
 ### SPTrans × total publicado
 
 Soma mensal dos três grupos × total publicado pela SPTrans (`Conf_Publicado`):
@@ -99,7 +110,7 @@ Soma mensal dos três grupos × total publicado pela SPTrans (`Conf_Publicado`):
 | abr | 182.577.502 | 189.033.899 | −3,42% |
 | mai | 179.952.241 | 185.548.267 | −3,02% |
 | jun | 175.602.499 | 181.441.727 | −3,22% |
-| jul | 173.205.070 | 174.551.078 | −0,77% |
+| jul | 174.109.686 | 174.551.078 | −0,25% (−0,77% antes do complemento de 08/07) |
 | ago | 191.750.208 | 192.518.102 | −0,40% |
 | set | 185.822.982 | 186.530.358 | −0,38% |
 | out | 196.212.472 | 197.007.222 | −0,40% |
@@ -108,7 +119,7 @@ Soma mensal dos três grupos × total publicado pela SPTrans (`Conf_Publicado`):
 
 ## Pendências
 
-- **Aceite de 0,5% contra o publicado não atingido de janeiro a julho.** De agosto a dezembro a diferença fica abaixo de 0,5%; no primeiro semestre vai de 2% a 5%, sempre para menos e nos três grupos. A soma confere com o consolidado de janeiro da própria SPTrans, então não é perda no tratamento. A causa ainda não foi confirmada com a SPTrans.
+- **Aceite de 0,5% contra o publicado não atingido de janeiro a junho** (decisão `0014`). Os 12 consolidados mensais da SPTrans fecham com os diários (em julho, depois do complemento de 08/07), então não há perda no tratamento. O total da página publicada é refeito por "reprocessamentos da bilhetagem eletrônica" e fica 2–5% acima dos arquivos no 1º semestre. A diferença é aceita como limitação da fonte, sem fator de ajuste.
 - Metrô (E2.3): sem arquivo (portal em manutenção). Quando ele chegar, as razões MSA/MDU e MDO/MDU do Metrô substituem os pesos provisórios da CPTM em `Param_Pesos_Tipo_Dia` da Etapa 1.
 - CPTM: só o total é distribuído por dia; `pagantes`, `integracao` e `gratuidades` ficam vazias nas linhas de trem.
 - `OUTRO PC`: linhas fora dos três grupos oficiais, no grupo "Outros" (3,1 milhões de passageiros no ano), aguardando esclarecimento.

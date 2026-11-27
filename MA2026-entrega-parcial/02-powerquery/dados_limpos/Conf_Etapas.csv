@@ -5,7 +5,7 @@ ordem,etapa,linhas
 4,Rejeitadas: linha vazia (D3),6672
 5,Rejeitadas: outros motivos,0
 6,Aceitas (dia × linha × empresa),480192
-7,"Fato_Transporte: ônibus (dia × linha, D11)",461839
+7,"Fato_Transporte: ônibus dos diários (dia × linha, D11)",461839
 8,Dim_Transporte: linhas de ônibus,1437
 9,Fato_Referencia_Mensal (mês × grupo),36
 10,CPTM: arquivos mensais na pasta,12
@@ -18,3 +18,6 @@ ordem,etapa,linhas
 17,CPTM: mês × linha,60
 18,"Fato_Transporte: trem (dia × linha, estimado)",1830
 19,Dim_Transporte: linhas de trem,5
+20,SPTrans consolidado jul/2024: linhas de ônibus,1366
+21,SPTrans jul/2024: linhas com diferença entre consolidado e diários,207
+22,"Fato_Transporte: ônibus complementado em 08/07 (D24, estimado)",207
