@@ -16,6 +16,8 @@ Arquivos em `MA2026-entrega-final/04-powerbi-dashboard/`:
 - `tema-cheiU.json`;
 - `relatorio-final.md` e o PDF.
 
+**Situação em 2026-11-28** (decisão `0017`): o projeto `.pbip` é gerado por `scripts/gerar_pbip.py`; a pessoa só atualiza, salva o `.pbix` e exporta o PDF. Sem o Metrô e a OD 2023, o painel tem 5 páginas: Visão geral, Padrões por dia, Linhas e grupos, Chuva e Sobre os dados. E7.0, E7.1, E7.2 e E7.6 estão concluídos; E7.3 e E7.4 foram feitos na parte que não depende da OD (padrões por dia, efeito da chuva, top linhas e grupos); E7.5 espera a OD.
+
 ### E7.0 — Refinar o plano e instalar o Power BI Desktop
 - **Resp.** Luciano · Power BI, Setup · **Depende de** E6.5
 - **Passos**:

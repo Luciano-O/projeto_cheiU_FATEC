@@ -1,0 +1,39 @@
+table Horario
+	lineageTag: 90b34be5-f95a-5730-8ce8-2a6a5c283d8a
+
+	column hora
+		dataType: int64
+		isKey
+		lineageTag: 28988219-ea1a-549e-baad-d11ec33c81b3
+		summarizeBy: none
+		sourceColumn: hora
+
+	column hora_rotulo
+		dataType: string
+		lineageTag: f9b7e155-2d0d-5d26-a244-9620ea8e7525
+		summarizeBy: none
+		sourceColumn: hora_rotulo
+		sortByColumn: hora
+
+	column periodo
+		dataType: string
+		lineageTag: fa5b6425-6f5f-5620-b8c6-5a0129091671
+		summarizeBy: none
+		sourceColumn: periodo
+		sortByColumn: ordem_periodo
+
+	column ordem_periodo
+		dataType: int64
+		lineageTag: 3971407c-3016-5f35-8442-1ab6c82fb0b4
+		summarizeBy: none
+		sourceColumn: ordem_periodo
+
+	partition Horario = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    Dados = Fonte{[Schema = "dw", Item = "vw_horario"]}[Data]
+				in
+				    Dados
+

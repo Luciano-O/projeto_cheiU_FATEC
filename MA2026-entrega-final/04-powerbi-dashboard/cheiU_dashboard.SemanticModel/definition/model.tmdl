@@ -1,0 +1,24 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Calendario","Horario","Grupos","Linhas","Demanda","Referencia","Clima","Servidor","Banco"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Calendario
+ref table Horario
+ref table Grupos
+ref table Linhas
+ref table Demanda
+ref table Referencia
+ref table Clima
+
+ref cultureInfo pt-BR
+

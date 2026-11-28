@@ -1,0 +1,41 @@
+{
+  "name": "cheiU",
+  "dataColors": [
+    "#0B6E4F",
+    "#E07A1F",
+    "#2E86AB",
+    "#A23B72",
+    "#6C757D",
+    "#F2C14E",
+    "#3B4252",
+    "#8FB339"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2933",
+  "tableAccent": "#0B6E4F",
+  "good": "#0B6E4F",
+  "neutral": "#F2C14E",
+  "bad": "#C0392B",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#1F2933"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#1F2933"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#3B4252"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#0B6E4F"
+    }
+  }
+}

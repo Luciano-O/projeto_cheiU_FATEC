@@ -1,0 +1,157 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.15.0/schema.json",
+  "name": "vgLinha",
+  "position": {
+    "x": 20,
+    "y": 160,
+    "z": 0,
+    "height": 460,
+    "width": 1240,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendario"
+                    }
+                  },
+                  "Property": "mes_rotulo"
+                }
+              },
+              "queryRef": "Calendario.mes_rotulo",
+              "nativeQueryRef": "mes_rotulo",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Linhas"
+                    }
+                  },
+                  "Property": "modalidade"
+                }
+              },
+              "queryRef": "Linhas.modalidade",
+              "nativeQueryRef": "modalidade"
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Demanda"
+                    }
+                  },
+                  "Property": "Média Diária de Passageiros"
+                }
+              },
+              "queryRef": "Demanda.Média Diária de Passageiros",
+              "nativeQueryRef": "Média Diária de Passageiros"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Demanda"
+                    }
+                  },
+                  "Property": "% Estimado"
+                }
+              },
+              "queryRef": "Demanda.% Estimado",
+              "nativeQueryRef": "% Estimado"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Demanda"
+                    }
+                  },
+                  "Property": "Total de Passageiros"
+                }
+              },
+              "queryRef": "Demanda.Total de Passageiros",
+              "nativeQueryRef": "Total de Passageiros"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Como a demanda de ônibus e trem variou mês a mês em 2024?'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

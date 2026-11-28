@@ -1,0 +1,139 @@
+table Demanda
+	lineageTag: d58a32be-abee-5fdb-bf07-83b75e170dc0
+
+	measure 'Total de Passageiros' = SUM(Demanda[passageiros])
+		formatString: #,0
+		displayFolder: Demanda
+		lineageTag: 4d9b330b-24ad-5843-8f22-ef278c948dd6
+
+	measure 'Passageiros de Ônibus' = CALCULATE([Total de Passageiros], Linhas[modalidade] = "Ônibus")
+		formatString: #,0
+		displayFolder: Demanda
+		lineageTag: 7c4b9da6-94ec-5969-b576-f2b29ea513c6
+
+	measure 'Passageiros de Trem' = CALCULATE([Total de Passageiros], Linhas[modalidade] = "Trem")
+		formatString: #,0
+		displayFolder: Demanda
+		lineageTag: 36748bb5-f82b-5d4e-a658-85b6c34efbf3
+
+	measure 'Média Diária de Passageiros' = AVERAGEX(VALUES(Calendario[data]), [Total de Passageiros])
+		formatString: #,0
+		displayFolder: Demanda
+		lineageTag: 58422286-f555-5dda-814a-94dd0d56bd4d
+
+	measure 'Média Dia Útil' = CALCULATE([Média Diária de Passageiros], Calendario[tipo_dia] = "Útil")
+		formatString: #,0
+		displayFolder: Demanda
+		lineageTag: 273d5939-4c03-5430-b73e-f2952bb50fbf
+
+	measure 'Média Fim de Semana' = CALCULATE([Média Diária de Passageiros], Calendario[tipo_dia] IN {"Sábado", "Domingo"})
+		formatString: #,0
+		displayFolder: Demanda
+		lineageTag: 582d7342-afb7-57f3-bad2-7ec031da109c
+
+	measure 'Razão Fim de Semana/Útil' = DIVIDE([Média Fim de Semana], [Média Dia Útil])
+		formatString: 0.0%
+		displayFolder: Demanda
+		lineageTag: 8240260e-75d0-5d2c-a563-478325f92d05
+
+	measure '% Estimado' = DIVIDE(CALCULATE([Total de Passageiros], Demanda[origem_dado] <> "real"), [Total de Passageiros])
+		formatString: 0.0%
+		displayFolder: Demanda
+		lineageTag: 7aaf2145-a3e4-54c8-973c-892b095519ba
+
+	measure 'Variação % sobre o Mês Anterior' =
+			VAR MesAtual = MAX(Calendario[mes])
+			VAR Atual = [Total de Passageiros]
+			VAR Anterior = CALCULATE([Total de Passageiros], ALLEXCEPT(Calendario, Calendario[tipo_dia]), Calendario[mes] = MesAtual - 1)
+			RETURN IF(HASONEVALUE(Calendario[mes]) && NOT ISBLANK(Anterior), DIVIDE(Atual - Anterior, Anterior))
+		formatString: 0.0%
+		displayFolder: Demanda
+		lineageTag: 6a2029a1-c0dd-5487-99ee-863cea943594
+
+	measure 'Participação % da Linha' = DIVIDE([Total de Passageiros], CALCULATE([Total de Passageiros], ALLSELECTED(Linhas)))
+		formatString: 0.00%
+		displayFolder: Linhas
+		lineageTag: c3522938-8050-577c-8528-a767c2f80ea4
+
+	measure 'Ranking da Linha' = IF(HASONEVALUE(Linhas[linha_rotulo]), RANKX(ALLSELECTED(Linhas[linha_rotulo]), [Total de Passageiros], , DESC, DENSE))
+		formatString: 0
+		displayFolder: Linhas
+		lineageTag: 8361fc69-efd0-50e5-829c-8495d6a5840e
+
+	measure 'Passageiros Top 10' = IF([Ranking da Linha] <= 10, [Total de Passageiros])
+		formatString: #,0
+		displayFolder: Linhas
+		lineageTag: c4b0d525-157d-5c3c-9583-45fe207507bf
+
+	column data
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: b0ae9ee5-2e46-5b5b-8091-6e8b49f4ccd2
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column id_linha
+		dataType: string
+		isHidden
+		lineageTag: fe6b7793-3dee-5e9c-a024-26e9a5781de3
+		summarizeBy: none
+		sourceColumn: id_linha
+
+	column modalidade
+		dataType: string
+		lineageTag: 91337078-0d31-5f58-b96d-a509bb9f73c1
+		summarizeBy: none
+		sourceColumn: modalidade
+
+	column passageiros
+		dataType: int64
+		formatString: #,0
+		lineageTag: 6eb5b810-20c6-5278-8138-4576c202c5cf
+		summarizeBy: none
+		sourceColumn: passageiros
+
+	column pagantes
+		dataType: int64
+		formatString: #,0
+		lineageTag: fc87d13b-990f-5d26-8b7b-0a440461ee37
+		summarizeBy: none
+		sourceColumn: pagantes
+
+	column integracao
+		dataType: int64
+		formatString: #,0
+		lineageTag: f46b764d-22f6-5849-81ff-7dc929a0d082
+		summarizeBy: none
+		sourceColumn: integracao
+
+	column gratuidades
+		dataType: int64
+		formatString: #,0
+		lineageTag: 1673c7a8-b89e-5e70-aecf-2dd8bf7bec8b
+		summarizeBy: none
+		sourceColumn: gratuidades
+
+	column tipo_metrica
+		dataType: string
+		lineageTag: 76e00e11-95ee-5c65-92cf-310db14c88c4
+		summarizeBy: none
+		sourceColumn: tipo_metrica
+
+	column origem_dado
+		dataType: string
+		lineageTag: 2ce7d543-f0b4-5584-b4eb-fc989eeabd0e
+		summarizeBy: none
+		sourceColumn: origem_dado
+
+	partition Demanda = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    Dados = Fonte{[Schema = "dw", Item = "vw_demanda_diaria"]}[Data]
+				in
+				    Dados
+

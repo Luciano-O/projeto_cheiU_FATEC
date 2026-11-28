@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "cheiU_dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "abf141b9-42f4-5890-92b0-f18d9af9b317"
+  }
+}

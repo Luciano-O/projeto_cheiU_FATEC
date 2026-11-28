@@ -1,0 +1,9 @@
+Tempo das consultas DAX equivalentes aos visuais, medido por ADOMD no modelo aberto no Power BI Desktop (28/11/2026).
+Limite do aceite E7.6: 2 s por visual.
+
+Top 10 linhas: 71 ms (10 linhas)
+Linha mensal: 4 ms (24 linhas)
+Dia da semana: 4 ms (7 linhas)
+Grupos: 1 ms (5 linhas)
+Chuva: 4 ms (3 linhas)
+Publicado: 2 ms (1 linhas)

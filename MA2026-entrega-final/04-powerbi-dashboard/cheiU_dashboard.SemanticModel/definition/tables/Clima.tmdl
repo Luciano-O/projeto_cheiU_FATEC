@@ -1,0 +1,75 @@
+table Clima
+	lineageTag: e89e7c18-5b66-587e-bdd0-c11c43a77dc8
+
+	measure 'Precipitação (mm)' = SUM(Clima[precipitacao_mm])
+		formatString: #,0.0
+		displayFolder: Clima
+		lineageTag: 79a5daa2-594b-58d4-92f6-f0cb647071d4
+
+	measure 'Média Dia Útil com Chuva' = CALCULATE([Média Dia Útil], Calendario[faixa_chuva] = "com chuva")
+		formatString: #,0
+		displayFolder: Clima
+		lineageTag: 9ee9a9ce-72c0-58cd-824f-a0095dccf662
+
+	measure 'Média Dia Útil sem Chuva' = CALCULATE([Média Dia Útil], Calendario[faixa_chuva] = "seco")
+		formatString: #,0
+		displayFolder: Clima
+		lineageTag: 234a45a0-a9f1-5f53-a61f-51637fe6b6fa
+
+	measure 'Efeito da Chuva % (Dia Útil)' = DIVIDE([Média Dia Útil com Chuva] - [Média Dia Útil sem Chuva], [Média Dia Útil sem Chuva])
+		formatString: 0.0%
+		displayFolder: Clima
+		lineageTag: de896775-7a36-5f38-bb47-63fa8d9eabd9
+
+	column data
+		dataType: dateTime
+		isHidden
+		formatString: Long Date
+		lineageTag: 41a7b46d-775b-5d0e-afdb-06f858e1c9d1
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column hora
+		dataType: int64
+		isHidden
+		lineageTag: 690e32c0-f645-5ab8-a510-90ecdb8c3af3
+		summarizeBy: none
+		sourceColumn: hora
+
+	column temperatura_c
+		dataType: double
+		formatString: 0.0
+		lineageTag: bea3c917-d7fe-5c62-8f30-8096e02a977a
+		summarizeBy: sum
+		sourceColumn: temperatura_c
+
+	column precipitacao_mm
+		dataType: double
+		formatString: 0.0
+		lineageTag: 4005552a-1a26-57f6-9080-5e91fe1dc933
+		summarizeBy: sum
+		sourceColumn: precipitacao_mm
+
+	column chovendo
+		dataType: boolean
+		lineageTag: 24f9a34b-ce0d-5fc7-8d99-243d2ff788a9
+		summarizeBy: none
+		sourceColumn: chovendo
+
+	column origem_dado
+		dataType: string
+		lineageTag: d1b8d504-2baa-56e6-b478-7328e6a0808b
+		summarizeBy: none
+		sourceColumn: origem_dado
+
+	partition Clima = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    Dados = Fonte{[Schema = "dw", Item = "vw_clima_horario"]}[Data]
+				in
+				    Dados
+

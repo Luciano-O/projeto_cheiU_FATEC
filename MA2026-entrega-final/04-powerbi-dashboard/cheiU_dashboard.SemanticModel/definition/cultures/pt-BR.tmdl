@@ -1,0 +1,32 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "demanda.participação__da_linha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Demanda",
+			          "ConceptualProperty": "Participação % da Linha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Participação %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+
