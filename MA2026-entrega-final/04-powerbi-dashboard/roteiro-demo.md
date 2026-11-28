@@ -1,5 +1,7 @@
 # Roteiro da demonstração ao vivo — entrega final
 
+**Material de apoio: não haverá apresentação (decisão `0018`).**
+
 Slides: `apresentacao-final.pptx`. A demonstração entra no slide 9 e dura cerca de 7 minutos. Responsável: Victor Lima Conceição; a divisão das partes é uma proposta para o grupo ajustar.
 
 **Ensaio cronometrado: não realizado.** Os tempos abaixo são estimativas. O aceite do F.1 pede que o roteiro rode do zero numa máquina que não seja a do Luciano, ou que o plano B cubra a diferença.

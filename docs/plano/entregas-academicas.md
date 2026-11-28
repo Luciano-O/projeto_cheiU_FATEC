@@ -54,6 +54,8 @@ O professor exige no próprio tema:
 
 ## Entrega final (aula 20): defesa completa ao vivo
 
+**Situação em 2026-11-28** (decisão `0018`): não haverá apresentação. P2.1, F.1 e F.2 foram canceladas; o roteiro e os slides ficam como material de apoio. A entrega é o repositório na tag `final`.
+
 ### F.1 — Roteiro da demonstração ao vivo
 - **Resp.** Victor · Docs, Humano · **Depende de** E7.7
 - **Saídas**: `MA2026-entrega-final/04-powerbi-dashboard/roteiro-demo.md`, com a ordem, o tempo e o responsável de cada parte:

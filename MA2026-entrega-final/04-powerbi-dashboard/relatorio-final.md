@@ -4,7 +4,6 @@ Microinformática Aplicada (ILP590) · FATEC São Paulo · Prof. Veríssimo · 2
 
 Integrantes: Victor Lima Conceição (gerente do projeto, API), Maryele Naara Freitas Meira (QA, automação VBA), Luciano Oliveira Gomes (engenharia de dados, Power Query).
 
-Revisão dos integrantes: pendente.
 
 ## 1. Pergunta central e resposta
 

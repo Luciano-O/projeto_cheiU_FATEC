@@ -6,7 +6,7 @@ atualize status, labels e títulos a partir do Linear e troque DATA.
 Uso: .venv/Scripts/python.exe docs/scripts/espelhar_linear.py [--executar]
 Sem --executar, só gera os corpos na pasta temporária e imprime as checagens (simulação).
 Com --executar: cria o que falta (labels, milestones, issues), atualiza corpo e labels das issues
-que já existem e fecha como concluídas as que estão em Done. Não reabre issue fechada.
+que já existem, fecha como concluídas as que estão em Done e como não planejadas as que estão em Canceled. Não reabre issue fechada.
 Requer o `gh` autenticado com permissão de escrita em REPO.
 """
 import json
@@ -107,7 +107,7 @@ ISSUES = """
 55|Backlog|E6|API;VBA;Resp: Victor|e63-olho-vivo-autenticacao-e-dados-estaticos-vba|[E6.3] Olho Vivo: autenticação e dados estáticos (VBA)
 56|Backlog|E6|API;VBA;Resp: Victor|e64-extra-coletor-agendado-de-posicao-e-previsao|[E6.4] [Extra] Coletor agendado de posição e previsão
 57|Done|E6|Docs;API;SQL;Resp: Victor|e65-carga-das-apis-no-sql-e-documentacao|[E6.5] Carga das APIs no SQL e documentação
-58|Backlog|P2|Docs;Resp: Victor;Humano|p21-apresentar-a-parcial-2-e-registrar-o-feedback|[P2.1] Apresentar a Parcial 2 e registrar o feedback
+58|Canceled|P2|Docs;Resp: Victor;Humano|p21-apresentar-a-parcial-2-e-registrar-o-feedback|[P2.1] Apresentar a Parcial 2 e registrar o feedback
 59|Done|E7|Setup;Power BI;Resp: Luciano|e70-refinar-o-plano-e-instalar-o-power-bi-desktop|[E7.0] Refinar o plano e instalar o Power BI Desktop
 60|Done|E7|Power BI;DAX;Resp: Luciano|e71-conexao-ao-sql-e-modelo-semantico|[E7.1] Conexão ao SQL e modelo semântico
 61|Done|E7|Power BI;Resp: Grupo|e72-pagina-visao-geral|[E7.2] Página "Visão geral"
@@ -115,10 +115,10 @@ ISSUES = """
 63|In Progress|E7|Power BI;Resp: Grupo|e74-pagina-linhas-e-regioes|[E7.4] Página "Linhas e regiões"
 64|Backlog|E7|Power BI;Resp: Grupo|e75-pagina-alternativas-de-percurso|[E7.5] Página "Alternativas de percurso"
 65|Done|E7|QA;Power BI;Resp: Maryele|e76-navegacao-tema-sobre-os-dados-e-qa|[E7.6] Navegação, tema, "Sobre os dados" e QA
-66|In Progress|E7|Docs;Resp: Grupo|e77-relatorio-final|[E7.7] Relatório final
-67|In Progress|F|Docs;Resp: Victor;Humano|f1-roteiro-da-demonstracao-ao-vivo-e-plano-b|[F.1] Roteiro da demonstração ao vivo e plano B
-68|In Progress|F|Docs;Resp: Victor;Humano|f2-apresentacao-final-e-ensaio|[F.2] Apresentação final e ensaio
-69|Backlog|F|Setup;Resp: Luciano|f3-congelar-a-entrega-final-tag-final|[F.3] Congelar a entrega final (tag final)
+66|Done|E7|Docs;Resp: Grupo|e77-relatorio-final|[E7.7] Relatório final
+67|Canceled|F|Docs;Resp: Victor;Humano|f1-roteiro-da-demonstracao-ao-vivo-e-plano-b|[F.1] Roteiro da demonstração ao vivo e plano B
+68|Canceled|F|Docs;Resp: Victor;Humano|f2-apresentacao-final-e-ensaio|[F.2] Apresentação final e ensaio
+69|Done|F|Setup;Resp: Luciano|f3-congelar-a-entrega-final-tag-final|[F.3] Congelar a entrega final (tag final)
 70|Done|E0|Docs;Resp: Luciano|e08-alinhar-o-plano-aos-guias-do-professor|[E0.8] Alinhar o plano aos guias do professor
 71|Todo|E0|Setup;Resp: Victor;Humano|e09-commits-proprios-de-cada-integrante|[E0.9] Commits próprios de cada integrante
 72|Done|E1|Excel;Resp: Luciano|e16-base-auditavel-da-amostra-bruto-tratado-auditoria|[E1.6] Base auditável da amostra (Bruto, Tratado, Auditoria)
@@ -225,6 +225,9 @@ for it in itens:
     if it["status"] == "Done" and estado == "open":
         gh(["api", "-X", "PATCH", f"repos/{REPO}/issues/{num}", "--input", "-"], {"state": "closed", "state_reason": "completed"})
         estado = "closed"; print(f"  fechada como concluída: #{num}"); time.sleep(1)
+    elif it["status"] == "Canceled" and estado == "open":
+        gh(["api", "-X", "PATCH", f"repos/{REPO}/issues/{num}", "--input", "-"], {"state": "closed", "state_reason": "not_planned"})
+        estado = "closed"; print(f"  fechada como cancelada: #{num}"); time.sleep(1)
     mapa.append((it["tra"], num, estado))
 (SAIDA / "mapa.json").write_text(json.dumps(mapa), encoding="utf-8")
 print("fim:", len(mapa), "issues;", sum(e == "closed" for *_, e in mapa), "fechadas")
