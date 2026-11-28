@@ -63,3 +63,4 @@ O SQL Server passa a ser a fonte da verdade (`memories/decisoes/0002`). O projet
 - **Resp.** Maryele · QA, SQL · **Depende de** E5.4
 - **Saídas**: `MA2026-entrega-parcial/04-documentacao/qa/etapa-5.md`, comparando 5 KPIs-chave entre o SQL e as medidas DAX; `README.md` da pasta com o passo a passo do zero (`.env` → compose → scripts → carga).
 - **Aceite**: os 5 KPIs são iguais nos dois lados (tolerância de arredondamento); outra pessoa sobe o banco seguindo só o README.
+- **Situação em 28/11/2026**: etapa feita com SQL Server 2022 Express (T-SQL; o guia da Etapa 5 ainda não saiu). 8 KPIs iguais, diferença 0 (`qa/etapa-5.md`). Consultas de demanda por hora, lotação e corredores esperam a OD.

@@ -1,0 +1,177 @@
+Changed database context to 'cheiU'.
+mes_rotulo modalidade passageiros
+---------- ---------- -----------
+01 - Janeiro Ônibus 149820742
+01 - Janeiro Trem 32435925
+02 - Fevereiro Ônibus 163029642
+02 - Fevereiro Trem 33353975
+03 - Março Ônibus 179439597
+03 - Março Trem 35984632
+04 - Abril Ônibus 182843599
+04 - Abril Trem 37398078
+05 - Maio Ônibus 180225416
+05 - Maio Trem 36876680
+06 - Junho Ônibus 175863188
+06 - Junho Trem 36361842
+07 - Julho Ônibus 174397498
+07 - Julho Trem 36885109
+08 - Agosto Ônibus 192043839
+08 - Agosto Trem 38810950
+09 - Setembro Ônibus 186123933
+09 - Setembro Trem 37480736
+10 - Outubro Ônibus 196539678
+10 - Outubro Trem 40143762
+11 - Novembro Ônibus 179627393
+11 - Novembro Trem 37448925
+12 - Dezembro Ônibus 165654266
+12 - Dezembro Trem 35744054
+
+(24 rows affected)
+modalidade tipo_dia dias media_diaria
+---------- -------- ---- ------------
+Ônibus Útil 251 6897806.896414
+Ônibus Sábado 49 4122797.326530
+Ônibus Domingo 50 2913174.640000
+Ônibus Feriado 16 2911466.187500
+Trem Útil 251 1430802.091633
+Trem Sábado 49 857542.346938
+Trem Domingo 50 572611.480000
+Trem Feriado 16 571449.625000
+
+(8 rows affected)
+media_util media_fim_de_semana razao_fim_de_semana_util
+---------- ------------------- ------------------------
+8328608.9880478084 4225514.6464646468 0.50734938481667036
+
+(1 rows affected)
+linha_rotulo modalidade passageiros ranking_geral ranking_na_modalidade
+------------ ---------- ----------- ------------- ---------------------
+L11 - Coral Trem 144093491 1 1
+L7 - Rubi Trem 124417850 2 2
+L10 - Turquesa Trem 96626249 3 3
+L12 - Safira Trem 67943235 4 4
+607C-10 - Jd Miriam/Shopp Morumbi Ônibus 10117677 5 1
+6000-10 - Term Parelheiros/Term Santo Am Ônibus 9333802 6 2
+675K-10 - Term Jd Angela-Metro Sta Cruz Ônibus 7706875 7 3
+4313-10 - T Cid Tiradentes/T Pq D Pedro Ônibus 7570117 8 4
+4310-10 - E.T.Itaquera/Term Pq D Pedro Ônibus 7546018 9 5
+637A-10 - Term Jd Angela/Pinheiros Ônibus 7227372 10 6
+
+(10 rows affected)
+mes_rotulo passageiros mes_anterior variacao
+---------- ----------- ------------ --------
+01 - Janeiro 182256667 NULL NULL
+02 - Fevereiro 196383617 182256667 7.7511293455179889E-2
+03 - Março 215424229 196383617 9.6956214020643069E-2
+04 - Abril 220241677 215424229 2.2362609917940104E-2
+05 - Maio 217102096 220241677 -0.01425516297716894
+06 - Junho 212225030 217102096 -2.2464389288991481E-2
+07 - Julho 211282607 212225030 -4.4406778974186035E-3
+08 - Agosto 230854789 211282607 9.2635083776678312E-2
+09 - Setembro 223604669 230854789 -3.1405542988324146E-2
+10 - Outubro 236683440 223604669 5.8490598870276723E-2
+11 - Novembro 217076318 236683440 -8.2841123147441159E-2
+12 - Dezembro 201398320 217076318 -7.2223438026067871E-2
+
+(12 rows affected)
+mes_inicio calculado publicado diferenca
+---------- --------- --------- ---------
+2024-01-01 149800158 157927773 -5.1464127212127536E-2
+2024-02-01 162792322 167586038 -0.02860450701746407
+2024-03-01 179193277 182894300 -2.0235857541760459E-2
+2024-04-01 182577502 189033899 -3.4154704707222906E-2
+2024-05-01 179952241 185548267 -0.03015940860283001
+2024-06-01 175602499 181441727 -3.2182387681969099E-2
+2024-07-01 174109686 174551078 -2.5287268635487887E-3
+2024-08-01 191750208 192518102 -3.988684658858729E-3
+2024-09-01 185822982 186530358 -3.7922835059374087E-3
+2024-10-01 196212472 197007222 -4.0341160691053247E-3
+2024-11-01 179314963 180011518 -3.8695023948412013E-3
+2024-12-01 165367757 165800152 -2.6079288515971927E-3
+
+(12 rows affected)
+grupo modalidade passageiros participacao
+----- ---------- ----------- ------------
+Local de Distribuição Ônibus 896225517 0.34946922367293631
+Estrutural Ônibus 699320216 0.27268905911357816
+Local de Articulação Regional Ônibus 526950334 0.20547610020478194
+CPTM Trem 438924668 0.17115185861959931
+Outros Ônibus 3112724 1.2137583891043318E-3
+
+(5 rows affected)
+data nome_dia tipo_dia passageiros
+---- -------- -------- -----------
+2024-11-05 Terça-Feira Útil 9148071
+2024-11-19 Terça-Feira Útil 9135475
+2024-11-26 Terça-Feira Útil 9115840
+2024-11-13 Quarta-Feira Útil 9094689
+2024-10-08 Terça-Feira Útil 9073755
+
+(5 rows affected)
+dia_semana nome_dia dias media
+---------- -------- ---- -----
+1 Segunda-Feira 51 8128519.862745
+2 Terça-Feira 51 8310408.862745
+3 Quarta-Feira 49 8488081.020408
+4 Quinta-Feira 50 8489937.760000
+5 Sexta-Feira 50 8233652.660000
+6 Sábado 49 4980339.673469
+7 Domingo 50 3485786.120000
+
+(7 rows affected)
+modalidade origem_dado linhas passageiros
+---------- ----------- ------ -----------
+Ônibus estimado 207 904616
+Ônibus real 461839 2124704175
+Trem estimado 1830 438924668
+
+(3 rows affected)
+linha_rotulo s1 s2 variacao
+------------ -- -- --------
+709M-10 - Termin Sto Amaro/Term Pinheiro 1358807 1126533 -0.17093965515338086
+3789-10 - Cidade Tiradentes/Metro Itaque 1931235 1758283 -0.0895551292307772
+5154-10 - Sto Amaro/Est Da Luz 1169070 1077870 -7.8010726474890296E-2
+118C-10 - Jd Pery Alto/Metro St Cecilia 1798708 1665136 -0.07425996882206562
+3033-10 - Guaianazes/Sao Mateus 1401283 1318538 -0.05904945681921496
+3902-10 - Jd. Das Oliveiras/Guaianazes 1002819 1214609 0.21119464230334686
+6110-10 - Conj Hab Palmares/Chac Monte A 1070477 1348347 0.25957587131717919
+SMATEU - Term 1222670 1555064 0.27185912797402406
+637P-10 - Term.Sto.Amaro-Pinheiros 1216935 1580214 0.29851964155850558
+9927PR - Term Sto Amaro/Term Bandeira 1425368 1967879 0.38061118251567316
+
+(10 rows affected)
+faixa dias_uteis media_dia_util
+----- ---------- --------------
+seco (< 1 mm) 157 8496127.184713
+com chuva (>= 5 mm) 50 8069711.100000
+chuva fraca (1 a 5 mm) 44 8025075.750000
+
+(3 rows affected)
+hora_rotulo periodo chuva_mm_ano horas_com_chuva
+----------- ------- ------------ ---------------
+00h Madrugada 70.0 52
+01h Madrugada 39.5 49
+02h Madrugada 37.7 48
+03h Madrugada 32.5 41
+04h Madrugada 22.6 46
+05h Madrugada 27.7 42
+06h Manhã 25.9 39
+07h Manhã 23.6 45
+08h Manhã 18.8 51
+09h Manhã 31.0 76
+10h Manhã 37.3 80
+11h Manhã 45.8 93
+12h Tarde 44.8 94
+13h Tarde 70.5 102
+14h Tarde 119.2 121
+15h Tarde 132.5 118
+16h Tarde 91.6 108
+17h Tarde 93.8 104
+18h Noite 57.4 86
+19h Noite 44.6 65
+20h Noite 48.4 57
+21h Noite 34.0 57
+22h Noite 47.0 68
+23h Noite 51.9 55
+
+(24 rows affected)
