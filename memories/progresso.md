@@ -175,3 +175,9 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
 - **Feito**: `relatorio-final.md` e PDF (resposta explícita à pergunta central, com os números do painel), `roteiro-demo.md` (sequência de 7 partes, comandos e plano B) e `apresentacao-final.pptx` (11 slides com falas nas anotações), gerada por `scripts/gerar_apresentacao.py`; `docs/scripts/md_para_pdf.py` converte Markdown em PDF pelo Edge.
 - **Pendente** (precisa de pessoas): revisão do relatório pelos três integrantes (E7.7); executar o roteiro numa máquina que não seja a do Luciano e gravar o vídeo do plano B (F.1); ensaio cronometrado (F.2); depois, a tag `final` (F.3).
 - **Próximo**: tag `final` depois do ensaio; Metrô e OD 2023 se o portal voltar.
+
+## 2026-11-28 · TRA-69 (F.3) · entrega final
+
+- **Feito**: decisão `0018` (sem apresentação): P2.1, F.1 e F.2 canceladas; E7.7 concluída sem a revisão dos integrantes; README com o status final; tag `final` na `main`, enviada para `origin` e `grupo`; o espelho passou a fechar as issues canceladas como não planejadas.
+- **Pendente**: só o que depende de dados ou de pessoas: Metrô e OD 2023, Olho Vivo, commits próprios (E0.9) e o teste de clone em outra máquina (TRA-24).
+- **Próximo**: nada obrigatório. Se o Metrô e a OD chegarem, entram numa versão nova, com outra tag.
