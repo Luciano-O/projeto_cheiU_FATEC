@@ -61,3 +61,4 @@ Arquivos: `MA2026-entrega-final/01-vba/cheiU_04_VBA.xlsm` (o `cheiU_03_PowerPivo
   - `README.md` explicando como habilitar macros e o que cada botão faz;
   - `MA2026-entrega-parcial/04-documentacao/qa/etapa-4.md`.
 - **Aceite**: os quatro botões rodam em sequência numa máquina limpa; os `.bas` são idênticos ao código no `.xlsm`.
+- **Situação em 28/11/2026**: etapa feita (QA em `qa/etapa-4.md`). Os módulos são importados à mão no VBE, porque o Excel por automação recusa o acesso ao projeto VBA nesta máquina; o resto roda por script (`montar_etapa4.ps1`, `executar_etapa4.ps1`, `verificar_etapa4.ps1`).

@@ -112,3 +112,9 @@ Resumo: **nenhuma fonte pública traz demanda por hora** de ônibus, Metrô ou C
 - `Total Entradas` = soma das quatro tarifas em todos os 768 registros; `Total` só difere em Palmeiras-Barra Funda (L7).
 - Soma de 2024 de `Totais CPTM` › `Total Entradas`: 438.924.668. Referência para reconciliar: `cptm/referencia/Transportados (MDU) - 2024.pdf`.
 - O portal do Metrô (demanda e OD 2023) continua em 503 "Em manutenção", com `Retry-After: 3600`, também no navegador.
+
+## Descobertas de 28/11/2026 (Etapas 5 e 6)
+
+- **BrasilAPI 2024**: 14 feriados nacionais, incluindo Páscoa (31/03, domingo) e Carnaval e Corpus Christi (pontos facultativos na lista manual). Não traz 25/01 (municipal) nem 09/07 (estadual). Funciona no `Web.Contents` do Power Query.
+- **Open-Meteo**: 8.784 horas sem nulos em 2024 no fuso `America/Sao_Paulo`; ponto devolvido −23,51, −46,61; é reanálise ERA5 (`origem_dado = estimado`). `curl` e Python funcionam, mas o `Web.Contents` do Excel falha nesta máquina sem mensagem: a aquisição é por `baixar_clima.py` (decisão `0016`).
+- **SQL Server no Linux (Docker)**: `BULK INSERT` não aceita `CODEPAGE` e lê o arquivo como OEM 437; `stg.fn_utf8` desfaz a conversão. `sqlcmd -i` precisa de `-f 65001` para ler os `.sql` em UTF-8. No Git Bash, `MSYS_NO_PATHCONV=1` evita que `/opt/...` vire caminho do Windows.

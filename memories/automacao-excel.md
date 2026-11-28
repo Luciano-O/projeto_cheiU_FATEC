@@ -39,3 +39,13 @@ Receita verificada em 06/11/2026 (Excel 16, Microsoft 365 pt-BR, Windows PowerSh
 - Marcar tabela de datas, classificar por coluna, hierarquias, ocultar colunas e o print da Exibição de Diagrama do Power Pivot. Feito em 27/11/2026 pelo controle do computador (`03-powerpivot/README.md` lista os passos). O Power Pivot abre por Dados › Modelo de Dados › Gerenciar (não há guia Power Pivot ligada); no diagrama, ctrl+clique seleciona vários campos e o menu de contexto tem Criar Hierarquia e Ocultar das Ferramentas de Cliente. **`Ctrl+S` na janela do Power Pivot não salva**: use o disquete da barra de acesso rápido dela e confira a data do arquivo. Esses ajustes se perdem quando o script remonta a pasta.
 - Prints de evidência (Gerenciador de Nomes, Rastrear Precedentes, Gerenciar Relações).
 - Importar e exportar `.bas` (exige "Confiar no acesso ao modelo de objeto do projeto do VBA"): não testado, fica para a Etapa 4.
+
+## VBA e automação (Etapa 4, 28/11/2026)
+
+- **Acesso ao projeto VBA recusado por automação.** Com AccessVBOM = 1 no registro (nas duas visões, a isolada dos comandos do agente e a real) e a opção marcada na Central de Confiabilidade, o Excel aberto por COM ainda responde "O acesso de programação ao projeto do Visual Basic não é confiável". A importação dos `.bas` é feita à mão no VBE (Alt+F11 › Arquivo › Importar arquivo; para trocar um módulo, Remover › Não antes). A opção foi desligada de novo no fim.
+- **`Application.Run` funciona** sem acesso ao projeto: as macros e as funções públicas (`ValorMedida`, `ValorDax`) rodam por COM. Use `DefinirModoSilencioso True` para nenhuma `MsgBox` travar a automação.
+- **Excel visível para as macros.** Oculto, ele cai em `GerarResumoDiario` depois de `AtualizarTudo` (RPC 0x800706BE) e recusa chamadas logo depois de abrir uma pasta com Modelo de Dados (0x800AC472). `executar_etapa4.ps1` e `reconciliar_sql_dax.ps1` usam `Start-ExcelCom -Visible`; `montar_etapa4.ps1` espera e tenta de novo.
+- **Caches OLAP.** `PivotCache.Refresh` nas dinâmicas sobre o Modelo de Dados dá erro 1004: o `Model.Refresh` já as atualiza.
+- **ADO no modelo.** `ThisWorkbook.Model.DataModelConnection.ModelConnection.ADOConnection` aceita `EVALUATE` em DAX; `EVALUATE 'Tabela'` exporta 463.876 linhas em ~6 s com `GetRows` em blocos.
+- **`.bas` em Windows-1252.** Caracteres fora dela (→, ≤, −) não podem estar no código: use `ChrW` (`Seta()` em `modQA`).
+- **Abrir `.xlsm` pela interface.** `Start-Process` no arquivo pode abrir o "Abrir com" do Windows; passe o caminho ao `EXCEL.EXE`.

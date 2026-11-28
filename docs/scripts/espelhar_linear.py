@@ -60,7 +60,7 @@ ISSUES = """
 8|Done|E0|Setup;Resp: Victor;Humano|e04-repositorio-do-grupo-como-remote-grupo|[E0.4] Repositório do grupo como remote `grupo`
 9|Todo|E0|API;Resp: Victor;Humano|e05-cadastro-no-devplace-da-sptrans-token-olho-vivo-e-gtfs|[E0.5] Cadastro no DevPlace da SPTrans (token Olho Vivo e GTFS)
 10|Done|E0|Setup;Python;Resp: Luciano|e06-python-e-ambiente-virtual|[E0.6] Python e ambiente virtual
-11|In Progress|E0|Setup;Power Query;Excel;Resp: Luciano|e07-prova-de-conceito-automacao-do-excel-via-com|[E0.7] Prova de conceito: automação do Excel via COM
+11|Done|E0|Setup;Power Query;Excel;Resp: Luciano|e07-prova-de-conceito-automacao-do-excel-via-com|[E0.7] Prova de conceito: automação do Excel via COM
 12|Done|E1|Docs;Resp: Luciano|e10-refinar-o-plano-da-etapa-1|[E1.0] Refinar o plano da Etapa 1
 13|Done|E1|Dados;Python;Resp: Luciano|e11-baixar-passageiros-transportados-da-sptrans-2024|[E1.1] Baixar passageiros transportados da SPTrans (2024)
 14|In Progress|E1|Dados;Python;Resp: Luciano|e12-baixar-metro-e-cptm-2024|[E1.2] Baixar Metrô e CPTM (2024)
@@ -88,25 +88,25 @@ ISSUES = """
 36|Done|P1|Docs;Resp: Victor|p11-relatorio-parcial|[P1.1] Relatório parcial
 37|Done|P1|Docs;Resp: Victor;Humano|p12-apresentacao-da-parcial-1|[P1.2] Apresentação da Parcial 1
 38|Done|P1|Setup;Resp: Luciano|p13-congelar-o-repositorio-da-parcial-1-tag-parcial-1|[P1.3] Congelar o repositório da Parcial 1 (tag parcial-1)
-39|Backlog|E4|Docs;Resp: Maryele|e40-refinar-o-plano-da-etapa-4|[E4.0] Refinar o plano da Etapa 4
-40|Backlog|E4|VBA;Resp: Maryele|e41-base-do-xlsm-e-modulos-utilitarios|[E4.1] Base do `.xlsm` e módulos utilitários
-41|Backlog|E4|VBA;Resp: Maryele|e42-macro-de-atualizacao-completa|[E4.2] Macro de atualização completa
-42|Backlog|E4|QA;VBA;Resp: Maryele|e43-macro-de-qa-automatizado|[E4.3] Macro de QA automatizado
-43|Backlog|E4|VBA;Resp: Maryele|e44-macro-de-resumo-diario|[E4.4] Macro de resumo diário
-44|Backlog|E4|SQL;VBA;Resp: Maryele|e45-macro-de-exportacao-para-a-carga-no-sql|[E4.5] Macro de exportação para a carga no SQL
-45|Backlog|E4|Docs;VBA;Resp: Maryele|e46-painel-de-controle-e-fechamento-da-etapa-4|[E4.6] Painel de controle e fechamento da Etapa 4
-46|Backlog|E5|Docs;Resp: Luciano|e50-refinar-o-plano-da-etapa-5|[E5.0] Refinar o plano da Etapa 5
-47|Backlog|E5|Setup;SQL;Resp: Luciano|e51-sql-server-em-docker|[E5.1] SQL Server em Docker
-48|Backlog|E5|SQL;Resp: Luciano|e52-ddl-do-modelo-dimensional|[E5.2] DDL do modelo dimensional
-49|Backlog|E5|SQL;Resp: Luciano|e53-carga|[E5.3] Carga
-50|Backlog|E5|SQL;Resp: Luciano|e54-consultas-analiticas-dml-e-views|[E5.4] Consultas analíticas (DML) e views
-51|Backlog|E5|QA;SQL;Resp: Maryele|e55-reconciliacao-sql-dax-e-fechamento|[E5.5] Reconciliação SQL × DAX e fechamento
-52|Backlog|E6|Docs;Resp: Victor|e60-refinar-o-plano-da-etapa-6|[E6.0] Refinar o plano da Etapa 6
-53|Backlog|E6|API;Power Query;Resp: Victor|e61-clima-horario-open-meteo-no-power-query|[E6.1] Clima horário (Open-Meteo) no Power Query
-54|Backlog|E6|API;Power Query;Resp: Victor|e62-feriados-brasilapi-no-power-query|[E6.2] Feriados (BrasilAPI) no Power Query
+39|Done|E4|Docs;Resp: Maryele|e40-refinar-o-plano-da-etapa-4|[E4.0] Refinar o plano da Etapa 4
+40|Done|E4|VBA;Resp: Maryele|e41-base-do-xlsm-e-modulos-utilitarios|[E4.1] Base do `.xlsm` e módulos utilitários
+41|Done|E4|VBA;Resp: Maryele|e42-macro-de-atualizacao-completa|[E4.2] Macro de atualização completa
+42|Done|E4|QA;VBA;Resp: Maryele|e43-macro-de-qa-automatizado|[E4.3] Macro de QA automatizado
+43|Done|E4|VBA;Resp: Maryele|e44-macro-de-resumo-diario|[E4.4] Macro de resumo diário
+44|Done|E4|SQL;VBA;Resp: Maryele|e45-macro-de-exportacao-para-a-carga-no-sql|[E4.5] Macro de exportação para a carga no SQL
+45|Done|E4|Docs;VBA;Resp: Maryele|e46-painel-de-controle-e-fechamento-da-etapa-4|[E4.6] Painel de controle e fechamento da Etapa 4
+46|Done|E5|Docs;Resp: Luciano|e50-refinar-o-plano-da-etapa-5|[E5.0] Refinar o plano da Etapa 5
+47|Done|E5|Setup;SQL;Resp: Luciano|e51-sql-server-em-docker|[E5.1] SQL Server em Docker
+48|Done|E5|SQL;Resp: Luciano|e52-ddl-do-modelo-dimensional|[E5.2] DDL do modelo dimensional
+49|Done|E5|SQL;Resp: Luciano|e53-carga|[E5.3] Carga
+50|Done|E5|SQL;Resp: Luciano|e54-consultas-analiticas-dml-e-views|[E5.4] Consultas analíticas (DML) e views
+51|Done|E5|QA;SQL;Resp: Maryele|e55-reconciliacao-sql-dax-e-fechamento|[E5.5] Reconciliação SQL × DAX e fechamento
+52|Done|E6|Docs;Resp: Victor|e60-refinar-o-plano-da-etapa-6|[E6.0] Refinar o plano da Etapa 6
+53|Done|E6|API;Power Query;Resp: Victor|e61-clima-horario-open-meteo-no-power-query|[E6.1] Clima horário (Open-Meteo) no Power Query
+54|Done|E6|API;Power Query;Resp: Victor|e62-feriados-brasilapi-no-power-query|[E6.2] Feriados (BrasilAPI) no Power Query
 55|Backlog|E6|API;VBA;Resp: Victor|e63-olho-vivo-autenticacao-e-dados-estaticos-vba|[E6.3] Olho Vivo: autenticação e dados estáticos (VBA)
 56|Backlog|E6|API;VBA;Resp: Victor|e64-extra-coletor-agendado-de-posicao-e-previsao|[E6.4] [Extra] Coletor agendado de posição e previsão
-57|Backlog|E6|Docs;API;SQL;Resp: Victor|e65-carga-das-apis-no-sql-e-documentacao|[E6.5] Carga das APIs no SQL e documentação
+57|Done|E6|Docs;API;SQL;Resp: Victor|e65-carga-das-apis-no-sql-e-documentacao|[E6.5] Carga das APIs no SQL e documentação
 58|Backlog|P2|Docs;Resp: Victor;Humano|p21-apresentar-a-parcial-2-e-registrar-o-feedback|[P2.1] Apresentar a Parcial 2 e registrar o feedback
 59|Backlog|E7|Setup;Power BI;Resp: Luciano|e70-refinar-o-plano-e-instalar-o-power-bi-desktop|[E7.0] Refinar o plano e instalar o Power BI Desktop
 60|Backlog|E7|Power BI;DAX;Resp: Luciano|e71-conexao-ao-sql-e-modelo-semantico|[E7.1] Conexão ao SQL e modelo semântico

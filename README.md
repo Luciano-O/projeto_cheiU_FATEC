@@ -47,9 +47,9 @@ memories/                decisões, glossário, fontes de dados e diário do pro
 | 2 — Power Query | 4–5 | entregue na Parcial 1 só com ônibus (SPTrans); CPTM com estimativa diária desde 27/11 (decisão `0012`); falta o Metrô; a diferença da SPTrans contra o total publicado passa de 0,5% de janeiro a junho (reprocessamento da fonte, decisão `0014`) |
 | 3 — Power Pivot e DAX | 6–7 | entregue na Parcial 1 com as medidas de demanda; faltam medidas por hora, lotação e corredores |
 | Parcial 1 | 8 | entregue (tag `parcial-1`) |
-| 4 — VBA | 10–11 | a fazer |
-| 5 — SQL | 12–13 | a fazer |
-| 6 — API/Web | 14–15 | a fazer |
+| 4 — VBA | 10–11 | feito: `cheiU_04_VBA.xlsm` com atualização, QA (24/24 OK), resumo diário em PDF e exportação para o SQL |
+| 5 — SQL | 12–13 | feito: SQL Server em Docker, DDL, carga, 13 consultas, 10 views; SQL × DAX com diferença 0 |
+| 6 — API/Web | 14–15 | feito: BrasilAPI e Open-Meteo no modelo e no SQL; falta o Olho Vivo (token do DevPlace) |
 | Parcial 2 | 16 | a fazer |
 | 7 — Power BI | 18 | a fazer |
 | Entrega final | 20 | a fazer |
