@@ -40,19 +40,20 @@ memories/                decisões, glossário, fontes de dados e diário do pro
 
 ## Status
 
-| Etapa | Aulas | Situação |
-|---|---|---|
-| 0 — Ambiente | — | em andamento |
-| 1 — Excel avançado | 2–3 | entregue na Parcial 1 só com ônibus (SPTrans); CPTM baixada e cadastrada em 27/11; faltam Metrô e Pesquisa OD (portal do Metrô fora do ar) e prints de evidência |
-| 2 — Power Query | 4–5 | entregue na Parcial 1 só com ônibus (SPTrans); CPTM com estimativa diária desde 27/11 (decisão `0012`); falta o Metrô; a diferença da SPTrans contra o total publicado passa de 0,5% de janeiro a junho (reprocessamento da fonte, decisão `0014`) |
-| 3 — Power Pivot e DAX | 6–7 | entregue na Parcial 1 com as medidas de demanda; faltam medidas por hora, lotação e corredores |
-| Parcial 1 | 8 | entregue (tag `parcial-1`) |
-| 4 — VBA | 10–11 | feito: `cheiU_04_VBA.xlsm` com atualização, QA (24/24 OK), resumo diário em PDF e exportação para o SQL |
-| 5 — SQL | 12–13 | feito: SQL Server em Docker, DDL, carga, 13 consultas, 11 views; SQL × DAX com diferença 0 |
-| 6 — API/Web | 14–15 | feito: BrasilAPI e Open-Meteo no modelo e no SQL; falta o Olho Vivo (token do DevPlace) |
-| Parcial 2 | 16 | requisitos técnicos feitos (VBA, SQL, API); sem apresentação (decisão `0018`) |
-| 7 — Power BI | 18 | feito: `cheiU_dashboard.pbix` com 5 páginas sobre o SQL, KPIs iguais aos do SQL; faltam as páginas que dependem da OD (horário, alternativas de percurso) |
-| Entrega final | 20 | entregue (tag `final`): `relatorio-final.md` e PDF, painel `.pbix` e PDF; sem apresentação (decisão `0018`) |
+Projeto concluído em 28/11/2026 (tag `final`). O escopo entregue é o que os dados disponíveis permitiram (decisões `0018` e `0019`).
+
+| Etapa | Situação |
+|---|---|
+| 1 — Excel avançado | concluída: base auditável da amostra de jan/2024; CPTM cadastrada |
+| 2 — Power Query | concluída: SPTrans (366 dias) e CPTM com estimativa diária; diferença contra o publicado explicada (decisão `0014`) |
+| 3 — Power Pivot e DAX | concluída: modelo estrela e 28 medidas de demanda |
+| 4 — VBA | concluída: atualização, QA (24/24 OK), resumo diário em PDF e exportação para o SQL |
+| 5 — SQL | concluída: SQL Server em Docker, 13 consultas, 11 views; SQL × DAX com diferença 0 |
+| 6 — API/Web | concluída: BrasilAPI e Open-Meteo no modelo e no SQL |
+| 7 — Power BI | concluída: painel de 5 páginas; Power BI × SQL com diferença 0 |
+| Entrega final | concluída: relatório final e painel em `MA2026-entrega-final/04-powerbi-dashboard` |
+
+Fora do escopo final, por falta de dados ou de acesso: Metrô, Pesquisa OD 2023 (perfil horário, lotação, alternativas de percurso), Olho Vivo e GTFS da SPTrans.
 
 O acompanhamento detalhado é feito no Linear (time TRA).
 
