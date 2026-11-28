@@ -48,11 +48,11 @@ memories/                decisões, glossário, fontes de dados e diário do pro
 | 3 — Power Pivot e DAX | 6–7 | entregue na Parcial 1 com as medidas de demanda; faltam medidas por hora, lotação e corredores |
 | Parcial 1 | 8 | entregue (tag `parcial-1`) |
 | 4 — VBA | 10–11 | feito: `cheiU_04_VBA.xlsm` com atualização, QA (24/24 OK), resumo diário em PDF e exportação para o SQL |
-| 5 — SQL | 12–13 | feito: SQL Server em Docker, DDL, carga, 13 consultas, 10 views; SQL × DAX com diferença 0 |
+| 5 — SQL | 12–13 | feito: SQL Server em Docker, DDL, carga, 13 consultas, 11 views; SQL × DAX com diferença 0 |
 | 6 — API/Web | 14–15 | feito: BrasilAPI e Open-Meteo no modelo e no SQL; falta o Olho Vivo (token do DevPlace) |
 | Parcial 2 | 16 | a fazer |
-| 7 — Power BI | 18 | a fazer |
-| Entrega final | 20 | a fazer |
+| 7 — Power BI | 18 | feito: `cheiU_dashboard.pbix` com 5 páginas sobre o SQL, KPIs iguais aos do SQL; faltam as páginas que dependem da OD (horário, alternativas de percurso) |
+| Entrega final | 20 | preparada: `relatorio-final.md` e PDF, `roteiro-demo.md` e `apresentacao-final.pptx` em `04-powerbi-dashboard`; faltam a revisão do grupo, o ensaio e a tag `final` |
 
 O acompanhamento detalhado é feito no Linear (time TRA).
 

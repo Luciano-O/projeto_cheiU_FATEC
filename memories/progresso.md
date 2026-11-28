@@ -169,3 +169,9 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - 8 KPIs do painel iguais aos do SQL (`conferir_kpis.ps1`); consulta mais lenta 71 ms; QA `etapa-7.md` com 12 itens concluídos.
 - **Pendente**: curva horária, lotação, mapa, matriz por região e "Alternativas de percurso" (dependem do Metrô e da OD 2023; TRA-62, 63, 64).
 - **Próximo**: relatório final (E7.7), roteiro da demonstração, apresentação e tag `final`.
+
+## 2026-11-28 · TRA-66 a TRA-68 · relatório final, roteiro e apresentação
+
+- **Feito**: `relatorio-final.md` e PDF (resposta explícita à pergunta central, com os números do painel), `roteiro-demo.md` (sequência de 7 partes, comandos e plano B) e `apresentacao-final.pptx` (11 slides com falas nas anotações), gerada por `scripts/gerar_apresentacao.py`; `docs/scripts/md_para_pdf.py` converte Markdown em PDF pelo Edge.
+- **Pendente** (precisa de pessoas): revisão do relatório pelos três integrantes (E7.7); executar o roteiro numa máquina que não seja a do Luciano e gravar o vídeo do plano B (F.1); ensaio cronometrado (F.2); depois, a tag `final` (F.3).
+- **Próximo**: tag `final` depois do ensaio; Metrô e OD 2023 se o portal voltar.
