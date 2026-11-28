@@ -56,33 +56,33 @@ LABELS = {  # nome: (cor, descrição)
 ISSUES = """
 5|Done|E0|Setup;Docs;Resp: Luciano|e01-estrutura-do-repositorio-e-documentacao-para-agentes|[E0.1] Estrutura do repositório e documentação para agentes
 6|Done|E0|Setup;Resp: Luciano|e02-repositorio-github-e-projeto-no-linear|[E0.2] Repositório GitHub e projeto no Linear
-7|Todo|E0|Setup;Resp: Luciano;Humano|e03-integracao-github-linear|[E0.3] Integração GitHub ↔ Linear
+7|Canceled|E0|Setup;Resp: Luciano;Humano|e03-integracao-github-linear|[E0.3] Integração GitHub ↔ Linear
 8|Done|E0|Setup;Resp: Victor;Humano|e04-repositorio-do-grupo-como-remote-grupo|[E0.4] Repositório do grupo como remote `grupo`
-9|Todo|E0|API;Resp: Victor;Humano|e05-cadastro-no-devplace-da-sptrans-token-olho-vivo-e-gtfs|[E0.5] Cadastro no DevPlace da SPTrans (token Olho Vivo e GTFS)
+9|Canceled|E0|API;Resp: Victor;Humano|e05-cadastro-no-devplace-da-sptrans-token-olho-vivo-e-gtfs|[E0.5] Cadastro no DevPlace da SPTrans (token Olho Vivo e GTFS)
 10|Done|E0|Setup;Python;Resp: Luciano|e06-python-e-ambiente-virtual|[E0.6] Python e ambiente virtual
 11|Done|E0|Setup;Power Query;Excel;Resp: Luciano|e07-prova-de-conceito-automacao-do-excel-via-com|[E0.7] Prova de conceito: automação do Excel via COM
 12|Done|E1|Docs;Resp: Luciano|e10-refinar-o-plano-da-etapa-1|[E1.0] Refinar o plano da Etapa 1
 13|Done|E1|Dados;Python;Resp: Luciano|e11-baixar-passageiros-transportados-da-sptrans-2024|[E1.1] Baixar passageiros transportados da SPTrans (2024)
-14|In Progress|E1|Dados;Python;Resp: Luciano|e12-baixar-metro-e-cptm-2024|[E1.2] Baixar Metrô e CPTM (2024)
-15|Backlog|E1|Dados;Python;Resp: Luciano|e13-baixar-e-converter-a-pesquisa-od-2023|[E1.3] Baixar e converter a Pesquisa OD 2023
+14|Done|E1|Dados;Python;Resp: Luciano|e12-baixar-metro-e-cptm-2024|[E1.2] Baixar Metrô e CPTM (2024)
+15|Canceled|E1|Dados;Python;Resp: Luciano|e13-baixar-e-converter-a-pesquisa-od-2023|[E1.3] Baixar e converter a Pesquisa OD 2023
 16|Done|E1|Docs;Dados;Resp: Luciano|e14-inventario-dicionario-catalogo-de-defeitos-e-ficha-do-projeto|[E1.4] Inventário, dicionário, catálogo de defeitos e ficha do projeto
 17|Done|E1|Excel;Resp: Luciano|e15-aba-cadastros-cadastros-de-para-e-parametros|[E1.5] Aba `Cadastros`: cadastros, de-para e parâmetros
 18|Done|E2|Power Query;Resp: Luciano|e22-sptrans-diario|[E2.2] SPTrans diário
-19|Backlog|E2|Power Query;Resp: Luciano|e23-metro|[E2.3] Metrô
+19|Canceled|E2|Power Query;Resp: Luciano|e23-metro|[E2.3] Metrô
 20|Done|E2|Power Query;Resp: Luciano|e24-cptm-com-estimativa-diaria|[E2.4] CPTM com estimativa diária
-21|Backlog|E2|Power Query;Resp: Luciano|e25-viagens-da-od-2023|[E2.5] Viagens da OD 2023
+21|Canceled|E2|Power Query;Resp: Luciano|e25-viagens-da-od-2023|[E2.5] Viagens da OD 2023
 22|Done|E2|Power Query;Resp: Luciano|e29-consolidacao-rejeitados-e-conferencia|[E2.9] Consolidação, `Rejeitados` e conferência
 23|Done|E2|QA;Resp: Maryele|e210-qa-da-etapa-2|[E2.10] QA da Etapa 2
-24|In Progress|E2|Docs;Power Query;Resp: Luciano|e211-publicacao-da-etapa-2|[E2.11] Publicação da Etapa 2
+24|Done|E2|Docs;Power Query;Resp: Luciano|e211-publicacao-da-etapa-2|[E2.11] Publicação da Etapa 2
 25|Done|E3|Docs;Resp: Luciano|e30-refinar-o-plano-da-etapa-3|[E3.0] Refinar o plano da Etapa 3
 26|Done|E3|DAX;Power Query;Resp: Luciano|e31-arquivo-da-etapa-3-dim-calendario-e-dim-horario|[E3.1] Arquivo da Etapa 3, `Dim_Calendario` e `Dim_Horario`
-27|Backlog|E2|Dados;Power Query;Resp: Luciano|e26-fato-perfil-horario|[E2.6] `Fato_Perfil_Horario`
-28|Backlog|E2|Power Query;Resp: Luciano|e27-fato-viagem-od-e-dim-cadeia-modal|[E2.7] `Fato_Viagem_OD` e `Dim_Cadeia_Modal`
-29|Backlog|E2|Dados;Power Query;Resp: Luciano|e28-fato-oferta|[E2.8] `Fato_Oferta`
-30|In Progress|E3|DAX;Resp: Luciano|e32-modelo-no-power-pivot|[E3.2] Modelo no Power Pivot
+27|Canceled|E2|Dados;Power Query;Resp: Luciano|e26-fato-perfil-horario|[E2.6] `Fato_Perfil_Horario`
+28|Canceled|E2|Power Query;Resp: Luciano|e27-fato-viagem-od-e-dim-cadeia-modal|[E2.7] `Fato_Viagem_OD` e `Dim_Cadeia_Modal`
+29|Canceled|E2|Dados;Power Query;Resp: Luciano|e28-fato-oferta|[E2.8] `Fato_Oferta`
+30|Done|E3|DAX;Resp: Luciano|e32-modelo-no-power-pivot|[E3.2] Modelo no Power Pivot
 31|Done|E3|DAX;Resp: Luciano|e33-medidas-dax-de-demanda|[E3.3] Medidas DAX de demanda
-32|Backlog|E3|DAX;Resp: Luciano|e34-medidas-dax-por-hora-e-de-lotacao|[E3.4] Medidas DAX por hora e de lotação
-33|Backlog|E3|DAX;Excel;Resp: Luciano|e35-alternativas-de-percurso-nos-corredores|[E3.5] Alternativas de percurso nos corredores
+32|Canceled|E3|DAX;Resp: Luciano|e34-medidas-dax-por-hora-e-de-lotacao|[E3.4] Medidas DAX por hora e de lotação
+33|Canceled|E3|DAX;Excel;Resp: Luciano|e35-alternativas-de-percurso-nos-corredores|[E3.5] Alternativas de percurso nos corredores
 34|Done|E3|DAX;Excel;Resp: Luciano|e36-abas-validacao-e-conferencia|[E3.6] Abas `Validacao` e `Conferencia`
 35|Done|E3|QA;Docs;Resp: Maryele|e37-qa-e-publicacao-da-etapa-3|[E3.7] QA e publicação da Etapa 3
 36|Done|P1|Docs;Resp: Victor|p11-relatorio-parcial|[P1.1] Relatório parcial
@@ -104,23 +104,23 @@ ISSUES = """
 52|Done|E6|Docs;Resp: Victor|e60-refinar-o-plano-da-etapa-6|[E6.0] Refinar o plano da Etapa 6
 53|Done|E6|API;Power Query;Resp: Victor|e61-clima-horario-open-meteo-no-power-query|[E6.1] Clima horário (Open-Meteo) no Power Query
 54|Done|E6|API;Power Query;Resp: Victor|e62-feriados-brasilapi-no-power-query|[E6.2] Feriados (BrasilAPI) no Power Query
-55|Backlog|E6|API;VBA;Resp: Victor|e63-olho-vivo-autenticacao-e-dados-estaticos-vba|[E6.3] Olho Vivo: autenticação e dados estáticos (VBA)
-56|Backlog|E6|API;VBA;Resp: Victor|e64-extra-coletor-agendado-de-posicao-e-previsao|[E6.4] [Extra] Coletor agendado de posição e previsão
+55|Canceled|E6|API;VBA;Resp: Victor|e63-olho-vivo-autenticacao-e-dados-estaticos-vba|[E6.3] Olho Vivo: autenticação e dados estáticos (VBA)
+56|Canceled|E6|API;VBA;Resp: Victor|e64-extra-coletor-agendado-de-posicao-e-previsao|[E6.4] [Extra] Coletor agendado de posição e previsão
 57|Done|E6|Docs;API;SQL;Resp: Victor|e65-carga-das-apis-no-sql-e-documentacao|[E6.5] Carga das APIs no SQL e documentação
 58|Canceled|P2|Docs;Resp: Victor;Humano|p21-apresentar-a-parcial-2-e-registrar-o-feedback|[P2.1] Apresentar a Parcial 2 e registrar o feedback
 59|Done|E7|Setup;Power BI;Resp: Luciano|e70-refinar-o-plano-e-instalar-o-power-bi-desktop|[E7.0] Refinar o plano e instalar o Power BI Desktop
 60|Done|E7|Power BI;DAX;Resp: Luciano|e71-conexao-ao-sql-e-modelo-semantico|[E7.1] Conexão ao SQL e modelo semântico
 61|Done|E7|Power BI;Resp: Grupo|e72-pagina-visao-geral|[E7.2] Página "Visão geral"
-62|In Progress|E7|Power BI;Resp: Grupo|e73-pagina-padroes-horarios|[E7.3] Página "Padrões horários"
-63|In Progress|E7|Power BI;Resp: Grupo|e74-pagina-linhas-e-regioes|[E7.4] Página "Linhas e regiões"
-64|Backlog|E7|Power BI;Resp: Grupo|e75-pagina-alternativas-de-percurso|[E7.5] Página "Alternativas de percurso"
+62|Done|E7|Power BI;Resp: Grupo|e73-pagina-padroes-horarios|[E7.3] Página "Padrões horários"
+63|Done|E7|Power BI;Resp: Grupo|e74-pagina-linhas-e-regioes|[E7.4] Página "Linhas e regiões"
+64|Canceled|E7|Power BI;Resp: Grupo|e75-pagina-alternativas-de-percurso|[E7.5] Página "Alternativas de percurso"
 65|Done|E7|QA;Power BI;Resp: Maryele|e76-navegacao-tema-sobre-os-dados-e-qa|[E7.6] Navegação, tema, "Sobre os dados" e QA
 66|Done|E7|Docs;Resp: Grupo|e77-relatorio-final|[E7.7] Relatório final
 67|Canceled|F|Docs;Resp: Victor;Humano|f1-roteiro-da-demonstracao-ao-vivo-e-plano-b|[F.1] Roteiro da demonstração ao vivo e plano B
 68|Canceled|F|Docs;Resp: Victor;Humano|f2-apresentacao-final-e-ensaio|[F.2] Apresentação final e ensaio
 69|Done|F|Setup;Resp: Luciano|f3-congelar-a-entrega-final-tag-final|[F.3] Congelar a entrega final (tag final)
 70|Done|E0|Docs;Resp: Luciano|e08-alinhar-o-plano-aos-guias-do-professor|[E0.8] Alinhar o plano aos guias do professor
-71|Todo|E0|Setup;Resp: Victor;Humano|e09-commits-proprios-de-cada-integrante|[E0.9] Commits próprios de cada integrante
+71|Canceled|E0|Setup;Resp: Victor;Humano|e09-commits-proprios-de-cada-integrante|[E0.9] Commits próprios de cada integrante
 72|Done|E1|Excel;Resp: Luciano|e16-base-auditavel-da-amostra-bruto-tratado-auditoria|[E1.6] Base auditável da amostra (Bruto, Tratado, Auditoria)
 73|Done|E1|QA;Docs;Resp: Maryele|e17-qa-e-fechamento-da-etapa-1|[E1.7] QA e fechamento da Etapa 1
 74|Done|E2|Docs;Resp: Luciano|e20-refinar-o-plano-da-etapa-2|[E2.0] Refinar o plano da Etapa 2

@@ -181,3 +181,8 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
 - **Feito**: decisão `0018` (sem apresentação): P2.1, F.1 e F.2 canceladas; E7.7 concluída sem a revisão dos integrantes; README com o status final; tag `final` na `main`, enviada para `origin` e `grupo`; o espelho passou a fechar as issues canceladas como não planejadas.
 - **Pendente**: só o que depende de dados ou de pessoas: Metrô e OD 2023, Olho Vivo, commits próprios (E0.9) e o teste de clone em outra máquina (TRA-24).
 - **Próximo**: nada obrigatório. Se o Metrô e a OD chegarem, entram numa versão nova, com outra tag.
+
+## 2026-11-28 · encerramento do projeto
+
+- **Feito**: decisão `0019`: as 19 issues abertas foram encerradas; 5 concluídas com escopo reduzido (TRA-14, 24, 30, 62, 63) e 14 canceladas por falta de dado, de acesso ou de pessoas. README com o status final.
+- **Pendente**: nada. O projeto está concluído com os dados disponíveis.
