@@ -1,0 +1,69 @@
+[09:22:49] AtualizarTudo (44 s)
+[09:22:49] ValidarDados: 0 falha(s)
+[09:22:50] GerarResumoDiario 15/03/2024 -> 'Resumo_15-03-2024'
+[09:22:50] GerarResumoDiario 31/02/2024 -> ''
+[09:22:50] GerarResumoDiario 01/01/2025 -> ''
+[09:22:58] ExportarParaCarga: 0 falha(s) (8 s)
+[09:23:00] --- Log
+    ########## | TestarLog | OK | CaminhoRepo = C:\Users\olive\Documents\Personal\Trabalho Microinformatica\ | 0
+    ########## | TestarLog | FALHA | -2147220991 - falha proposital para testar o log | 0.01
+    ########## | AtualizarTudo | OK | consulta Conexão | 4.12
+    ########## | AtualizarTudo | OK | consulta Consulta - Conf_Etapa2 | 3.39
+    ########## | AtualizarTudo | OK | consulta Consulta - Dim_Calendario | 2.46
+    ########## | AtualizarTudo | OK | consulta Consulta - Dim_Grupo | 2.04
+    ########## | AtualizarTudo | OK | consulta Consulta - Dim_Horario | 1.13
+    ########## | AtualizarTudo | OK | consulta Consulta - Dim_Transporte | 1.88
+    ########## | AtualizarTudo | OK | consulta Consulta - Fato_Clima_Horario | 1.44
+    ########## | AtualizarTudo | OK | consulta Consulta - Fato_Referencia_Mensal | 2.05
+    ########## | AtualizarTudo | OK | consulta Consulta - Fato_Transporte | 7.98
+    ########## | AtualizarTudo | OK | consulta Consulta - Rejeitados | 1.49
+    ########## | AtualizarTudo | OK | Modelo de Dados | 12.41
+    ########## | AtualizarTudo | OK | tabelas dinâmicas e fórmulas | 0
+    ########## | AtualizarTudo | OK | 10 consultas atualizadas | 43.77
+    ########## | ValidarDados | OK | 24 checagens, 0 com falha | 0.25
+    ########## | GerarResumoDiario | OK | Resumo_15-03-2024 e relatorios\resumo_2024-03-15.pdf | 0.31
+    ########## | GerarResumoDiario | AVISO | Data inválida: 31/02/2024 | 0
+    ########## | GerarResumoDiario | AVISO | A data 01/01/2025 não está em Dim_Calendario. | 0
+    ########## | ExportarParaCarga | OK | Dim_Calendario lida e gravada | 0.02
+    ########## | ExportarParaCarga | OK | Dim_Calendario.csv: 366 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | Dim_Grupo lida e gravada | 0
+    ########## | ExportarParaCarga | OK | Dim_Grupo.csv: 5 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | Dim_Transporte lida e gravada | 0.04
+    ########## | ExportarParaCarga | OK | Dim_Transporte.csv: 1442 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | Dim_Horario lida e gravada | 0
+    ########## | ExportarParaCarga | OK | Dim_Horario.csv: 24 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | Fato_Transporte lida e gravada | 7.29
+    ########## | ExportarParaCarga | OK | Fato_Transporte.csv: 463876 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | Fato_Referencia_Mensal lida e gravada | 0
+    ########## | ExportarParaCarga | OK | Fato_Referencia_Mensal.csv: 36 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | Fato_Clima_Horario lida e gravada | 0.08
+    ########## | ExportarParaCarga | OK | Fato_Clima_Horario.csv: 8784 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | Rejeitados lida e gravada | 0.08
+    ########## | ExportarParaCarga | OK | Rejeitados.csv: 6672 linhas = modelo | 0
+    ########## | ExportarParaCarga | OK | 8 tabelas em C:\Users\olive\Documents\Personal\Trabalho Microinformatica\MA2026-entrega-final\02-bancodedados-sql\carga\ | 7.64
+[09:23:02] --- QA
+    Linhas de Fato_Transporte = Etapa 2 | 463876 | 463876 | OK
+    Passageiros no modelo = Etapa 2 | 2.565E+09 | 2.56E+09 | OK
+    Linhas de Rejeitados = Etapa 2 | 6672 | 6672 | OK
+    Diferença de linhas lidas - aceitas - rejeitadas (Etapa 2) | 0 | 0 | OK
+    Diferença de passageiros aceitos - no fato (Etapa 2) | 0 | 0 | OK
+    Órfãs Fato_Transporte → Dim_Transporte | 0 | 0 | OK
+    Órfãs Fato_Transporte → Dim_Calendario | 0 | 0 | OK
+    Órfãs Fato_Referencia_Mensal → Dim_Calendario | 0 | 0 | OK
+    Órfãs Fato_Referencia_Mensal → Dim_Grupo | 0 | 0 | OK
+    Órfãs Dim_Transporte → Dim_Grupo | 0 | 0 | OK
+    PK duplicada Dim_Transporte | 0 | 0 | OK
+    PK duplicada Dim_Calendario | 0 | 0 | OK
+    PK duplicada Dim_Grupo | 0 | 0 | OK
+    Grão duplicado Fato_Transporte (data × linha) | 0 | 0 | OK
+    origem_dado vazio em Fato_Transporte | 0 | 0 | OK
+    origem_dado fora de real/estimado/simulado | 0 | 0 | OK
+    Dias em Dim_Calendario | 366 | 366 | OK
+    Dias com demanda de ônibus | 366 | 366 | OK
+    Dias com demanda de trem | 366 | 366 | OK
+    Horas de clima em 2024 (Etapa 6) | 8784 | 8784 | OK
+    Órfãs Fato_Clima_Horario → Dim_Calendario | 0 | 0 | OK
+    Horas de clima sem temperatura | 0 | 0 | OK
+    Feriados no calendário (BrasilAPI + locais) | 16 | 16 | OK
+    Maior diferença % contra o publicado, jul-dez (aceite 0,5%) | ≤ 0.5% | 0.004034 | OK
+rc=0
