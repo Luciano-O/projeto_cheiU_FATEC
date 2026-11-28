@@ -1,0 +1,28 @@
+relationship f03585bf-1872-5964-8a88-b52b4a72949d
+	fromColumn: Demanda.data
+	toColumn: Calendario.data
+
+relationship b73d0cbb-556b-5fe9-bdcd-a63167bb68c6
+	fromColumn: Demanda.id_linha
+	toColumn: Linhas.id_linha
+
+relationship 36edb0e1-673c-594b-b255-5ee00213b846
+	fromColumn: Linhas.grupo
+	toColumn: Grupos.grupo
+
+relationship 05528534-01a4-56dc-81e5-c884eb8a74b4
+	fromColumn: Referencia.mes_inicio
+	toColumn: Calendario.data
+
+relationship 76abe657-e873-5e05-a5ba-35cea9f82a9e
+	fromColumn: Referencia.grupo
+	toColumn: Grupos.grupo
+
+relationship 1cea1763-9c52-5f90-a12d-e8a7f9bea960
+	fromColumn: Clima.data
+	toColumn: Calendario.data
+
+relationship da61f09d-fc8e-56a0-a5f7-f3690a8c852e
+	fromColumn: Clima.hora
+	toColumn: Horario.hora
+

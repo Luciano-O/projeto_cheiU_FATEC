@@ -2,10 +2,6 @@
 -- Views dw.vw_* que o Power BI (Etapa 7) consome. O Power BI lê só estas views, nunca as tabelas.
 USE cheiU;
 GO
-CREATE OR ALTER VIEW dw.vw_calendario AS
-SELECT data, ano, mes, nome_mes, mes_rotulo, mes_inicio, dia, dia_semana, nome_dia, semana_ano, tipo_dia, feriado_nome, fonte_feriado
-FROM dw.Dim_Calendario;
-GO
 CREATE OR ALTER VIEW dw.vw_linhas AS
 SELECT t.id_linha, t.codigo_linha, t.nome_linha, t.linha_rotulo, t.modalidade, t.operador, t.grupo, g.grupo_oficial, g.ordem AS ordem_grupo, t.lote
 FROM dw.Dim_Transporte t
@@ -48,6 +44,13 @@ SELECT data, SUM(precipitacao_mm) AS chuva_mm, AVG(temperatura_c) AS temperatura
        CASE WHEN SUM(precipitacao_mm) >= 5 THEN N'com chuva' WHEN SUM(precipitacao_mm) < 1 THEN N'seco' ELSE N'chuva fraca' END AS faixa_chuva
 FROM dw.Fato_Clima_Horario
 GROUP BY data;
+GO
+-- Calendário com a chuva do dia (Etapa 6), para o painel filtrar a demanda pela faixa de chuva.
+CREATE OR ALTER VIEW dw.vw_calendario AS
+SELECT c.data, c.ano, c.mes, c.nome_mes, c.mes_rotulo, c.mes_inicio, c.dia, c.dia_semana, c.nome_dia, c.semana_ano, c.tipo_dia,
+       c.feriado_nome, c.fonte_feriado, cl.chuva_mm, cl.faixa_chuva
+FROM dw.Dim_Calendario c
+LEFT JOIN dw.vw_clima_diario cl ON cl.data = c.data;
 GO
 SELECT name AS view_criada FROM sys.views WHERE SCHEMA_NAME(schema_id) = N'dw' ORDER BY name;
 GO

@@ -1,0 +1,11 @@
+﻿
+kpi                      power_bi        sql diferenca
+---                      --------        --- ---------
+total_passageiros      2564533459 2564533459         0
+passageiros_onibus     2125608791 2125608791         0
+linhas_fato                463876     463876         0
+passageiros_publicados 2160850434 2160850434         0
+media_dia_util            8328609    8328609         0
+media_fim_de_semana       4225515    4225515         0
+media_util_com_chuva      8069711    8069711         0
+media_util_seco           8496127    8496127         0

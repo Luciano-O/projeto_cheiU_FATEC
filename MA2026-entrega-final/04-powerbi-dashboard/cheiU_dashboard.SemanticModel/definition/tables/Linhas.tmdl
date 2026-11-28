@@ -1,0 +1,75 @@
+table Linhas
+	lineageTag: 9faf7ef1-99cb-50da-9160-e863f4fa96e2
+
+	column id_linha
+		dataType: string
+		isHidden
+		isKey
+		lineageTag: f11cb712-bbf5-5fb4-839e-1b6e0759447f
+		summarizeBy: none
+		sourceColumn: id_linha
+
+	column codigo_linha
+		dataType: string
+		lineageTag: fd09ada6-2863-505b-ab69-092951f1b7e5
+		summarizeBy: none
+		sourceColumn: codigo_linha
+
+	column nome_linha
+		dataType: string
+		lineageTag: 33b756a0-70ac-5b31-9398-d928aaeaf1a7
+		summarizeBy: none
+		sourceColumn: nome_linha
+
+	column linha_rotulo
+		dataType: string
+		lineageTag: 595b7a49-78e2-5dd1-934c-01ea43d8ba7c
+		summarizeBy: none
+		sourceColumn: linha_rotulo
+
+	column modalidade
+		dataType: string
+		lineageTag: c0e808c1-601c-595d-96db-0965cda68e16
+		summarizeBy: none
+		sourceColumn: modalidade
+
+	column operador
+		dataType: string
+		lineageTag: 77d978ec-ff19-5583-9ee4-b3ba4ecd83b8
+		summarizeBy: none
+		sourceColumn: operador
+
+	column grupo
+		dataType: string
+		isHidden
+		lineageTag: 70de90a6-1503-52f9-a114-d5195fefb7db
+		summarizeBy: none
+		sourceColumn: grupo
+
+	column grupo_oficial
+		dataType: boolean
+		lineageTag: 15d2b669-a3d5-5268-af69-345b3cdb764b
+		summarizeBy: none
+		sourceColumn: grupo_oficial
+
+	column ordem_grupo
+		dataType: int64
+		lineageTag: 8663e0fb-e930-58d6-8e11-6e0bd9020318
+		summarizeBy: none
+		sourceColumn: ordem_grupo
+
+	column lote
+		dataType: string
+		lineageTag: bba824d0-8a5a-561e-97f8-c1221a8af577
+		summarizeBy: none
+		sourceColumn: lote
+
+	partition Linhas = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    Dados = Fonte{[Schema = "dw", Item = "vw_linhas"]}[Data]
+				in
+				    Dados
+

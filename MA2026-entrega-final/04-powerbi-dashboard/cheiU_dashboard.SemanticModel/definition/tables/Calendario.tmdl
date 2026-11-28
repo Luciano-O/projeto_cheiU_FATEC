@@ -1,0 +1,128 @@
+table Calendario
+	lineageTag: 7cba2845-7f1b-5684-a21b-5b3d161bfbe2
+	dataCategory: Time
+
+	column data
+		dataType: dateTime
+		isKey
+		formatString: Long Date
+		lineageTag: 5318c2da-f32b-5788-866c-99271258e413
+		summarizeBy: none
+		sourceColumn: data
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ano
+		dataType: int64
+		lineageTag: c112b273-8cb6-56a0-858b-fc9c47481d23
+		summarizeBy: none
+		sourceColumn: ano
+
+	column mes
+		dataType: int64
+		lineageTag: 5726943f-6894-59fc-a5ce-39dd89b78b51
+		summarizeBy: none
+		sourceColumn: mes
+
+	column nome_mes
+		dataType: string
+		lineageTag: 01d575de-6d0a-5b2e-ba69-5c79e45e49e4
+		summarizeBy: none
+		sourceColumn: nome_mes
+		sortByColumn: mes
+
+	column mes_rotulo
+		dataType: string
+		lineageTag: e51f7049-b0fe-5a9f-aef3-9ffc1b3128ee
+		summarizeBy: none
+		sourceColumn: mes_rotulo
+
+	column mes_inicio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a25f8c67-4233-502c-8951-3b1871a47048
+		summarizeBy: none
+		sourceColumn: mes_inicio
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column dia
+		dataType: int64
+		lineageTag: 15e54ed3-41ab-56d5-bbc4-ad5577bd0dc0
+		summarizeBy: none
+		sourceColumn: dia
+
+	column dia_semana
+		dataType: int64
+		lineageTag: 4da73472-7dea-59b0-8693-29ff1b30dd3a
+		summarizeBy: none
+		sourceColumn: dia_semana
+
+	column nome_dia
+		dataType: string
+		lineageTag: 3858f743-69e2-5330-a9b8-1bd2cce893dc
+		summarizeBy: none
+		sourceColumn: nome_dia
+		sortByColumn: dia_semana
+
+	column semana_ano
+		dataType: int64
+		lineageTag: 2cb8cabf-e6ef-51fb-b619-1490b8aed6ec
+		summarizeBy: none
+		sourceColumn: semana_ano
+
+	column tipo_dia
+		dataType: string
+		lineageTag: 26d0d6bf-28b7-5377-baeb-b99692b44f57
+		summarizeBy: none
+		sourceColumn: tipo_dia
+
+	column feriado_nome
+		dataType: string
+		lineageTag: 08d5ff7d-5045-5d96-9e43-b334d9c97223
+		summarizeBy: none
+		sourceColumn: feriado_nome
+
+	column fonte_feriado
+		dataType: string
+		lineageTag: 9bf75594-9c34-5974-b1da-4edf514952bd
+		summarizeBy: none
+		sourceColumn: fonte_feriado
+
+	column chuva_mm
+		dataType: double
+		formatString: 0.0
+		lineageTag: 504b0705-ddb4-5a4c-94b5-e9ea26123120
+		summarizeBy: none
+		sourceColumn: chuva_mm
+
+	column faixa_chuva
+		dataType: string
+		lineageTag: 550b7cf3-9eb1-5090-a976-bdf7dea49896
+		summarizeBy: none
+		sourceColumn: faixa_chuva
+
+	hierarchy 'Ano Mês Dia'
+		lineageTag: 958ee621-352e-5347-a4e8-9cc0d52ac882
+
+		level Ano
+			lineageTag: be4bdca1-a058-5283-ab6d-0959c9d2dd0e
+			column: ano
+
+		level Mês
+			lineageTag: 54e60294-f017-5f1d-95e3-efa94d4c5d65
+			column: nome_mes
+
+		level Dia
+			lineageTag: 3840a6f9-f79a-5a75-b930-3cbaec0defae
+			column: dia
+
+	partition Calendario = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    Dados = Fonte{[Schema = "dw", Item = "vw_calendario"]}[Data]
+				in
+				    Dados
+

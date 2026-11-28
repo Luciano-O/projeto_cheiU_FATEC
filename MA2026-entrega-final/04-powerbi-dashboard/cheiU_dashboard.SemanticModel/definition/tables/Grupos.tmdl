@@ -1,0 +1,38 @@
+table Grupos
+	lineageTag: 5e234d6c-9cfe-50e1-8ac7-46cb4db29c69
+
+	column grupo
+		dataType: string
+		isKey
+		lineageTag: 4470950c-29a7-5906-81f2-57273dda5ad7
+		summarizeBy: none
+		sourceColumn: grupo
+		sortByColumn: ordem
+
+	column modalidade
+		dataType: string
+		lineageTag: 99bb963e-14fb-573f-83ba-e327d764011a
+		summarizeBy: none
+		sourceColumn: modalidade
+
+	column ordem
+		dataType: int64
+		lineageTag: 829d73c3-386e-542e-bff6-ba2cfd11df92
+		summarizeBy: none
+		sourceColumn: ordem
+
+	column grupo_oficial
+		dataType: boolean
+		lineageTag: c87b17d4-2b4e-5d90-9c4e-2a9e31d7ebcd
+		summarizeBy: none
+		sourceColumn: grupo_oficial
+
+	partition Grupos = m
+		mode: import
+		source =
+				let
+				    Fonte = Sql.Database(Servidor, Banco),
+				    Dados = Fonte{[Schema = "dw", Item = "vw_grupos"]}[Data]
+				in
+				    Dados
+

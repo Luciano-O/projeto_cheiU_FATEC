@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.8.0/schema.json",
+  "name": "sbTexto",
+  "position": {
+    "x": 20,
+    "y": 20,
+    "z": 0,
+    "width": 1240,
+    "height": 600,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Sobre os dados",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Pergunta: como os dados do transporte público de São Paulo revelam padrões de demanda e utilização em 2024?"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ônibus: passageiros transportados por dia e linha, dos 366 arquivos diários da SPTrans (real). O dia 08/07 de 207 linhas veio do consolidado de julho (estimado, decisão 0014)."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Trem: embarcados mensais por estação da CPTM, distribuídos pelos dias com pesos por tipo de dia (estimado, decisão 0012)."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Clima: Open-Meteo, reanálise horária (estimado). Feriados: BrasilAPI mais os locais de São Paulo."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Fora do painel: Metrô e Pesquisa OD 2023 (portal do Metrô em manutenção), por isso não há perfil horário, lotação nem alternativas de percurso."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Diferença contra o total publicado da SPTrans: de 2% a 5% em jan–jun (reprocessamento da fonte), abaixo de 0,5% em jul–dez."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Fonte dos números: SQL Server (views dw.vw_*), carregado pela macro da Etapa 4; SQL e DAX conferidos com diferença 0."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

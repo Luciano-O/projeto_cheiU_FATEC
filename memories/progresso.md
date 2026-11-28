@@ -159,3 +159,13 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
   - % no pico e lotação no resumo diário e nas consultas: dependem da OD 2023 (portal do Metrô fora do ar);
   - a importação dos `.bas` é manual nesta máquina (o Excel por automação recusa o acesso ao projeto VBA).
 - **Próximo**: Etapa 7 (Power BI) e as entregas.
+
+## 2026-11-28 · TRA-59 a TRA-65 · Etapa 7 (Power BI)
+
+- **Feito**:
+  - Power BI Desktop instalado pelo winget; projeto `.pbip` gerado por `04-powerbi-dashboard/scripts/gerar_pbip.py` (decisão `0017`): 7 tabelas lendo as views `dw.vw_*`, 7 relações, 19 medidas, 5 páginas;
+  - `dw.vw_calendario` ganhou `chuva_mm` e `faixa_chuva` (`04_views.sql`);
+  - `cheiU_dashboard.pbix` e `cheiU_dashboard.pdf` salvos pelo Luciano no Desktop (credencial do SQL digitada por ele);
+  - 8 KPIs do painel iguais aos do SQL (`conferir_kpis.ps1`); consulta mais lenta 71 ms; QA `etapa-7.md` com 12 itens concluídos.
+- **Pendente**: curva horária, lotação, mapa, matriz por região e "Alternativas de percurso" (dependem do Metrô e da OD 2023; TRA-62, 63, 64).
+- **Próximo**: relatório final (E7.7), roteiro da demonstração, apresentação e tag `final`.

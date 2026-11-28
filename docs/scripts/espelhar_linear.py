@@ -108,13 +108,13 @@ ISSUES = """
 56|Backlog|E6|API;VBA;Resp: Victor|e64-extra-coletor-agendado-de-posicao-e-previsao|[E6.4] [Extra] Coletor agendado de posição e previsão
 57|Done|E6|Docs;API;SQL;Resp: Victor|e65-carga-das-apis-no-sql-e-documentacao|[E6.5] Carga das APIs no SQL e documentação
 58|Backlog|P2|Docs;Resp: Victor;Humano|p21-apresentar-a-parcial-2-e-registrar-o-feedback|[P2.1] Apresentar a Parcial 2 e registrar o feedback
-59|Backlog|E7|Setup;Power BI;Resp: Luciano|e70-refinar-o-plano-e-instalar-o-power-bi-desktop|[E7.0] Refinar o plano e instalar o Power BI Desktop
-60|Backlog|E7|Power BI;DAX;Resp: Luciano|e71-conexao-ao-sql-e-modelo-semantico|[E7.1] Conexão ao SQL e modelo semântico
-61|Backlog|E7|Power BI;Resp: Grupo|e72-pagina-visao-geral|[E7.2] Página "Visão geral"
-62|Backlog|E7|Power BI;Resp: Grupo|e73-pagina-padroes-horarios|[E7.3] Página "Padrões horários"
-63|Backlog|E7|Power BI;Resp: Grupo|e74-pagina-linhas-e-regioes|[E7.4] Página "Linhas e regiões"
+59|Done|E7|Setup;Power BI;Resp: Luciano|e70-refinar-o-plano-e-instalar-o-power-bi-desktop|[E7.0] Refinar o plano e instalar o Power BI Desktop
+60|Done|E7|Power BI;DAX;Resp: Luciano|e71-conexao-ao-sql-e-modelo-semantico|[E7.1] Conexão ao SQL e modelo semântico
+61|Done|E7|Power BI;Resp: Grupo|e72-pagina-visao-geral|[E7.2] Página "Visão geral"
+62|In Progress|E7|Power BI;Resp: Grupo|e73-pagina-padroes-horarios|[E7.3] Página "Padrões horários"
+63|In Progress|E7|Power BI;Resp: Grupo|e74-pagina-linhas-e-regioes|[E7.4] Página "Linhas e regiões"
 64|Backlog|E7|Power BI;Resp: Grupo|e75-pagina-alternativas-de-percurso|[E7.5] Página "Alternativas de percurso"
-65|Backlog|E7|QA;Power BI;Resp: Maryele|e76-navegacao-tema-sobre-os-dados-e-qa|[E7.6] Navegação, tema, "Sobre os dados" e QA
+65|Done|E7|QA;Power BI;Resp: Maryele|e76-navegacao-tema-sobre-os-dados-e-qa|[E7.6] Navegação, tema, "Sobre os dados" e QA
 66|Backlog|E7|Docs;Resp: Grupo|e77-relatorio-final|[E7.7] Relatório final
 67|Backlog|F|Docs;Resp: Victor;Humano|f1-roteiro-da-demonstracao-ao-vivo-e-plano-b|[F.1] Roteiro da demonstração ao vivo e plano B
 68|Backlog|F|Docs;Resp: Victor;Humano|f2-apresentacao-final-e-ensaio|[F.2] Apresentação final e ensaio

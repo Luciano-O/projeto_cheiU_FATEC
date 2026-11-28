@@ -1,0 +1,89 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.8.0/schema.json",
+  "name": "lnGrupo",
+  "position": {
+    "x": 800,
+    "y": 20,
+    "z": 0,
+    "width": 460,
+    "height": 360,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Grupos"
+                    }
+                  },
+                  "Property": "grupo"
+                }
+              },
+              "queryRef": "Grupos.grupo",
+              "nativeQueryRef": "grupo"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Demanda"
+                    }
+                  },
+                  "Property": "Total de Passageiros"
+                }
+              },
+              "queryRef": "Demanda.Total de Passageiros",
+              "nativeQueryRef": "Total de Passageiros"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Demanda"
+                    }
+                  },
+                  "Property": "Participação % da Linha"
+                }
+              },
+              "queryRef": "Demanda.Participação % da Linha",
+              "nativeQueryRef": "Participação % da Linha",
+              "displayName": "Participação %"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Quanto cada grupo representa?'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
