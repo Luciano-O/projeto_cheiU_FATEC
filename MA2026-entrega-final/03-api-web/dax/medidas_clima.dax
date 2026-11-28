@@ -1,0 +1,48 @@
+// Medidas da Etapa 6 (clima do Open-Meteo). Separador vírgula. Dia com chuva = precipitação do dia ≥ 5 mm;
+// dia seco = < 1 mm (premissas desta etapa, registradas no README).
+
+// Pergunta: quanto choveu no período e no filtro?
+// Formato: decimal   Tabela: Fato_Clima_Horario
+[Precipitação (mm)] =
+    SUM(Fato_Clima_Horario[precipitacao_mm])
+
+// Pergunta: qual foi a temperatura média no período?
+// Formato: decimal   Tabela: Fato_Clima_Horario
+[Temperatura Média (°C)] =
+    AVERAGE(Fato_Clima_Horario[temperatura_c])
+
+// Pergunta: em quantas horas choveu?
+// Formato: inteiro   Tabela: Fato_Clima_Horario
+[Horas com Chuva] =
+    CALCULATE(COUNTROWS(Fato_Clima_Horario), Fato_Clima_Horario[chovendo] = TRUE())
+
+// Pergunta: quantos passageiros um dia útil com chuva (≥ 5 mm) teve em média?
+// Formato: inteiro   Tabela: Fato_Clima_Horario
+[Média Dia Útil com Chuva] =
+    AVERAGEX(
+        FILTER(VALUES(Dim_Calendario[data]),
+            CALCULATE(MAX(Dim_Calendario[tipo_dia])) = "Útil" && CALCULATE(SUM(Fato_Clima_Horario[precipitacao_mm])) >= 5),
+        [Total de Passageiros])
+
+// Pergunta: quantos passageiros um dia útil seco (< 1 mm) teve em média?
+// Formato: inteiro   Tabela: Fato_Clima_Horario
+[Média Dia Útil sem Chuva] =
+    AVERAGEX(
+        FILTER(VALUES(Dim_Calendario[data]),
+            CALCULATE(MAX(Dim_Calendario[tipo_dia])) = "Útil" && CALCULATE(SUM(Fato_Clima_Horario[precipitacao_mm])) < 1),
+        [Total de Passageiros])
+
+// Pergunta: a demanda de um dia útil com chuva é maior ou menor que a de um dia seco?
+// Formato: percentual   Tabela: Fato_Clima_Horario
+[Efeito da Chuva % (Dia Útil)] =
+    DIVIDE([Média Dia Útil com Chuva] - [Média Dia Útil sem Chuva], [Média Dia Útil sem Chuva])
+
+// Pergunta: o clima tem uma linha por hora de 2024, sem lacunas?
+// Formato: inteiro   Tabela: Fato_Clima_Horario
+[Conf Linhas Fato_Clima_Horario] =
+    COUNTROWS(Fato_Clima_Horario)
+
+// Pergunta: há horas de clima sem data no calendário?
+// Formato: inteiro   Tabela: Fato_Clima_Horario
+[Conf Órfãs Fato_Clima_Horario → Dim_Calendario] =
+    COUNTROWS(FILTER(Fato_Clima_Horario, ISBLANK(RELATED(Dim_Calendario[data]))))

@@ -1,0 +1,29 @@
+[09:08:58] 8 consultas da Etapa 6 injetadas
+[09:09:03] modelo: Fato_Clima_Horario
+[09:09:06] modelo: Dim_Horario
+[09:09:07] aba Conf_Feriados
+[09:09:24] relação Fato_Clima_Horario[data] -> Dim_Calendario
+[09:09:25] relação Fato_Clima_Horario[hora] -> Dim_Horario
+[09:09:29] medidas de clima: 8
+[09:09:30] tabelas no modelo: Dim_Calendario(366), Dim_Grupo(5), Dim_Transporte(1442), Fato_Transporte(463876), Fato_Referencia_Mensal(36), Rejeitados(6672), Conf_Etapa2(3), Fato_Clima_Horario(8784), Dim_Horario(24)
+[09:09:30] Conf Linhas Fato_Clima_Horario = System.Object[]
+[09:09:30] Precipitação (mm) = System.Object[]
+[09:09:30] Média Dia Útil com Chuva = System.Object[]
+[09:09:30] Média Dia Útil sem Chuva = System.Object[]
+[09:09:30] Efeito da Chuva % (Dia Útil) = System.Object[]
+    1/1/2024 | Confraternização mundial | Confraternização Universal | nacional | nas duas fontes
+    1/25/2024 |  | Aniversário de São Paulo | municipal | só na lista manual (feriado local): entra no calendário
+    2/12/2024 | Carnaval | Carnaval | ponto facultativo | nas duas fontes
+    2/13/2024 | Carnaval | Carnaval | ponto facultativo | nas duas fontes
+    3/29/2024 | Sexta-feira Santa | Sexta-feira Santa | nacional | nas duas fontes
+    3/31/2024 | Páscoa |  |  | só na BrasilAPI: entra no calendário
+    4/21/2024 | Tiradentes | Tiradentes | nacional | nas duas fontes
+    5/1/2024 | Dia do trabalho | Dia do Trabalho | nacional | nas duas fontes
+    5/30/2024 | Corpus Christi | Corpus Christi | ponto facultativo | nas duas fontes
+    7/9/2024 |  | Revolução Constitucionalista | estadual | só na lista manual (feriado local): entra no calendário
+    9/7/2024 | Independência do Brasil | Independência | nacional | nas duas fontes
+    10/12/2024 | Nossa Senhora Aparecida | Nossa Senhora Aparecida | nacional | nas duas fontes
+    11/2/2024 | Finados | Finados | nacional | nas duas fontes
+    11/15/2024 | Proclamação da República | Proclamação da República | nacional | nas duas fontes
+    11/20/2024 | Dia da consciência negra | Consciência Negra | nacional | nas duas fontes
+    12/25/2024 | Natal | Natal | nacional | nas duas fontes

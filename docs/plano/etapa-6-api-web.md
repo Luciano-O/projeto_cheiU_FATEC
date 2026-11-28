@@ -44,3 +44,4 @@ Escopo em `memories/decisoes/0006`; endpoints e pegadinhas em `memories/fontes-d
   - `03-api-web/README.md` documentando cada API: endpoint, autenticação, parâmetros, exemplo de resposta, limites e tratamento de erro;
   - `MA2026-entrega-parcial/04-documentacao/qa/etapa-6.md`.
 - **Aceite**: as views do SQL incluem clima e feriados; o README permite repetir cada chamada do zero.
+- **Situação em 28/11/2026**: E6.1, E6.2 e E6.5 feitas (decisão `0016`: APIs no modelo da Etapa 4; clima por arquivo). E6.3 e E6.4 esperam o token do Olho Vivo (E0.5).

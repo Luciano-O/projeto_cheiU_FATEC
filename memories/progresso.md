@@ -145,3 +145,17 @@ Diário das sessões, mais recente no fim. Formato: data · issue · feito · pe
 - **Feito**: as 39 consultas organizadas nos 6 grupos (`01_Parametros`…`06_Conferencia`) pelo Editor do Power Query e gravadas no `.xlsx`; prints do painel com grupos, de `Fato_Transporte` (prévia e 20 etapas aplicadas) e da `Conf_Reconciliacao` em `02-powerquery/evidencias/`; `verificar_etapa2.ps1` depois de salvar (resultado no PR).
 - **Pendente**: teste de clonar e atualizar numa máquina de outro integrante (único item do aceite que falta); os grupos se perdem se `montar_etapa2.ps1` remontar a pasta (passos no README da Etapa 2).
 - **Próximo**: Metrô e OD 2023 quando o portal voltar; E2.8 quando houver o GTFS (E0.5).
+
+## 2026-11-27 a 2026-11-28 · TRA-39 a TRA-57 · Etapas 4, 5 e 6
+
+- **Feito**:
+  - decisão `0015`: o agente faz e commita também as issues da Maryele e do Victor, com a conta do Luciano;
+  - Etapa 4: `cheiU_04_VBA.xlsm` (Etapa 3 como `.xlsm`), 8 módulos em `modulos/`, abas `Controle` (4 botões), `Log` e `QA`; atualização em 44 s, QA 24/24 OK, teste negativo OK, resumo diário com PDF, exportação de 8 tabelas com linhas = modelo;
+  - Etapa 5: SQL Server 2022 Express em Docker, DDL idempotente, carga por `dw.usp_carregar_tudo` (duas vezes, mesmo resultado), 13 consultas, 10 views, reconciliação SQL × DAX com 8 KPIs e diferença 0;
+  - Etapa 6: BrasilAPI ao vivo no Power Query, clima do Open-Meteo por arquivo (decisão `0016`), `Fato_Clima_Horario` e `Dim_Horario` no modelo e no SQL; dia útil com chuva tem −5,0% de passageiros;
+  - QAs `etapa-4.md`, `etapa-5.md`, `etapa-6.md`.
+- **Pendente**:
+  - Olho Vivo (E6.3, E6.4): precisa do token do DevPlace (E0.5, `Humano`);
+  - % no pico e lotação no resumo diário e nas consultas: dependem da OD 2023 (portal do Metrô fora do ar);
+  - a importação dos `.bas` é manual nesta máquina (o Excel por automação recusa o acesso ao projeto VBA).
+- **Próximo**: Etapa 7 (Power BI) e as entregas.
