@@ -115,9 +115,9 @@ ISSUES = """
 63|In Progress|E7|Power BI;Resp: Grupo|e74-pagina-linhas-e-regioes|[E7.4] Página "Linhas e regiões"
 64|Backlog|E7|Power BI;Resp: Grupo|e75-pagina-alternativas-de-percurso|[E7.5] Página "Alternativas de percurso"
 65|Done|E7|QA;Power BI;Resp: Maryele|e76-navegacao-tema-sobre-os-dados-e-qa|[E7.6] Navegação, tema, "Sobre os dados" e QA
-66|Backlog|E7|Docs;Resp: Grupo|e77-relatorio-final|[E7.7] Relatório final
-67|Backlog|F|Docs;Resp: Victor;Humano|f1-roteiro-da-demonstracao-ao-vivo-e-plano-b|[F.1] Roteiro da demonstração ao vivo e plano B
-68|Backlog|F|Docs;Resp: Victor;Humano|f2-apresentacao-final-e-ensaio|[F.2] Apresentação final e ensaio
+66|In Progress|E7|Docs;Resp: Grupo|e77-relatorio-final|[E7.7] Relatório final
+67|In Progress|F|Docs;Resp: Victor;Humano|f1-roteiro-da-demonstracao-ao-vivo-e-plano-b|[F.1] Roteiro da demonstração ao vivo e plano B
+68|In Progress|F|Docs;Resp: Victor;Humano|f2-apresentacao-final-e-ensaio|[F.2] Apresentação final e ensaio
 69|Backlog|F|Setup;Resp: Luciano|f3-congelar-a-entrega-final-tag-final|[F.3] Congelar a entrega final (tag final)
 70|Done|E0|Docs;Resp: Luciano|e08-alinhar-o-plano-aos-guias-do-professor|[E0.8] Alinhar o plano aos guias do professor
 71|Todo|E0|Setup;Resp: Victor;Humano|e09-commits-proprios-de-cada-integrante|[E0.9] Commits próprios de cada integrante
